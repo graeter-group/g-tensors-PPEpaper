@@ -4,8 +4,8 @@ repository.
 # Alkyl shift
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/AlkylShift/Alkylshift.png" alt="Image 1" width="10%">
-  <img src="/AlkylShift/Alkyl.png" alt="Image 2" width="10%">
+  <img src="/AlkylShift/Alkylshift.png" alt="Image 1" width="20%">
+  <img src="/AlkylShift/Alkyl.png" alt="Image 2" width="20%">
 </div>
 
 ```math
@@ -19,11 +19,13 @@ g-z    &   2.00218   &  2.0029019  &  2.0027830 & 2.0029035 & 2.0027898 \\ \hlin
 ```
 
 # H shift
-The Carbon with larger radius is the one "with the radical"
+The Carbon with larger radius is the one "with the radical"\
+
 <div style="display: flex;">
-  <img src="/Hshift/Hshift.png" alt="Image 1" width="10%">
-  <img src="/Hshift/H.png" alt="Image 2" width="15%">
+  <img src="/Hshift/Hshift.png" alt="Image 1" width="20%">
+  <img src="/Hshift/H.png" alt="Image 2" width="25%">
 </div>
+
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
@@ -36,10 +38,12 @@ g-z    &   2.00218   &  2.0028357  &  2.0028232 & 2.0028551 & 2.0028389 \\ \hlin
  
 # Radical hopping
 The Carbon with larger radius is the one "with the radical"
+
 <div style="display: flex;">
-  <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
-  <img src="/Rhop/radical.png" alt="Image 2" width="15%">
+  <img src="/Rhop/Rhop.png" alt="Image 1" width="20%">
+  <img src="/Rhop/radical.png" alt="Image 2" width="25%">
 </div>
+
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
