@@ -49,3 +49,53 @@ g-y    &   2.00263   &  2.0027044  & 2.0026987  & 2.0026425 & 2.0026894 \\ \hlin
 g-z    &   2.00218   &  2.0028602  & 2.0028433  & 2.0028917 & 2.0028680 \\ \hline
 \end{array}
 ```
+
+# Radical hopping (left side)
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
+  <img src="/Rhop/radical.png" alt="Image 2" width="15%">
+</div>
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+       & experiments &   cc-pVDZ   &  cc-pVDZ i &   EPR II  &  EPR II i \\ \hline
+g-x    &   2.00324   &  2.0023205  & 2.0021848  & 2.0023145 & 2.0021862 \\ \hline
+g-y    &   2.00263   &  2.0027172  & 2.0026976  & 2.0026162 & 2.0026893 \\ \hline
+g-z    &   2.00218   &  2.0028833  & 2.0028429  & 2.0028678 & 2.0028704 \\ \hline
+\end{array}
+```
+
+# Radical hopping (right side)
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
+  <img src="/Rhop/radical.png" alt="Image 2" width="15%">
+</div>
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+       & experiments &   cc-pVDZ   &  cc-pVDZ i &   EPR II  &  EPR II i \\ \hline
+g-x    &   2.00324   &  2.0022479  & 2.0021864  & 2.0022494 & 2.0021882 \\ \hline
+g-y    &   2.00263   &  2.0027115  & 2.0027123  & 2.0026915 & 2.0027008 \\ \hline
+g-z    &   2.00218   &  2.0028426  & 2.0028348  & 2.0029415 & 2.0028688 \\ \hline
+\end{array}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+

@@ -1,0 +1,9 @@
+*.tmp
+*.o
+*.e
+*.scfp
+*.scfr
+*.gbw
+*.prop
+*.engrad
+*.tga
