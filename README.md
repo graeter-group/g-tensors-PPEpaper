@@ -60,6 +60,7 @@ The Carbon with larger radius is the one "with the radical"
   <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
   <img src="/Rhop/radical.png" alt="Image 2" width="15%">
 </div>
+
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
@@ -76,6 +77,7 @@ The Carbon with larger radius is the one "with the radical"
   <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
   <img src="/Rhop/radical.png" alt="Image 2" width="15%">
 </div>
+
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
