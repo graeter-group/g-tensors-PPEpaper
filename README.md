@@ -57,8 +57,8 @@ g-z    &   2.00218   &  2.0028602  & 2.0028433  & 2.0028917 & 2.0028680 \\ \hlin
 # Radical hopping (left side)
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
-  <img src="/Rhop/radical.png" alt="Image 2" width="15%">
+  <img src="/left/left.png" alt="Image 1" width="20%">
+  <img src="/left/left2.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -74,8 +74,8 @@ g-z    &   2.00218   &  2.0028833  & 2.0028429  & 2.0028678 & 2.0028704 \\ \hlin
 # Radical hopping (right side)
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/Rhop/Rhop.png" alt="Image 1" width="10%">
-  <img src="/Rhop/radical.png" alt="Image 2" width="15%">
+  <img src="/right/right.png" alt="Image 1" width="20%">
+  <img src="/Rhop/radical.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -88,20 +88,19 @@ g-z    &   2.00218   &  2.0028426  & 2.0028348  & 2.0029415 & 2.0028688 \\ \hlin
 \end{array}
 ```
 
+# Radical in chain
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/inchain/inchain.png" alt="Image 1" width="20%">
+  <img src="/inchain/chain.png" alt="Image 2" width="20%">
+</div>
 
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+       & experiments &   cc-pVDZ   &  cc-pVDZ i &   EPR II  &  EPR II i \\ \hline
+g-x    &   2.00324   &  2.0022730  &  2.0021848 & 2.0022716 & 2.0021861 \\ \hline
+g-y    &   2.00263   &  2.0027240  &  2.0027109 & 2.0026724 & 2.0027002 \\ \hline
+g-z    &   2.00218   &  2.0028339  &  2.0028348 & 2.0028969 & 2.0028731 \\ \hline
+\end{array}
+```
