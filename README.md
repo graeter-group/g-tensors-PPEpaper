@@ -3,9 +3,9 @@ repository.
 
 **Note:** the names on the next tables means
 - cc-pVDZ: cc-pVDZ basis set, g-values computed with standard method.
-- cc-pVDZ: cc-pVDZ basis set, g-values computed with invariant method.
+- cc-pVDZ i: cc-pVDZ basis set, g-values computed with invariant method.
 - cc-pVDZ: EPR_II basis set (created to this aim), g-values computed with standard method.
-- cc-pVDZ: EPR_II basis set (created to this aim), g-values computed with invariant method. This is suppossed to give the most precise outcomes.
+- cc-pVDZ i: EPR_II basis set (created to this aim), g-values computed with invariant method. This is suppossed to give the most precise outcomes.
 
 # Alkyl shift
 The Carbon with larger radius is the one "with the radical"
