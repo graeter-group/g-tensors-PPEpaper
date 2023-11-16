@@ -122,3 +122,22 @@ g-z                & 2.00324     & 2.0028339 & 2.0028348 & 2.0028969 & 2.0028731
 \text{average error}      &             & 0.0000730 & 0.0001065 & 0.0000697 & 0.0000969  \\ \hline
 \end{array}
 ```
+
+# Radical in chain larger
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/larger/larger.png" alt="Image 1" width="20%">
+  <img src="/inchain/chain.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00218     & 2.0022746 & 2.0021665 & 2.0022729 & 2.0021613  \\ \hline
+g-y                & 2.00263     & 2.0027246 & 2.0026983 & 2.0026724 & 2.0026928  \\ \hline
+g-z                & 2.00324     & 2.0028394 & 2.0028226 & 2.0028985 & 2.0028619  \\ \hline
+max absolute error &             & 0.0004006 & 0.0004174 & 0.0003415 & 0.0003781  \\ \hline
+average error      &             & 0.0000705 & 0.0001209 & 0.0000687 & 0.0001113  \\ \hline
+\end{array}
+```
