@@ -1,5 +1,5 @@
 To check how these values were computed, just check
-[the instructions](https://github.com/Sucerquia/g-tensor/blob/master/00-notes.sh)
+[the instructions](https://github.com/Sucerquia/g-tensor/blob/master/instructions.md)
 in this repository.
 
 **Note:** the names on the next tables means
