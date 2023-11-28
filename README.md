@@ -1,5 +1,6 @@
-To check how these values were computed, just check ./00-notes.sh in this
-repository.
+To check how these values were computed, just check
+[the instructions](https://github.com/Sucerquia/g-tensor/blob/master/00-notes.sh)
+in this repository.
 
 **Note:** the names on the next tables means
 - cc-pVDZ: cc-pVDZ basis set, g-values computed with standard method.
@@ -10,8 +11,8 @@ repository.
 # Alkyl shift
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/AlkylShift/Alkylshift.png" alt="Image 1" width="20%">
-  <img src="/AlkylShift/Alkyl.png" alt="Image 2" width="20%">
+  <img src="/1_0-AlkylShift/opt.png" alt="Image 1" width="20%">
+  <img src="/1_0-AlkylShift/chem.png" alt="Image 2" width="20%">
 </div>
 
 ```math
@@ -30,8 +31,8 @@ g-z                & 2.00324     & 2.0029019 & 2.002783  & 2.0029035 & 2.0027898
 The Carbon with larger radius is the one "with the radical"\
 
 <div style="display: flex;">
-  <img src="/Hshift/Hshift.png" alt="Image 1" width="20%">
-  <img src="/Hshift/H.png" alt="Image 2" width="25%">
+  <img src="/2_0-Hshift/opt.png" alt="Image 1" width="20%">
+  <img src="/2_0-Hshift/chem.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -50,8 +51,8 @@ g-z                & 2.00324     & 2.0028357 & 2.0028232 & 2.0028551 & 2.0028389
 The Carbon with larger radius is the one "with the radical"
 
 <div style="display: flex;">
-  <img src="/Rhop/Rhop.png" alt="Image 1" width="20%">
-  <img src="/Rhop/radical.png" alt="Image 2" width="25%">
+  <img src="/3_0-Rhop/opt.png" alt="Image 1" width="20%">
+  <img src="/3_0-Rhop/chem.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -69,8 +70,8 @@ g-z                & 2.00324     & 2.0028602 & 2.0028433 & 2.0028917 & 2.002868 
 # Radical hopping (left side)
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/left/left.png" alt="Image 1" width="20%">
-  <img src="/left/left2.png" alt="Image 2" width="25%">
+  <img src="/3_1-Rhop-LeftPhenyl/opt.png" alt="Image 1" width="20%">
+  <img src="/3_1-Rhop-LeftPhenyl/chem.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -88,8 +89,8 @@ g-z                & 2.00324     & 2.0028833 & 2.0028429 & 2.0028678 & 2.0028704
 # Radical hopping (right side)
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/right/right.png" alt="Image 1" width="20%">
-  <img src="/Rhop/radical.png" alt="Image 2" width="25%">
+  <img src="/3_2-Rhop-RightPhenyl/opt.png" alt="Image 1" width="20%">
+  <img src="/3_2-Rhop-RightPhenyl/chem.png" alt="Image 2" width="25%">
 </div>
 
 ```math
@@ -107,8 +108,8 @@ g-z                & 2.00324     & 2.0028426 & 2.0028348 & 2.0029415 & 2.0028688
 # Radical in chain
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/inchain/inchain.png" alt="Image 1" width="20%">
-  <img src="/inchain/chain.png" alt="Image 2" width="20%">
+  <img src="/4_0-inchain/opt.png" alt="Image 1" width="20%">
+  <img src="/4_0-inchain/chem.png" alt="Image 2" width="20%">
 </div>
 
 ```math
@@ -126,8 +127,8 @@ g-z                & 2.00324     & 2.0028339 & 2.0028348 & 2.0028969 & 2.0028731
 # Radical in chain larger
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
-  <img src="/larger/larger.png" alt="Image 1" width="20%">
-  <img src="/inchain/chain.png" alt="Image 2" width="20%">
+  <img src="/4_1-inchainLarger/chem.png" alt="Image 1" width="20%">
+  <img src="/4_1-inchainLarger/opt.png" alt="Image 2" width="20%">
 </div>
 
 ```math
@@ -141,3 +142,43 @@ max absolute error &             & 0.0004006 & 0.0004174 & 0.0003415 & 0.0003781
 average error      &             & 0.0000705 & 0.0001209 & 0.0000687 & 0.0001113  \\ \hline
 \end{array}
 ```
+
+# Radical (primary) in ring
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/5_0-primary_in_ring/chem.png" alt="Image 1" width="20%">
+  <img src="/5_0-primary_in_ring/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.0031568 & 2.0029417 & 2.0031224 & 2.0029442  \\ \hline
+g-y                & 2.00263     & 2.0021621 & 2.0021428 & 2.0021544 & 2.0021412  \\ \hline
+g-z                & 2.00218     & 2.0018181 & 2.0016607 & 2.0017249 & 2.0016413  \\ \hline
+max absolute error &             & 0.0004679 & 0.0005193 & 0.0004756 & 0.0005387  \\ \hline
+average error      &             & 0.0003043 & 0.0004349 & 0.0003494 & 0.0004411  \\ \hline
+\end{array}
+```
+
+# Radical (primary) in tripple bond
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/6_0-primary_in_triple/chem.png" alt="Image 1" width="20%">
+  <img src="/6_0-primary_in_triple/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ    & cc-pVDZ i  & EPR II     & EPR II i    \\ \hline
+g-x                & 2.00324     & 2.0069754  & 2.0069882  & 2.0068963  & 2.0069249   \\ \hline
+g-y                & 2.00263     & 2.0038755  & 2.0035236  & 2.003763   & 2.0034574   \\ \hline
+g-z                & 2.00218     & 2.0023755  & 2.0022114  & 2.0023649  & 2.0022072   \\ \hline
+max absolute error &             & -0.0001955 & -0.0000314 & -0.0001849 & -0.0000272  \\ \hline
+average error      &             & -0.0017255 & -0.0015577 & -0.0016581 & -0.0015132  \\ \hline
+\end{array}
+```
+
+

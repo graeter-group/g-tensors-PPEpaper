@@ -25,5 +25,5 @@ do
 done
 
 # Note: this code runs all the necessary steps to get the g-values.
-# It works with one arguments:
-# sbatch workflow.sh <model_directory>
+# It works with one argument:
+# sbatch workflow.sh <model_directory> that has to contain the file model.xyz
