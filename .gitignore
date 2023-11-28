@@ -7,3 +7,4 @@
 *.prop
 *.engrad
 *.tga
+*/__pycache__/
