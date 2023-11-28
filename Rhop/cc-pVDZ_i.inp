@@ -1,8 +1,0 @@
-! B3LYP cc-pVDZ AUTOAUX
-%pal nprocs 16 end
-*XYZFile 0 2 opt.xyz
-%EPRNMR
-        GTENSOR   TRUE
-        NUCLEI    = ALL H {AISO, ADIP, AORB}
-        ORI       GIAO
-END
