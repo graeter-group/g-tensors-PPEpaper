@@ -11,5 +11,4 @@
 module load GCC/8.2.0-2.31.1
 source /hits/sw/ccc/ORCA421/setup_orca.sh
 
-
 /hits/sw/ccc/ORCA421/orca_4_2_1_linux_x86-64_openmpi314/orca $1 > $2
