@@ -65,7 +65,7 @@ ms.atoms += Atoms('CC', [[-dlong, 0, 0],
                          [-(dlong+dshort), 0, 0]])
 
 
-from ase.visualize import view
+#from ase.visualize import view
 
-view(ms.atoms)
-#write("./model.xyz", ms.atoms)
+#view(ms.atoms)
+write("./model.xyz", ms.atoms)

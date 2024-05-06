@@ -181,4 +181,99 @@ average error      &             & -0.0017255 & -0.0015577 & -0.0016581 & -0.001
 \end{array}
 ```
 
+# Triple bond brocken
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/7_0-triple_broken/chem.png" alt="Image 1" width="20%">
+  <img src="/7_0-triple_broken/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.00226   & 2.00226   & 2.0022656 & 2.0022656  \\ \hline
+g-y                & 2.00263     & 2.0022186 & 2.0022186 & 2.0022162 & 2.0022162  \\ \hline
+g-z                & 2.00218     & 2.0021518 & 2.0021518 & 2.0021507 & 2.0021507  \\ \hline
+max absolute error &             & 0.0009800 & 0.0009800 & 0.0009744 & 0.0009744  \\ \hline
+average error      &             & 0.0004732 & 0.0004732 & 0.0004725 & 0.0004725  \\ \hline
+\end{array}
+```
+
+
+# Hshift side-chain Radical
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/8_0-Hshift_FarRad1/chem.png" alt="Image 1" width="20%">
+  <img src="/8_0-Hshift_FarRad1/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.0028041 & 2.0028041 & 2.0028110 & 2.0028110  \\ \hline
+g-y                & 2.00263     & 2.0027298 & 2.0027298 & 2.0027519 & 2.0027519  \\ \hline
+g-z                & 2.00218     & 2.0021879 & 2.0021879 & 2.0021866 & 2.0021866  \\ \hline
+max absolute error &             & 0.0004359 & 0.0004359 & 0.0004290 & 0.0004290  \\ \hline
+average error      &             & 0.0001094 & 0.0001094 & 0.0001002 & 0.0001002  \\ \hline
+\end{array}
+```
+
+# Hshift Extreme Far Radical
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/8_1-Hshift_FarRad2/chem.png" alt="Image 1" width="20%">
+  <img src="/8_1-Hshift_FarRad2/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.0027168 & 2.0027168 & 2.0027344 & 2.0027344  \\ \hline
+g-y                & 2.00263     & 2.0027071 & 2.0027071 & 2.002717  & 2.002717   \\ \hline
+g-z                & 2.00218     & 2.0021841 & 2.0021841 & 2.0021731 & 2.0021731  \\ \hline
+max absolute error &             & 0.0005232 & 0.0005232 & 0.0005056 & 0.0005056  \\ \hline
+average error      &             & 0.0001473 & 0.0001473 & 0.0001418 & 0.0001418  \\ \hline
+\end{array}
+```
+
+# Rhop side-chain Radical
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/9_0-Rhop_FarRad1/chem.png" alt="Image 1" width="20%">
+  <img src="/9_0-Rhop_FarRad1/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.0028028 & 2.0028028 & 2.0028092 & 2.0028092  \\ \hline
+g-y                & 2.00263     & 2.002737  & 2.002737  & 2.0027579 & 2.0027579  \\ \hline
+g-z                & 2.00218     & 2.0021831 & 2.0021831 & 2.0021827 & 2.0021827  \\ \hline
+max absolute error &             & 0.0004372 & 0.0004372 & 0.0004308 & 0.0004308  \\ \hline
+average error      &             & 0.0001090 & 0.0001090 & 0.0001001 & 0.0001001  \\ \hline
+\end{array}
+```
+
+# Rhop extreme far radical
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+  <img src="/9_1-Rhop_FarRad2/chem.png" alt="Image 1" width="20%">
+  <img src="/9_1-Rhop_FarRad2/opt.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                & 2.00324     & 2.0028103 & 2.0028103 & 2.0028319 & 2.0028319  \\ \hline
+g-y                & 2.00263     & 2.0027013 & 2.0027013 & 2.0027264 & 2.0027264  \\ \hline
+g-z                & 2.00218     & 2.0021843 & 2.0021843 & 2.0021756 & 2.0021756  \\ \hline
+max absolute error &             & 0.0004297 & 0.0004297 & 0.0004081 & 0.0004081  \\ \hline
+average error      &             & 0.0001180 & 0.0001180 & 0.0001054 & 0.0001054  \\ \hline
+\end{array}
+```
 

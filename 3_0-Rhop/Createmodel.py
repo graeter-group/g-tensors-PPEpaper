@@ -2,7 +2,7 @@ from myutils.ase_utils.molecules import MoleculeSetter
 from ase.io import read, write
 
 
-molecule = read('./reduced/opt.xyz')
+molecule = read('../reduced/opt.xyz')
 CHd = molecule.get_distance(0, 36)
 ring=2.75/2
 

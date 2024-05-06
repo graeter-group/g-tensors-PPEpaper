@@ -1,0 +1,8 @@
+! B3LYP EPR-II AUTOAUX
+%pal nprocs 16 end
+*XYZFile 0 4 opt.xyz
+%EPRNMR
+        GTENSOR   TRUE
+        NUCLEI    = ALL H {SHIFT, AISO, ADIP, AORB}
+        ORI       GIAO
+END

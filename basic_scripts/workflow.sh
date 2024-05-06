@@ -8,17 +8,23 @@
 #SBATCH --error=optimization_orca-%j.e
 #SBATCH --exclusive
 
-module load GCC/8.2.0-2.31.1
-source /hits/sw/ccc/ORCA421/setup_orca.sh
+source /hits/basement/mbm/sucerquia/sw/orca/setup_orca.sh
 
-
-orca="/hits/sw/ccc/ORCA421/orca_4_2_1_linux_x86-64_openmpi314/orca"
+orca="/hits/basement/mbm/sucerquia/sw/orca/orca_5_0_4_linux_x86-64_openmpi411/orca"
 
 cd $1
 cp ../basic_scripts/*.inp .
+
+mult=$2
+
+for inp in *.inp
+do
+  sed -i "s/XYZFile 0 2/XYZFile 0 $mult/g" $inp
+done
 $orca opt.inp  > opt.out &&
 
 methods=("cc-pVDZ_i" "cc-pVDZ" "EPRII_i" "EPRII")
+
 for met in ${methods[@]}
 do
     sbatch ../basic_scripts/submit.sh "$met".inp "$met".out
