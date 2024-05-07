@@ -24,7 +24,7 @@ for structur in structures:
     values = np.append(values.astype(str),
                        ["{:.7f}".format(round(maxerror, 7)),
                         "{:.7f}".format(round(avr, 7))])
-    values = np.insert(values, 0, structur)
+    values = np.insert(values, 0, "\\text{" + structur + "}")
     res.append(values)
 
 experiment = np.insert(experiment.astype(str), 0, "Experiment")
@@ -32,7 +32,7 @@ experiment = np.append(experiment, ["", ""])
 res.append(experiment)
 #res = np.append(res, experiment, axis=1)
 
-header = np.array(["", "g_x", "g_y", "g_z", "max abs error", "avrg error"])
+header = np.array(["", "g_x", "g_y", "g_z", "\\text{max abs error}", "\\text{avrg error}"])
 table = np.insert(res, 0, header, axis=0)
 
 def create_table(data_rows):

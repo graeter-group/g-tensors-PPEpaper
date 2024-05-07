@@ -22,9 +22,9 @@ for method in methods:
 
 res = np.array(res).T
 
-header = np.array(["", "experiments", "cc-pVDZ",
-                   "cc-pVDZ i", "EPR II", "EPR II i"])
-rows_labels = ["g-x", "g-y", "g-z", "\\text{max absolute error}",
+header = np.array(["", "\\text{experiments}", "\\text{cc-pVDZ}",
+                   "\\text{cc-pVDZ i}", "\\text{EPR II}", "\\text{EPR II i}"])
+rows_labels = ["g_x", "g_y", "g_z", "\\text{max absolute error}",
                "\\text{average error}"]
 
 table = np.insert(res, 0, np.append(experiment.astype(str), ["", ""]),
