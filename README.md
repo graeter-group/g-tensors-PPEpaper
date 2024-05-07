@@ -2,6 +2,32 @@ To check how these values were computed, just check
 [the instructions](https://github.com/Sucerquia/g-tensor/blob/master/instructions.md)
 in this repository.
 
+# Summary table
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
+                                    & g_x       & g_y       & g_z       & \text{max abs error} & \text{avrg error}  \\ \hline
+\text{A) AlkylShift}                & 2.0027891 & 2.0027628 & 2.0022129 & 0.0004509            & 0.0000951          \\ \hline
+\text{B) Hshift}                    & 2.0028366 & 2.0027276 & 2.0021779 & 0.0004034            & 0.0001026          \\ \hline
+\text{C) Rhop}                      & 2.0028675 & 2.0026892 & 2.0021881 & 0.0003725            & 0.0001017          \\ \hline
+\text{D) Rhop-LeftPhenyl}           & 2.0028709 & 2.0026882 & 2.0021857 & 0.0003691            & 0.0001017          \\ \hline
+\text{E) Rhop-RightPhenyl}          & 2.0028687 & 2.0027009 & 2.002188  & 0.0003713            & 0.0000975          \\ \hline
+\text{F) inchain}                   & 2.0028687 & 2.0027033 & 2.0021858 & 0.0003713            & 0.0000974          \\ \hline
+\text{G) inchainLarger}             & 2.0028596 & 2.0026923 & 2.002155  & 0.0003804            & 0.0001144          \\ \hline
+\text{H) primary in ring}           & 2.0029459 & 2.0021419 & 2.0016379 & 0.0005421            & 0.0004414          \\ \hline
+\text{I) primary in triple}         & 2.0069279 & 2.0034545 & 2.0022073 & -0.0000273           & -0.0015132         \\ \hline
+\text{J) triple broken}             & 2.0219089 & 2.0031983 & 2.0020915 & 0.0000885            & -0.0063829         \\ \hline
+\text{K) Hshift FarRad1}            & 2.0028061 & 2.0027633 & 2.0021821 & 0.0004339            & 0.0000995          \\ \hline
+\text{L) Hshift FarRad2}            & 2.0027372 & 2.0027246 & 2.0021729 & 0.0005028            & 0.0001384          \\ \hline
+\text{M) Rhop FarRad1}              & 2.0028097 & 2.0027589 & 2.0021822 & 0.0004303            & 0.0000997          \\ \hline
+\text{N) Rhop FarRad2}              & 2.0027359 & 2.0027201 & 2.002173  & 0.0005041            & 0.0001403          \\ \hline
+\text{Experiment}                   & 2.00324   & 2.00263   & 2.00218   &                      &                    \\ \hline
+\end{array}
+```
+<div style="display: flex;">
+  <img src="/structuresPPE.png" alt="Image 1" width="80%">
+</div>
+
 **Note:** the names on the next tables means
 - cc-pVDZ: cc-pVDZ basis set, g-values computed with standard method.
 - cc-pVDZ i: cc-pVDZ basis set, g-values computed with invariant method.
@@ -18,12 +44,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.002362  & 2.002218  & 2.0023654 & 2.0022121  \\ \hline
-g-y                & 2.00263     & 2.0027734 & 2.0027595 & 2.0027789 & 2.0027635  \\ \hline
-g-z                & 2.00324     & 2.0029019 & 2.002783  & 2.0029035 & 2.0027898  \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0003381 & 0.0004570 & 0.0003365 & 0.0004502  \\ \hline
-\text{average error}      &             & 0.0000042 & 0.0000965 & 0.0000007 & 0.0000949  \\ \hline
+                          & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                       & 2.00324     & 2.0027825 & 2.0027825 & 2.0027891 & 2.0027891  \\ \hline
+g-y                       & 2.00263     & 2.0027585 & 2.0027585 & 2.0027628 & 2.0027628  \\ \hline
+g-z                       & 2.00218     & 2.0022185 & 2.0022185 & 2.0022129 & 2.0022129  \\ \hline
+\text{max absolute error} &             & 0.0004575 & 0.0004575 & 0.0004509 & 0.0004509  \\ \hline
+\text{average error}      &             & 0.0000968 & 0.0000968 & 0.0000951 & 0.0000951  \\ \hline
 \end{array}
 ```
 
@@ -38,12 +64,12 @@ The Carbon with larger radius is the one "with the radical"\
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.0022603 & 2.0021781 & 2.0022593 & 2.0021773  \\ \hline
-g-y                & 2.00263     & 2.0027316 & 2.002725  & 2.0026843 & 2.0027273  \\ \hline
-g-z                & 2.00324     & 2.0028357 & 2.0028232 & 2.0028551 & 2.0028389  \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0004043 & 0.0004168 & 0.0003849 & 0.0004011  \\ \hline
-\text{average error}      &             & 0.0000741 & 0.0001079 & 0.0000838 & 0.0001022  \\ \hline
+                          & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                       & 2.00324     & 2.0028218 & 2.0028218 & 2.0028366 & 2.0028366  \\ \hline
+g-y                       & 2.00263     & 2.0027232 & 2.0027232 & 2.0027276 & 2.0027276  \\ \hline
+g-z                       & 2.00218     & 2.0021786 & 2.0021786 & 2.0021779 & 2.0021779  \\ \hline
+\text{max absolute error} &             & 0.0004182 & 0.0004182 & 0.0004034 & 0.0004034  \\ \hline
+\text{average error}      &             & 0.0001088 & 0.0001088 & 0.0001026 & 0.0001026  \\ \hline
 \end{array}
 ```
  
@@ -58,12 +84,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.0022717 & 2.0021865 & 2.0022694 & 2.0021885  \\ \hline
-g-y                & 2.00263     & 2.0027044 & 2.0026987 & 2.0026425 & 2.0026894  \\ \hline
-g-z                & 2.00324     & 2.0028602 & 2.0028433 & 2.0028917 & 2.002868   \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0003798 & 0.0003967 & 0.0003483 & 0.0003720  \\ \hline
-\text{average error}      &             & 0.0000712 & 0.0001072 & 0.0000821 & 0.0001014  \\ \hline
+                          & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                       & 2.00324     & 2.0028431 & 2.0028431 & 2.0028675 & 2.0028675  \\ \hline
+g-y                       & 2.00263     & 2.0026971 & 2.0026971 & 2.0026892 & 2.0026892  \\ \hline
+g-z                       & 2.00218     & 2.0021861 & 2.0021861 & 2.0021881 & 2.0021881  \\ \hline
+\text{max absolute error} &             & 0.0003969 & 0.0003969 & 0.0003725 & 0.0003725  \\ \hline
+\text{average error}      &             & 0.0001079 & 0.0001079 & 0.0001017 & 0.0001017  \\ \hline
 \end{array}
 ```
 
@@ -77,12 +103,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.0023205 & 2.0021848 & 2.0023145 & 2.0021862  \\ \hline
-g-y                & 2.00263     & 2.0027172 & 2.0026976 & 2.0026162 & 2.0026893  \\ \hline
-g-z                & 2.00324     & 2.0028833 & 2.0028429 & 2.0028678 & 2.0028704  \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0003567 & 0.0003971 & 0.0003722 & 0.0003696  \\ \hline
-\text{average error}      &             & 0.0000430 & 0.0001082 & 0.0000838 & 0.0001014  \\ \hline
+                          & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
+g-x                       & 2.00324     & 2.0028424 & 2.0028424 & 2.0028709 & 2.0028709  \\ \hline
+g-y                       & 2.00263     & 2.0026955 & 2.0026955 & 2.0026882 & 2.0026882  \\ \hline
+g-z                       & 2.00218     & 2.0021843 & 2.0021843 & 2.0021857 & 2.0021857  \\ \hline
+\text{max absolute error} &             & 0.0003976 & 0.0003976 & 0.0003691 & 0.0003691  \\ \hline
+\text{average error}      &             & 0.0001093 & 0.0001093 & 0.0001017 & 0.0001017  \\ \hline
 \end{array}
 ```
 
@@ -96,12 +122,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.0022479 & 2.0021864 & 2.0022494 & 2.0021882  \\ \hline
-g-y                & 2.00263     & 2.0027115 & 2.0027123 & 2.0026915 & 2.0027008  \\ \hline
-g-z                & 2.00324     & 2.0028426 & 2.0028348 & 2.0029415 & 2.0028688  \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0003974 & 0.0004052 & 0.0002985 & 0.0003712  \\ \hline
-\text{average error}      &             & 0.0000827 & 0.0001055 & 0.0000559 & 0.0000974  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0028344      & 2.0028344        & 2.0028687     & 2.0028687        \\ \hline
+g_y                       & 2.00263            & 2.0027116      & 2.0027116        & 2.0027009     & 2.0027009        \\ \hline
+g_z                       & 2.00218            & 2.0021863      & 2.0021863        & 2.002188      & 2.002188         \\ \hline
+\text{max absolute error} &                    & 0.0004056      & 0.0004056        & 0.0003713     & 0.0003713        \\ \hline
+\text{average error}      &                    & 0.0001059      & 0.0001059        & 0.0000975     & 0.0000975        \\ \hline
 \end{array}
 ```
 
@@ -115,12 +141,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & \text{experiments} & \text{cc-pVDZ}   & \text{cc-pVDZ i} & \text{EPR II}    & \text{EPR II i}   \\ \hline
-g-x                & 2.00218     & 2.002273  & 2.0021848 & 2.0022716 & 2.0021861  \\ \hline
-g-y                & 2.00263     & 2.002724  & 2.0027109 & 2.0026724 & 2.0027002  \\ \hline
-g-z                & 2.00324     & 2.0028339 & 2.0028348 & 2.0028969 & 2.0028731  \\ \hline \\ \hline
-\text{max absolute error} &             & 0.0004061 & 0.0004052 & 0.0003431 & 0.0003669  \\ \hline
-\text{average error}      &             & 0.0000730 & 0.0001065 & 0.0000697 & 0.0000969  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0028328      & 2.0028328        & 2.0028687     & 2.0028687        \\ \hline
+g_y                       & 2.00263            & 2.0027091      & 2.0027091        & 2.0027033     & 2.0027033        \\ \hline
+g_z                       & 2.00218            & 2.0021842      & 2.0021842        & 2.0021858     & 2.0021858        \\ \hline
+\text{max absolute error} &                    & 0.0004072      & 0.0004072        & 0.0003713     & 0.0003713        \\ \hline
+\text{average error}      &                    & 0.0001080      & 0.0001080        & 0.0000974     & 0.0000974        \\ \hline
 \end{array}
 ```
 
@@ -134,12 +160,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00218     & 2.0022746 & 2.0021665 & 2.0022729 & 2.0021613  \\ \hline
-g-y                & 2.00263     & 2.0027246 & 2.0026983 & 2.0026724 & 2.0026928  \\ \hline
-g-z                & 2.00324     & 2.0028394 & 2.0028226 & 2.0028985 & 2.0028619  \\ \hline
-max absolute error &             & 0.0004006 & 0.0004174 & 0.0003415 & 0.0003781  \\ \hline
-average error      &             & 0.0000705 & 0.0001209 & 0.0000687 & 0.0001113  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0028218      & 2.0028218        & 2.0028596     & 2.0028596        \\ \hline
+g_y                       & 2.00263            & 2.0026959      & 2.0026959        & 2.0026923     & 2.0026923        \\ \hline
+g_z                       & 2.00218            & 2.0021625      & 2.0021625        & 2.002155      & 2.002155         \\ \hline
+\text{max absolute error} &                    & 0.0004182      & 0.0004182        & 0.0003804     & 0.0003804        \\ \hline
+\text{average error}      &                    & 0.0001233      & 0.0001233        & 0.0001144     & 0.0001144        \\ \hline
 \end{array}
 ```
 
@@ -153,12 +179,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00324     & 2.0031568 & 2.0029417 & 2.0031224 & 2.0029442  \\ \hline
-g-y                & 2.00263     & 2.0021621 & 2.0021428 & 2.0021544 & 2.0021412  \\ \hline
-g-z                & 2.00218     & 2.0018181 & 2.0016607 & 2.0017249 & 2.0016413  \\ \hline
-max absolute error &             & 0.0004679 & 0.0005193 & 0.0004756 & 0.0005387  \\ \hline
-average error      &             & 0.0003043 & 0.0004349 & 0.0003494 & 0.0004411  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0029419      & 2.0029419        & 2.0029459     & 2.0029459        \\ \hline
+g_y                       & 2.00263            & 2.0021429      & 2.0021429        & 2.0021419     & 2.0021419        \\ \hline
+g_z                       & 2.00218            & 2.0016572      & 2.0016572        & 2.0016379     & 2.0016379        \\ \hline
+\text{max absolute error} &                    & 0.0005228      & 0.0005228        & 0.0005421     & 0.0005421        \\ \hline
+\text{average error}      &                    & 0.0004360      & 0.0004360        & 0.0004414     & 0.0004414        \\ \hline
 \end{array}
 ```
 
@@ -172,12 +198,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ    & cc-pVDZ i  & EPR II     & EPR II i    \\ \hline
-g-x                & 2.00324     & 2.0069754  & 2.0069882  & 2.0068963  & 2.0069249   \\ \hline
-g-y                & 2.00263     & 2.0038755  & 2.0035236  & 2.003763   & 2.0034574   \\ \hline
-g-z                & 2.00218     & 2.0023755  & 2.0022114  & 2.0023649  & 2.0022072   \\ \hline
-max absolute error &             & -0.0001955 & -0.0000314 & -0.0001849 & -0.0000272  \\ \hline
-average error      &             & -0.0017255 & -0.0015577 & -0.0016581 & -0.0015132  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0069736      & 2.0069736        & 2.0069279     & 2.0069279        \\ \hline
+g_y                       & 2.00263            & 2.0035202      & 2.0035202        & 2.0034545     & 2.0034545        \\ \hline
+g_z                       & 2.00218            & 2.0022107      & 2.0022107        & 2.0022073     & 2.0022073        \\ \hline
+\text{max absolute error} &                    & -0.0000307     & -0.0000307       & -0.0000273    & -0.0000273       \\ \hline
+\text{average error}      &                    & -0.0015515     & -0.0015515       & -0.0015132    & -0.0015132       \\ \hline
 \end{array}
 ```
 
@@ -191,12 +217,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00324     & 2.00226   & 2.00226   & 2.0022656 & 2.0022656  \\ \hline
-g-y                & 2.00263     & 2.0022186 & 2.0022186 & 2.0022162 & 2.0022162  \\ \hline
-g-z                & 2.00218     & 2.0021518 & 2.0021518 & 2.0021507 & 2.0021507  \\ \hline
-max absolute error &             & 0.0009800 & 0.0009800 & 0.0009744 & 0.0009744  \\ \hline
-average error      &             & 0.0004732 & 0.0004732 & 0.0004725 & 0.0004725  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0125144      & 2.0125144        & 2.0219089     & 2.0219089        \\ \hline
+g_y                       & 2.00263            & 2.0031968      & 2.0031968        & 2.0031983     & 2.0031983        \\ \hline
+g_z                       & 2.00218            & 2.0020959      & 2.0020959        & 2.0020915     & 2.0020915        \\ \hline
+\text{max absolute error} &                    & 0.0000841      & 0.0000841        & 0.0000885     & 0.0000885        \\ \hline
+\text{average error}      &                    & -0.0032524     & -0.0032524       & -0.0063829    & -0.0063829       \\ \hline
 \end{array}
 ```
 
@@ -211,12 +237,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00324     & 2.0028041 & 2.0028041 & 2.0028110 & 2.0028110  \\ \hline
-g-y                & 2.00263     & 2.0027298 & 2.0027298 & 2.0027519 & 2.0027519  \\ \hline
-g-z                & 2.00218     & 2.0021879 & 2.0021879 & 2.0021866 & 2.0021866  \\ \hline
-max absolute error &             & 0.0004359 & 0.0004359 & 0.0004290 & 0.0004290  \\ \hline
-average error      &             & 0.0001094 & 0.0001094 & 0.0001002 & 0.0001002  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0028002      & 2.0028002        & 2.0028061     & 2.0028061        \\ \hline
+g_y                       & 2.00263            & 2.0027434      & 2.0027434        & 2.0027633     & 2.0027633        \\ \hline
+g_z                       & 2.00218            & 2.0021818      & 2.0021818        & 2.0021821     & 2.0021821        \\ \hline
+\text{max absolute error} &                    & 0.0004398      & 0.0004398        & 0.0004339     & 0.0004339        \\ \hline
+\text{average error}      &                    & 0.0001082      & 0.0001082        & 0.0000995     & 0.0000995        \\ \hline
 \end{array}
 ```
 
@@ -230,12 +256,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00324     & 2.0027168 & 2.0027168 & 2.0027344 & 2.0027344  \\ \hline
-g-y                & 2.00263     & 2.0027071 & 2.0027071 & 2.002717  & 2.002717   \\ \hline
-g-z                & 2.00218     & 2.0021841 & 2.0021841 & 2.0021731 & 2.0021731  \\ \hline
-max absolute error &             & 0.0005232 & 0.0005232 & 0.0005056 & 0.0005056  \\ \hline
-average error      &             & 0.0001473 & 0.0001473 & 0.0001418 & 0.0001418  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0027203      & 2.0027203        & 2.0027372     & 2.0027372        \\ \hline
+g_y                       & 2.00263            & 2.00271        & 2.00271          & 2.0027246     & 2.0027246        \\ \hline
+g_z                       & 2.00218            & 2.0021852      & 2.0021852        & 2.0021729     & 2.0021729        \\ \hline
+\text{max absolute error} &                    & 0.0005197      & 0.0005197        & 0.0005028     & 0.0005028        \\ \hline
+\text{average error}      &                    & 0.0001448      & 0.0001448        & 0.0001384     & 0.0001384        \\ \hline
 \end{array}
 ```
 
@@ -268,12 +294,12 @@ The Carbon with larger radius is the one "with the radical"
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                   & experiments & cc-pVDZ   & cc-pVDZ i & EPR II    & EPR II i   \\ \hline
-g-x                & 2.00324     & 2.0028103 & 2.0028103 & 2.0028319 & 2.0028319  \\ \hline
-g-y                & 2.00263     & 2.0027013 & 2.0027013 & 2.0027264 & 2.0027264  \\ \hline
-g-z                & 2.00218     & 2.0021843 & 2.0021843 & 2.0021756 & 2.0021756  \\ \hline
-max absolute error &             & 0.0004297 & 0.0004297 & 0.0004081 & 0.0004081  \\ \hline
-average error      &             & 0.0001180 & 0.0001180 & 0.0001054 & 0.0001054  \\ \hline
+                          & \text{experiments} & \text{cc-pVDZ} & \text{cc-pVDZ i} & \text{EPR II} & \text{EPR II i}  \\ \hline
+g_x                       & 2.00324            & 2.0027178      & 2.0027178        & 2.0027359     & 2.0027359        \\ \hline
+g_y                       & 2.00263            & 2.0027086      & 2.0027086        & 2.0027201     & 2.0027201        \\ \hline
+g_z                       & 2.00218            & 2.0021849      & 2.0021849        & 2.002173      & 2.002173         \\ \hline
+\text{max absolute error} &                    & 0.0005222      & 0.0005222        & 0.0005041     & 0.0005041        \\ \hline
+\text{average error}      &                    & 0.0001462      & 0.0001462        & 0.0001403     & 0.0001403        \\ \hline
 \end{array}
 ```
 
