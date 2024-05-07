@@ -4,8 +4,8 @@
 #SBATCH -n 16
 #SBATCH --cpus-per-task=1
 #SBATCH -t 24:00:00
-#SBATCH --output=optimization_orca-%j.o
-#SBATCH --error=optimization_orca-%j.e
+#SBATCH --output=%x-%j.o
+#SBATCH --error=%x-%j.e
 #SBATCH --exclusive
 
 

@@ -4,5 +4,4 @@
 %EPRNMR
         GTENSOR   TRUE
         NUCLEI    = ALL H {SHIFT, AISO, ADIP, AORB}
-        ORI       GIAO
 END

@@ -24,8 +24,8 @@ res = np.array(res).T
 
 header = np.array(["", "experiments", "cc-pVDZ",
                    "cc-pVDZ i", "EPR II", "EPR II i"])
-rows_labels = ["g-x", "g-y", "g-z", "max absolute error",
-               "average error"]
+rows_labels = ["g-x", "g-y", "g-z", "\\text{max absolute error}",
+               "\\text{average error}"]
 
 table = np.insert(res, 0, np.append(experiment.astype(str), ["", ""]),
                   axis=1)
