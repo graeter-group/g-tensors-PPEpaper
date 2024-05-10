@@ -24,7 +24,8 @@ in this repository.
 \text{Experiment}                   & 2.00324   & 2.00263   & 2.00218   &                      &                    \\ \hline
 \end{array}
 ```
-<div style="display: flex;">
+
+<div style="text-align:center">
   <img src="/structuresPPE.png" alt="Image 1" width="80%">
 </div>
 
