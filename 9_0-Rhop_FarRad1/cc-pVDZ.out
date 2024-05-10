@@ -194,9 +194,10 @@ NAME = cc-pVDZ.inp
 |  4> %EPRNMR
 |  5>         GTENSOR   TRUE
 |  6>         NUCLEI    = ALL H {SHIFT, AISO, ADIP, AORB}
-|  7> END
-|  8> 
-|  9>                          ****END OF INPUT****
+|  7>         ORI       CenterOfElCharge
+|  8> END
+|  9> 
+| 10>                          ****END OF INPUT****
 ================================================================================
 
                        ****************************
@@ -636,54 +637,17 @@ Atom  44H    basis set group =>   2
 Atom  45H    basis set group =>   2
 Atom  46H    basis set group =>   2
 Atom  47H    basis set group =>   2
-[1715009054.104832] [cascade-070:2560184:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.104870] [cascade-070:2560184:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.104875] [cascade-070:2560184:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.106504] [cascade-070:2560190:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.106531] [cascade-070:2560190:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.106537] [cascade-070:2560190:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.108779] [cascade-070:2560181:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.108803] [cascade-070:2560181:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.108809] [cascade-070:2560181:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.110718] [cascade-070:2560186:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.110742] [cascade-070:2560186:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.110747] [cascade-070:2560186:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.112837] [cascade-070:2560193:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.112860] [cascade-070:2560193:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.112866] [cascade-070:2560193:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.114774] [cascade-070:2560187:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.114798] [cascade-070:2560187:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.114804] [cascade-070:2560187:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.117096] [cascade-070:2560185:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.117120] [cascade-070:2560185:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.117126] [cascade-070:2560185:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.118840] [cascade-070:2560191:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.118864] [cascade-070:2560191:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.118869] [cascade-070:2560191:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.121235] [cascade-070:2560195:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.121258] [cascade-070:2560195:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.121264] [cascade-070:2560195:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.123196] [cascade-070:2560180:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.123219] [cascade-070:2560180:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.123225] [cascade-070:2560180:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.125224] [cascade-070:2560183:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.125247] [cascade-070:2560183:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.125253] [cascade-070:2560183:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.127110] [cascade-070:2560188:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.127138] [cascade-070:2560188:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.127146] [cascade-070:2560188:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.136607] [cascade-070:2560196:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.136639] [cascade-070:2560196:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.136645] [cascade-070:2560196:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.138744] [cascade-070:2560194:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.138770] [cascade-070:2560194:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.138775] [cascade-070:2560194:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.140616] [cascade-070:2560192:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.140641] [cascade-070:2560192:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.140647] [cascade-070:2560192:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
-[1715009054.149329] [cascade-070:2560189:0]        mm_posix.c:174  UCX  ERROR   Not enough memory to write total of 8447 bytes. Please check that /dev/shm or the directory you specified has more available memory.
-[1715009054.149355] [cascade-070:2560189:0]         uct_mem.c:155  UCX  ERROR   failed to allocate 8447 bytes using md posix for mm_recv_fifo: Out of memory
-[1715009054.149360] [cascade-070:2560189:0]        mm_iface.c:679  UCX  ERROR mm_iface failed to allocate receive FIFO
+
+Checking for AutoStart:
+The File: cc-pVDZ.gbw exists
+Trying to determine its content:
+     ... Fine, the file contains calculation information
+     ... Fine, the calculation information was read
+     ... Fine, the file contains a basis set
+     ... Fine, the basis set was read
+     ... Fine, the file contains a geometry
+     ... Fine, the geometry was read
+     ... The file does not contain orbitals - skipping AutoStart
 
 
            ************************************************************
@@ -715,7 +679,39 @@ Atom  47H    basis set group =>   2
 ------------------------------------------------------------------------------
 
 
-Reading SHARK input file cc-pVDZ.SHARKINP.tmp ... 
+Reading SHARK input file cc-pVDZ.SHARKINP.tmp ... [file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 3]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 4]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 5]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 6]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 7]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 8]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 9]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 10]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 11]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 12]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 13]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 14]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 15]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 0]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 1]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+[file orca_tools/Tool-Parallel/pal3.cpp, line 652, Process 2]: Error TPAL_WinContD::SetMemory - Invalid size)
+
+
 ORCA finished by error termination in GTOInt
 Calling Command: mpirun -np 16  /hits/basement/mbm/sucerquia/sw/orca/orca_5_0_4_linux_x86-64_openmpi411/orca_gtoint_mpi cc-pVDZ.int.tmp cc-pVDZ 
 [file orca_tools/qcmsg.cpp, line 465]: 

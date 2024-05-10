@@ -50,9 +50,11 @@ done
 
 if $optimization
 then
-  $orca opt.inp  > opt.out
+  $orca opt_cc-pVDZ.inp  > opt_cc-pVDZ.out
+  $orca opt_EPRII.inp  > opt_EPRII.out
 else
-  [ -f opt.xyz ] || $orca opt.inp  > opt.out
+  [ -f opt_cc-pVDZ.xyz ] || $orca opt_cc-pVDZ.inp  > opt_cc-pVDZ.out
+  [ -f opt_EPRII.xyz ] || $orca opt_EPRII.inp  > opt_EPRII.out
 fi
 
 methods=("cc-pVDZ_i" "cc-pVDZ" "EPRII_i" "EPRII")
