@@ -7,21 +7,21 @@ in this repository.
 ```math
 \begin{array}{|l|c|c|c|c|}
 \hline
-                                 & g_x       & g_y       & g_z       & \text{max abs error} & \text{avrg error}  \\ \hline
-\text{../1_0-AlkylShift/}        & 2.0027921 & 2.0027617 & 2.002214  & 0.0004479            & 0.0000941          \\ \hline
-\text{../2_0-Hshift/}            & 2.0028401 & 2.0027267 & 2.0021777 & 0.0003999            & 0.0001018          \\ \hline
-\text{../3_0-Rhop/}              & 2.0028697 & 2.0026887 & 2.0021882 & 0.0003703            & 0.0001011          \\ \hline
-\text{../3_1-Rhop-LeftPhenyl/}   & 2.0028722 & 2.0026881 & 2.0021858 & 0.0003678            & 0.0001013          \\ \hline
-\text{../3_2-Rhop-RightPhenyl/}  & 2.0028699 & 2.0027005 & 2.0021878 & 0.0003701            & 0.0000973          \\ \hline
-\text{../4_0-inchain/}           & 2.0028729 & 2.0026999 & 2.0021857 & 0.0003671            & 0.0000972          \\ \hline
-\text{../4_1-inchainLarger/}     & 2.0028614 & 2.0026918 & 2.0021557 & 0.0003786            & 0.0001137          \\ \hline
-\text{../5_0-primary_in_ring/}   & 2.0029464 & 2.0021418 & 2.001633  & 0.0005470            & 0.0004429          \\ \hline
-\text{../6_0-primary_in_triple/} & 2.0069655 & 2.0034297 & 2.0022073 & -0.0000273           & -0.0015175         \\ \hline
-\text{../7_0-triple_broken/}     & 2.0269326 & 2.0031967 & 2.0020897 & 0.0000903            & -0.0080563         \\ \hline
-\text{../8_0-Hshift_FarRad1/}    & 2.0028127 & 2.0027716 & 2.0021815 & 0.0004273            & 0.0000947          \\ \hline
-\text{../8_1-Hshift_FarRad2/}    & 2.0027441 & 2.0027325 & 2.0021738 & 0.0004959            & 0.0001332          \\ \hline
-\text{../9_0-Rhop_FarRad1/}      & 2.0028156 & 2.0027666 & 2.0021818 & 0.0004244            & 0.0000953          \\ \hline
-\text{../9_1-Rhop_FarRad2/}      & 2.002743  & 2.0027282 & 2.002174  & 0.0004970            & 0.0001349          \\ \hline
+                                 & g-x       & g-y       & g-z       & \text{max abs error} & \text{avrg error}  \\ \hline
+\text{AlkylShift}        & 2.0027921 & 2.0027617 & 2.002214  & 0.0004479            & 0.0000941          \\ \hline
+\text{Hshift}            & 2.0028401 & 2.0027267 & 2.0021777 & 0.0003999            & 0.0001018          \\ \hline
+\text{Rhop}              & 2.0028697 & 2.0026887 & 2.0021882 & 0.0003703            & 0.0001011          \\ \hline
+\text{Rhop-LeftPhenyl}   & 2.0028722 & 2.0026881 & 2.0021858 & 0.0003678            & 0.0001013          \\ \hline
+\text{Rhop-RightPhenyl}  & 2.0028699 & 2.0027005 & 2.0021878 & 0.0003701            & 0.0000973          \\ \hline
+\text{inchain}           & 2.0028729 & 2.0026999 & 2.0021857 & 0.0003671            & 0.0000972          \\ \hline
+\text{inchainLarger}     & 2.0028614 & 2.0026918 & 2.0021557 & 0.0003786            & 0.0001137          \\ \hline
+\text{primary-in-ring}   & 2.0029464 & 2.0021418 & 2.001633  & 0.0005470            & 0.0004429          \\ \hline
+\text{primary-in-triple} & 2.0069655 & 2.0034297 & 2.0022073 & -0.0000273           & -0.0015175         \\ \hline
+\text{triple-broken}     & 2.0269326 & 2.0031967 & 2.0020897 & 0.0000903            & -0.0080563         \\ \hline
+\text{Hshift-FarRad1}    & 2.0028127 & 2.0027716 & 2.0021815 & 0.0004273            & 0.0000947          \\ \hline
+\text{Hshift-FarRad2}    & 2.0027441 & 2.0027325 & 2.0021738 & 0.0004959            & 0.0001332          \\ \hline
+\text{Rhop-FarRad1}      & 2.0028156 & 2.0027666 & 2.0021818 & 0.0004244            & 0.0000953          \\ \hline
+\text{Rhop-FarRad2}      & 2.002743  & 2.0027282 & 2.002174  & 0.0004970            & 0.0001349          \\ \hline
 \text{Experiment}                & 2.00324   & 2.00263   & 2.00218   &                      &                    \\ \hline
 \end{array}
 ```
@@ -261,6 +261,19 @@ g_y                       & 2.00263            & 2.0028498      & 2.0027097     
 g_z                       & 2.00218            & 2.0024106      & 2.0021851        & 2.0024004     & 2.0021738        \\ \hline
 \text{max absolute error} &                    & 0.0002384      & 0.0005200        & 0.0002149     & 0.0004959        \\ \hline
 \text{average error}      &                    & -0.0000707     & 0.0001451        & -0.0000890    & 0.0001332        \\ \hline
+\end{array}
+```
+
+# Rhop_FarRad1
+The Carbon with larger radius is the one "with the radical"
+<div style="display: flex;">
+<img src="/9_0-Rhop_FarRad1/opt.png" alt="Image 1" width="20%">
+<img src="/9_0-Rhop_FarRad1/chem.png" alt="Image 2" width="20%">
+</div>
+
+```math
+\begin{array}{|l|c|c|c|c|}
+\hline
 \end{array}
 ```
 

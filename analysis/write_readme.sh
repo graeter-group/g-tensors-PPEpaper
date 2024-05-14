@@ -10,7 +10,7 @@ in this repository.
 \hline
 EOF
 
-python summary_table.py
+python summary_table.py | sed "s/\.\.\/._.-//g" | sed "s/\/\}/}/g" | sed "s/_/-/g"
 
 cat <<EOF
 \end{array}
