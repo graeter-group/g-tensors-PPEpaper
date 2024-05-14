@@ -2,8 +2,8 @@
  Input=g09BDE.com
  Output=g09BDE.log
  Initial command:
- /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1.exe "/hits/basement/mbm/sucerquia/gaussian_scratch/Gau-3178290.inp" -scrdir="/hits/basement/mbm/sucerquia/gaussian_scratch/"
- Entering Link 1 = /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1.exe PID=   3178291.
+ /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1.exe "/hits/basement/mbm/sucerquia/gaussian_scratch/Gau-3226565.inp" -scrdir="/hits/basement/mbm/sucerquia/gaussian_scratch/"
+ Entering Link 1 = /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1.exe PID=   3226566.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009,2013,
             Gaussian, Inc.  All Rights Reserved.
@@ -76,37 +76,27 @@
  
  ******************************************
  Gaussian 09:  ES64L-G09RevD.01 24-Apr-2013
-                10-May-2024 
+                14-May-2024 
  ******************************************
  %chk=g09BDE
  %NProcShared=8
  Will use up to    8 processors via shared memory.
- ---------------------------------------
- #P bmk/6-31+g opt(modredun,calcfc) freq
- ---------------------------------------
- 1/10=4,14=-1,18=120,19=15,26=3,38=1/1,3;
- 2/9=110,12=2,17=6,18=5,40=1/2;
+ ------------------
+ #P bmk/6-31+g freq
+ ------------------
+ 1/10=4,30=1,38=1/1,3;
+ 2/12=2,17=6,18=5,40=1/2;
  3/5=1,6=6,7=10,11=2,16=1,25=1,30=1,71=2,74=-34,140=1/1,2,3;
  4//1;
- 5/5=2,38=5/2;
+ 5/5=2,38=5,98=1/2;
  8/6=4,10=90,11=11/1;
  11/6=1,8=1,9=11,15=111,16=1/1,2,10;
- 10/6=1,13=1/2;
- 6/7=2,8=2,9=2,10=2,28=1/1;
- 7/10=1,18=20,25=1/1,2,3,16;
- 1/10=4,14=-1,18=20,19=15,26=3/3(2);
- 2/9=110/2;
+ 10/6=1/2;
+ 6/7=2,8=2,9=2,10=2,18=1,28=1/1;
+ 7/8=1,10=1,25=1/1,2,3,16;
+ 1/10=4,30=1/3;
  99//99;
- 2/9=110/2;
- 3/5=1,6=6,7=10,11=2,16=1,25=1,30=1,71=1,74=-34/1,2,3;
- 4/5=5,16=3,69=1/1;
- 5/5=2,38=5/2;
- 7//1,2,3,16;
- 1/14=-1,18=20,19=15,26=3/3(-5);
- 2/9=110/2;
- 6/7=2,8=2,9=2,10=2,19=2,28=1/1;
- 99/9=1/99;
- Leave Link    1 at Fri May 10 15:44:16 2024, MaxMem=           0 cpu:         1.2
+ Leave Link    1 at Tue May 14 10:23:23 2024, MaxMem=           0 cpu:         1.7
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l101.exe)
  ------------------------------
  Gaussian input prepared by ASE
@@ -210,8 +200,6 @@
  H                    -9.80692  -2.17679   0.00775 
  H                    -12.23203   2.17516  -0.00563 
  
- The following ModRedundant input section has been read:
- 
  NAtoms=     96 NQM=       96 NQMF=       0 NMMI=      0 NMMIF=      0
                 NMic=       0 NMicF=      0.
                     Isotopes and Nuclear Properties:
@@ -307,543 +295,17 @@
  NQMom=    0.0000000   0.0000000   0.0000000   0.0000000   0.0000000   0.0000000
  NMagM=    0.0000000   2.7928460   2.7928460   2.7928460   2.7928460   2.7928460
  AtZNuc=   6.0000000   1.0000000   1.0000000   1.0000000   1.0000000   1.0000000
- Leave Link  101 at Fri May 10 15:44:16 2024, MaxMem=    33554432 cpu:         0.7
+ Leave Link  101 at Tue May 14 10:23:24 2024, MaxMem=    33554432 cpu:         0.8
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l103.exe)
 
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
  Berny optimization.
  Initialization pass.
-                           ----------------------------
-                           !    Initial Parameters    !
-                           ! (Angstroms and Degrees)  !
- --------------------------                            --------------------------
- ! Name  Definition              Value          Derivative Info.                !
- --------------------------------------------------------------------------------
- ! R1    R(1,5)                  1.4264         calculate D2E/DX2 analytically  !
- ! R2    R(1,34)                 1.2227         calculate D2E/DX2 analytically  !
- ! R3    R(2,3)                  1.4218         calculate D2E/DX2 analytically  !
- ! R4    R(2,7)                  1.4124         calculate D2E/DX2 analytically  !
- ! R5    R(2,48)                 1.4257         calculate D2E/DX2 analytically  !
- ! R6    R(3,4)                  1.3936         calculate D2E/DX2 analytically  !
- ! R7    R(3,10)                 1.5165         calculate D2E/DX2 analytically  !
- ! R8    R(4,5)                  1.4121         calculate D2E/DX2 analytically  !
- ! R9    R(4,8)                  1.0899         calculate D2E/DX2 analytically  !
- ! R10   R(5,6)                  1.4215         calculate D2E/DX2 analytically  !
- ! R11   R(6,7)                  1.3935         calculate D2E/DX2 analytically  !
- ! R12   R(6,22)                 1.5166         calculate D2E/DX2 analytically  !
- ! R13   R(7,9)                  1.0899         calculate D2E/DX2 analytically  !
- ! R14   R(10,11)                1.1058         calculate D2E/DX2 analytically  !
- ! R15   R(10,12)                1.1058         calculate D2E/DX2 analytically  !
- ! R16   R(10,13)                1.5309         calculate D2E/DX2 analytically  !
- ! R17   R(13,14)                1.1056         calculate D2E/DX2 analytically  !
- ! R18   R(13,15)                1.1056         calculate D2E/DX2 analytically  !
- ! R19   R(13,16)                1.5337         calculate D2E/DX2 analytically  !
- ! R20   R(16,17)                1.1059         calculate D2E/DX2 analytically  !
- ! R21   R(16,18)                1.1059         calculate D2E/DX2 analytically  !
- ! R22   R(16,19)                1.5308         calculate D2E/DX2 analytically  !
- ! R23   R(19,20)                1.1038         calculate D2E/DX2 analytically  !
- ! R24   R(19,21)                1.1038         calculate D2E/DX2 analytically  !
- ! R25   R(19,35)                1.1021         calculate D2E/DX2 analytically  !
- ! R26   R(22,23)                1.1057         calculate D2E/DX2 analytically  !
- ! R27   R(22,24)                1.1057         calculate D2E/DX2 analytically  !
- ! R28   R(22,25)                1.5309         calculate D2E/DX2 analytically  !
- ! R29   R(25,26)                1.1056         calculate D2E/DX2 analytically  !
- ! R30   R(25,27)                1.1056         calculate D2E/DX2 analytically  !
- ! R31   R(25,28)                1.5336         calculate D2E/DX2 analytically  !
- ! R32   R(28,29)                1.1059         calculate D2E/DX2 analytically  !
- ! R33   R(28,30)                1.1059         calculate D2E/DX2 analytically  !
- ! R34   R(28,31)                1.5308         calculate D2E/DX2 analytically  !
- ! R35   R(31,32)                1.1038         calculate D2E/DX2 analytically  !
- ! R36   R(31,33)                1.1038         calculate D2E/DX2 analytically  !
- ! R37   R(31,36)                1.1021         calculate D2E/DX2 analytically  !
- ! R38   R(34,37)                1.4277         calculate D2E/DX2 analytically  !
- ! R39   R(37,38)                1.4123         calculate D2E/DX2 analytically  !
- ! R40   R(37,42)                1.4124         calculate D2E/DX2 analytically  !
- ! R41   R(38,39)                1.3945         calculate D2E/DX2 analytically  !
- ! R42   R(38,45)                1.0916         calculate D2E/DX2 analytically  !
- ! R43   R(39,40)                1.3996         calculate D2E/DX2 analytically  !
- ! R44   R(39,47)                1.0927         calculate D2E/DX2 analytically  !
- ! R45   R(40,41)                1.3997         calculate D2E/DX2 analytically  !
- ! R46   R(40,43)                1.0925         calculate D2E/DX2 analytically  !
- ! R47   R(41,42)                1.3944         calculate D2E/DX2 analytically  !
- ! R48   R(41,44)                1.0927         calculate D2E/DX2 analytically  !
- ! R49   R(42,46)                1.0917         calculate D2E/DX2 analytically  !
- ! R50   R(48,49)                1.2239         calculate D2E/DX2 analytically  !
- ! R51   R(49,51)                1.4257         calculate D2E/DX2 analytically  !
- ! R52   R(50,54)                1.4264         calculate D2E/DX2 analytically  !
- ! R53   R(50,83)                1.2227         calculate D2E/DX2 analytically  !
- ! R54   R(51,52)                1.4218         calculate D2E/DX2 analytically  !
- ! R55   R(51,56)                1.4124         calculate D2E/DX2 analytically  !
- ! R56   R(52,53)                1.3936         calculate D2E/DX2 analytically  !
- ! R57   R(52,59)                1.5165         calculate D2E/DX2 analytically  !
- ! R58   R(53,54)                1.4121         calculate D2E/DX2 analytically  !
- ! R59   R(53,57)                1.0899         calculate D2E/DX2 analytically  !
- ! R60   R(54,55)                1.4215         calculate D2E/DX2 analytically  !
- ! R61   R(55,56)                1.3935         calculate D2E/DX2 analytically  !
- ! R62   R(55,71)                1.5166         calculate D2E/DX2 analytically  !
- ! R63   R(56,58)                1.0899         calculate D2E/DX2 analytically  !
- ! R64   R(59,60)                1.1058         calculate D2E/DX2 analytically  !
- ! R65   R(59,61)                1.1058         calculate D2E/DX2 analytically  !
- ! R66   R(59,62)                1.5309         calculate D2E/DX2 analytically  !
- ! R67   R(62,63)                1.1056         calculate D2E/DX2 analytically  !
- ! R68   R(62,64)                1.1056         calculate D2E/DX2 analytically  !
- ! R69   R(62,65)                1.5337         calculate D2E/DX2 analytically  !
- ! R70   R(65,66)                1.1059         calculate D2E/DX2 analytically  !
- ! R71   R(65,67)                1.1059         calculate D2E/DX2 analytically  !
- ! R72   R(65,68)                1.5308         calculate D2E/DX2 analytically  !
- ! R73   R(68,69)                1.1038         calculate D2E/DX2 analytically  !
- ! R74   R(68,70)                1.1038         calculate D2E/DX2 analytically  !
- ! R75   R(68,84)                1.1021         calculate D2E/DX2 analytically  !
- ! R76   R(71,72)                1.1057         calculate D2E/DX2 analytically  !
- ! R77   R(71,73)                1.1057         calculate D2E/DX2 analytically  !
- ! R78   R(71,74)                1.5309         calculate D2E/DX2 analytically  !
- ! R79   R(74,75)                1.1056         calculate D2E/DX2 analytically  !
- ! R80   R(74,76)                1.1056         calculate D2E/DX2 analytically  !
- ! R81   R(74,77)                1.5336         calculate D2E/DX2 analytically  !
- ! R82   R(77,78)                1.1059         calculate D2E/DX2 analytically  !
- ! R83   R(77,79)                1.1059         calculate D2E/DX2 analytically  !
- ! R84   R(77,80)                1.5308         calculate D2E/DX2 analytically  !
- ! R85   R(80,81)                1.1038         calculate D2E/DX2 analytically  !
- ! R86   R(80,82)                1.1038         calculate D2E/DX2 analytically  !
- ! R87   R(80,85)                1.1021         calculate D2E/DX2 analytically  !
- ! R88   R(83,86)                1.4277         calculate D2E/DX2 analytically  !
- ! R89   R(86,87)                1.4123         calculate D2E/DX2 analytically  !
- ! R90   R(86,91)                1.4124         calculate D2E/DX2 analytically  !
- ! R91   R(87,88)                1.3945         calculate D2E/DX2 analytically  !
- ! R92   R(87,94)                1.0916         calculate D2E/DX2 analytically  !
- ! R93   R(88,89)                1.3996         calculate D2E/DX2 analytically  !
- ! R94   R(88,96)                1.0927         calculate D2E/DX2 analytically  !
- ! R95   R(89,90)                1.3997         calculate D2E/DX2 analytically  !
- ! R96   R(89,92)                1.0925         calculate D2E/DX2 analytically  !
- ! R97   R(90,91)                1.3944         calculate D2E/DX2 analytically  !
- ! R98   R(90,93)                1.0927         calculate D2E/DX2 analytically  !
- ! R99   R(91,95)                1.0917         calculate D2E/DX2 analytically  !
- ! A1    A(3,2,7)              119.9746         calculate D2E/DX2 analytically  !
- ! A2    A(3,2,48)             120.8393         calculate D2E/DX2 analytically  !
- ! A3    A(7,2,48)             119.1861         calculate D2E/DX2 analytically  !
- ! A4    A(2,3,4)              117.5096         calculate D2E/DX2 analytically  !
- ! A5    A(2,3,10)             119.7242         calculate D2E/DX2 analytically  !
- ! A6    A(4,3,10)             122.7662         calculate D2E/DX2 analytically  !
- ! A7    A(3,4,5)              122.5002         calculate D2E/DX2 analytically  !
- ! A8    A(3,4,8)              119.9783         calculate D2E/DX2 analytically  !
- ! A9    A(5,4,8)              117.5214         calculate D2E/DX2 analytically  !
- ! A10   A(1,5,4)              119.1421         calculate D2E/DX2 analytically  !
- ! A11   A(1,5,6)              120.8533         calculate D2E/DX2 analytically  !
- ! A12   A(4,5,6)              120.0046         calculate D2E/DX2 analytically  !
- ! A13   A(5,6,7)              117.4992         calculate D2E/DX2 analytically  !
- ! A14   A(5,6,22)             119.7452         calculate D2E/DX2 analytically  !
- ! A15   A(7,6,22)             122.7556         calculate D2E/DX2 analytically  !
- ! A16   A(2,7,6)              122.5118         calculate D2E/DX2 analytically  !
- ! A17   A(2,7,9)              117.5213         calculate D2E/DX2 analytically  !
- ! A18   A(6,7,9)              119.9669         calculate D2E/DX2 analytically  !
- ! A19   A(3,10,11)            108.1399         calculate D2E/DX2 analytically  !
- ! A20   A(3,10,12)            108.1378         calculate D2E/DX2 analytically  !
- ! A21   A(3,10,13)            116.9489         calculate D2E/DX2 analytically  !
- ! A22   A(11,10,12)           104.5342         calculate D2E/DX2 analytically  !
- ! A23   A(11,10,13)           109.1821         calculate D2E/DX2 analytically  !
- ! A24   A(12,10,13)           109.1825         calculate D2E/DX2 analytically  !
- ! A25   A(10,13,14)           109.8828         calculate D2E/DX2 analytically  !
- ! A26   A(10,13,15)           109.8878         calculate D2E/DX2 analytically  !
- ! A27   A(10,13,16)           112.5769         calculate D2E/DX2 analytically  !
- ! A28   A(14,13,15)           106.2049         calculate D2E/DX2 analytically  !
- ! A29   A(14,13,16)           109.042          calculate D2E/DX2 analytically  !
- ! A30   A(15,13,16)           109.0395         calculate D2E/DX2 analytically  !
- ! A31   A(13,16,17)           109.192          calculate D2E/DX2 analytically  !
- ! A32   A(13,16,18)           109.1906         calculate D2E/DX2 analytically  !
- ! A33   A(13,16,19)           113.1865         calculate D2E/DX2 analytically  !
- ! A34   A(17,16,18)           105.8547         calculate D2E/DX2 analytically  !
- ! A35   A(17,16,19)           109.5761         calculate D2E/DX2 analytically  !
- ! A36   A(18,16,19)           109.5777         calculate D2E/DX2 analytically  !
- ! A37   A(16,19,20)           111.2688         calculate D2E/DX2 analytically  !
- ! A38   A(16,19,21)           111.2686         calculate D2E/DX2 analytically  !
- ! A39   A(16,19,35)           111.5258         calculate D2E/DX2 analytically  !
- ! A40   A(20,19,21)           107.3763         calculate D2E/DX2 analytically  !
- ! A41   A(20,19,35)           107.5973         calculate D2E/DX2 analytically  !
- ! A42   A(21,19,35)           107.598          calculate D2E/DX2 analytically  !
- ! A43   A(6,22,23)            108.1485         calculate D2E/DX2 analytically  !
- ! A44   A(6,22,24)            108.1493         calculate D2E/DX2 analytically  !
- ! A45   A(6,22,25)            116.9156         calculate D2E/DX2 analytically  !
- ! A46   A(23,22,24)           104.5433         calculate D2E/DX2 analytically  !
- ! A47   A(23,22,25)           109.1859         calculate D2E/DX2 analytically  !
- ! A48   A(24,22,25)           109.1875         calculate D2E/DX2 analytically  !
- ! A49   A(22,25,26)           109.8765         calculate D2E/DX2 analytically  !
- ! A50   A(22,25,27)           109.8708         calculate D2E/DX2 analytically  !
- ! A51   A(22,25,28)           112.6232         calculate D2E/DX2 analytically  !
- ! A52   A(26,25,27)           106.2069         calculate D2E/DX2 analytically  !
- ! A53   A(26,25,28)           109.0256         calculate D2E/DX2 analytically  !
- ! A54   A(27,25,28)           109.0282         calculate D2E/DX2 analytically  !
- ! A55   A(25,28,29)           109.1953         calculate D2E/DX2 analytically  !
- ! A56   A(25,28,30)           109.1967         calculate D2E/DX2 analytically  !
- ! A57   A(25,28,31)           113.1714         calculate D2E/DX2 analytically  !
- ! A58   A(29,28,30)           105.8693         calculate D2E/DX2 analytically  !
- ! A59   A(29,28,31)           109.5741         calculate D2E/DX2 analytically  !
- ! A60   A(30,28,31)           109.5728         calculate D2E/DX2 analytically  !
- ! A61   A(28,31,32)           111.2695         calculate D2E/DX2 analytically  !
- ! A62   A(28,31,33)           111.2693         calculate D2E/DX2 analytically  !
- ! A63   A(28,31,36)           111.5275         calculate D2E/DX2 analytically  !
- ! A64   A(32,31,33)           107.3758         calculate D2E/DX2 analytically  !
- ! A65   A(32,31,36)           107.5966         calculate D2E/DX2 analytically  !
- ! A66   A(33,31,36)           107.596          calculate D2E/DX2 analytically  !
- ! A67   A(34,37,38)           120.6178         calculate D2E/DX2 analytically  !
- ! A68   A(34,37,42)           120.6465         calculate D2E/DX2 analytically  !
- ! A69   A(38,37,42)           118.7357         calculate D2E/DX2 analytically  !
- ! A70   A(37,38,39)           120.4225         calculate D2E/DX2 analytically  !
- ! A71   A(37,38,45)           119.099          calculate D2E/DX2 analytically  !
- ! A72   A(39,38,45)           120.4786         calculate D2E/DX2 analytically  !
- ! A73   A(38,39,40)           120.3576         calculate D2E/DX2 analytically  !
- ! A74   A(38,39,47)           119.6047         calculate D2E/DX2 analytically  !
- ! A75   A(40,39,47)           120.0378         calculate D2E/DX2 analytically  !
- ! A76   A(39,40,41)           119.7032         calculate D2E/DX2 analytically  !
- ! A77   A(39,40,43)           120.1472         calculate D2E/DX2 analytically  !
- ! A78   A(41,40,43)           120.1496         calculate D2E/DX2 analytically  !
- ! A79   A(40,41,42)           120.3478         calculate D2E/DX2 analytically  !
- ! A80   A(40,41,44)           120.044          calculate D2E/DX2 analytically  !
- ! A81   A(42,41,44)           119.6082         calculate D2E/DX2 analytically  !
- ! A82   A(37,42,41)           120.4332         calculate D2E/DX2 analytically  !
- ! A83   A(37,42,46)           119.1066         calculate D2E/DX2 analytically  !
- ! A84   A(41,42,46)           120.4601         calculate D2E/DX2 analytically  !
- ! A85   A(49,51,52)           120.8394         calculate D2E/DX2 analytically  !
- ! A86   A(49,51,56)           119.1861         calculate D2E/DX2 analytically  !
- ! A87   A(52,51,56)           119.9746         calculate D2E/DX2 analytically  !
- ! A88   A(51,52,53)           117.5097         calculate D2E/DX2 analytically  !
- ! A89   A(51,52,59)           119.7241         calculate D2E/DX2 analytically  !
- ! A90   A(53,52,59)           122.7663         calculate D2E/DX2 analytically  !
- ! A91   A(52,53,54)           122.5001         calculate D2E/DX2 analytically  !
- ! A92   A(52,53,57)           119.9784         calculate D2E/DX2 analytically  !
- ! A93   A(54,53,57)           117.5214         calculate D2E/DX2 analytically  !
- ! A94   A(50,54,53)           119.142          calculate D2E/DX2 analytically  !
- ! A95   A(50,54,55)           120.8534         calculate D2E/DX2 analytically  !
- ! A96   A(53,54,55)           120.0046         calculate D2E/DX2 analytically  !
- ! A97   A(54,55,56)           117.4994         calculate D2E/DX2 analytically  !
- ! A98   A(54,55,71)           119.745          calculate D2E/DX2 analytically  !
- ! A99   A(56,55,71)           122.7557         calculate D2E/DX2 analytically  !
- ! A100  A(51,56,55)           122.5117         calculate D2E/DX2 analytically  !
- ! A101  A(51,56,58)           117.5213         calculate D2E/DX2 analytically  !
- ! A102  A(55,56,58)           119.9671         calculate D2E/DX2 analytically  !
- ! A103  A(52,59,60)           108.1378         calculate D2E/DX2 analytically  !
- ! A104  A(52,59,61)           108.1399         calculate D2E/DX2 analytically  !
- ! A105  A(52,59,62)           116.9489         calculate D2E/DX2 analytically  !
- ! A106  A(60,59,61)           104.5342         calculate D2E/DX2 analytically  !
- ! A107  A(60,59,62)           109.1827         calculate D2E/DX2 analytically  !
- ! A108  A(61,59,62)           109.182          calculate D2E/DX2 analytically  !
- ! A109  A(59,62,63)           109.888          calculate D2E/DX2 analytically  !
- ! A110  A(59,62,64)           109.8826         calculate D2E/DX2 analytically  !
- ! A111  A(59,62,65)           112.5769         calculate D2E/DX2 analytically  !
- ! A112  A(63,62,64)           106.2049         calculate D2E/DX2 analytically  !
- ! A113  A(63,62,65)           109.0392         calculate D2E/DX2 analytically  !
- ! A114  A(64,62,65)           109.0423         calculate D2E/DX2 analytically  !
- ! A115  A(62,65,66)           109.1907         calculate D2E/DX2 analytically  !
- ! A116  A(62,65,67)           109.1919         calculate D2E/DX2 analytically  !
- ! A117  A(62,65,68)           113.1865         calculate D2E/DX2 analytically  !
- ! A118  A(66,65,67)           105.8547         calculate D2E/DX2 analytically  !
- ! A119  A(66,65,68)           109.5778         calculate D2E/DX2 analytically  !
- ! A120  A(67,65,68)           109.576          calculate D2E/DX2 analytically  !
- ! A121  A(65,68,69)           111.2686         calculate D2E/DX2 analytically  !
- ! A122  A(65,68,70)           111.2688         calculate D2E/DX2 analytically  !
- ! A123  A(65,68,84)           111.5258         calculate D2E/DX2 analytically  !
- ! A124  A(69,68,70)           107.3763         calculate D2E/DX2 analytically  !
- ! A125  A(69,68,84)           107.598          calculate D2E/DX2 analytically  !
- ! A126  A(70,68,84)           107.5972         calculate D2E/DX2 analytically  !
- ! A127  A(55,71,72)           108.15           calculate D2E/DX2 analytically  !
- ! A128  A(55,71,73)           108.1477         calculate D2E/DX2 analytically  !
- ! A129  A(55,71,74)           116.9156         calculate D2E/DX2 analytically  !
- ! A130  A(72,71,73)           104.5434         calculate D2E/DX2 analytically  !
- ! A131  A(72,71,74)           109.1873         calculate D2E/DX2 analytically  !
- ! A132  A(73,71,74)           109.1861         calculate D2E/DX2 analytically  !
- ! A133  A(71,74,75)           109.8703         calculate D2E/DX2 analytically  !
- ! A134  A(71,74,76)           109.8769         calculate D2E/DX2 analytically  !
- ! A135  A(71,74,77)           112.6232         calculate D2E/DX2 analytically  !
- ! A136  A(75,74,76)           106.2069         calculate D2E/DX2 analytically  !
- ! A137  A(75,74,77)           109.0287         calculate D2E/DX2 analytically  !
- ! A138  A(76,74,77)           109.0252         calculate D2E/DX2 analytically  !
- ! A139  A(74,77,78)           109.1967         calculate D2E/DX2 analytically  !
- ! A140  A(74,77,79)           109.1953         calculate D2E/DX2 analytically  !
- ! A141  A(74,77,80)           113.1714         calculate D2E/DX2 analytically  !
- ! A142  A(78,77,79)           105.8693         calculate D2E/DX2 analytically  !
- ! A143  A(78,77,80)           109.5727         calculate D2E/DX2 analytically  !
- ! A144  A(79,77,80)           109.5742         calculate D2E/DX2 analytically  !
- ! A145  A(77,80,81)           111.2692         calculate D2E/DX2 analytically  !
- ! A146  A(77,80,82)           111.2696         calculate D2E/DX2 analytically  !
- ! A147  A(77,80,85)           111.5275         calculate D2E/DX2 analytically  !
- ! A148  A(81,80,82)           107.3758         calculate D2E/DX2 analytically  !
- ! A149  A(81,80,85)           107.596          calculate D2E/DX2 analytically  !
- ! A150  A(82,80,85)           107.5967         calculate D2E/DX2 analytically  !
- ! A151  A(83,86,87)           120.6184         calculate D2E/DX2 analytically  !
- ! A152  A(83,86,91)           120.646          calculate D2E/DX2 analytically  !
- ! A153  A(87,86,91)           118.7357         calculate D2E/DX2 analytically  !
- ! A154  A(86,87,88)           120.4225         calculate D2E/DX2 analytically  !
- ! A155  A(86,87,94)           119.0992         calculate D2E/DX2 analytically  !
- ! A156  A(88,87,94)           120.4783         calculate D2E/DX2 analytically  !
- ! A157  A(87,88,89)           120.3576         calculate D2E/DX2 analytically  !
- ! A158  A(87,88,96)           119.6046         calculate D2E/DX2 analytically  !
- ! A159  A(89,88,96)           120.0379         calculate D2E/DX2 analytically  !
- ! A160  A(88,89,90)           119.7032         calculate D2E/DX2 analytically  !
- ! A161  A(88,89,92)           120.1473         calculate D2E/DX2 analytically  !
- ! A162  A(90,89,92)           120.1496         calculate D2E/DX2 analytically  !
- ! A163  A(89,90,91)           120.3479         calculate D2E/DX2 analytically  !
- ! A164  A(89,90,93)           120.0441         calculate D2E/DX2 analytically  !
- ! A165  A(91,90,93)           119.608          calculate D2E/DX2 analytically  !
- ! A166  A(86,91,90)           120.4332         calculate D2E/DX2 analytically  !
- ! A167  A(86,91,95)           119.1066         calculate D2E/DX2 analytically  !
- ! A168  A(90,91,95)           120.4602         calculate D2E/DX2 analytically  !
- ! A169  L(5,1,34,23,-1)       180.4067         calculate D2E/DX2 analytically  !
- ! A170  L(1,34,37,29,-1)      180.1257         calculate D2E/DX2 analytically  !
- ! A171  L(2,48,49,11,-1)      180.263          calculate D2E/DX2 analytically  !
- ! A172  L(48,49,51,17,-1)     179.7988         calculate D2E/DX2 analytically  !
- ! A173  L(54,50,83,72,-1)     180.415          calculate D2E/DX2 analytically  !
- ! A174  L(50,83,86,78,-1)     180.1165         calculate D2E/DX2 analytically  !
- ! A175  L(5,1,34,23,-2)       179.9274         calculate D2E/DX2 analytically  !
- ! A176  L(1,34,37,29,-2)      179.9119         calculate D2E/DX2 analytically  !
- ! A177  L(2,48,49,11,-2)      179.9411         calculate D2E/DX2 analytically  !
- ! A178  L(48,49,51,17,-2)     180.2041         calculate D2E/DX2 analytically  !
- ! A179  L(54,50,83,72,-2)     179.9221         calculate D2E/DX2 analytically  !
- ! A180  L(50,83,86,78,-2)     179.921          calculate D2E/DX2 analytically  !
- ! D1    D(3,2,51,52)          179.9508         calculate D2E/DX2 analytically  !
- ! D2    D(3,2,51,56)           -0.1057         calculate D2E/DX2 analytically  !
- ! D3    D(7,2,51,52)           -0.0095         calculate D2E/DX2 analytically  !
- ! D4    D(7,2,51,56)          179.934          calculate D2E/DX2 analytically  !
- ! D5    D(4,5,37,38)            0.048          calculate D2E/DX2 analytically  !
- ! D6    D(4,5,37,42)         -179.9312         calculate D2E/DX2 analytically  !
- ! D7    D(6,5,37,38)         -179.9311         calculate D2E/DX2 analytically  !
- ! D8    D(6,5,37,42)            0.0896         calculate D2E/DX2 analytically  !
- ! D9    D(7,2,3,4)              0.0043         calculate D2E/DX2 analytically  !
- ! D10   D(7,2,3,10)           179.9941         calculate D2E/DX2 analytically  !
- ! D11   D(48,2,3,4)          -179.9984         calculate D2E/DX2 analytically  !
- ! D12   D(48,2,3,10)           -0.0086         calculate D2E/DX2 analytically  !
- ! D13   D(3,2,7,6)             -0.0039         calculate D2E/DX2 analytically  !
- ! D14   D(3,2,7,9)            179.9998         calculate D2E/DX2 analytically  !
- ! D15   D(48,2,7,6)           179.9987         calculate D2E/DX2 analytically  !
- ! D16   D(48,2,7,9)             0.0024         calculate D2E/DX2 analytically  !
- ! D17   D(2,3,4,5)             -0.0032         calculate D2E/DX2 analytically  !
- ! D18   D(2,3,4,8)            179.9985         calculate D2E/DX2 analytically  !
- ! D19   D(10,3,4,5)          -179.9926         calculate D2E/DX2 analytically  !
- ! D20   D(10,3,4,8)             0.0091         calculate D2E/DX2 analytically  !
- ! D21   D(2,3,10,11)           56.2951         calculate D2E/DX2 analytically  !
- ! D22   D(2,3,10,12)          -56.362          calculate D2E/DX2 analytically  !
- ! D23   D(2,3,10,13)          179.9672         calculate D2E/DX2 analytically  !
- ! D24   D(4,3,10,11)         -123.7157         calculate D2E/DX2 analytically  !
- ! D25   D(4,3,10,12)          123.6273         calculate D2E/DX2 analytically  !
- ! D26   D(4,3,10,13)           -0.0436         calculate D2E/DX2 analytically  !
- ! D27   D(3,4,5,1)            179.9972         calculate D2E/DX2 analytically  !
- ! D28   D(3,4,5,6)              0.0015         calculate D2E/DX2 analytically  !
- ! D29   D(8,4,5,1)             -0.0045         calculate D2E/DX2 analytically  !
- ! D30   D(8,4,5,6)            179.9998         calculate D2E/DX2 analytically  !
- ! D31   D(1,5,6,7)           -179.9965         calculate D2E/DX2 analytically  !
- ! D32   D(1,5,6,22)             0.0079         calculate D2E/DX2 analytically  !
- ! D33   D(4,5,6,7)             -0.0008         calculate D2E/DX2 analytically  !
- ! D34   D(4,5,6,22)          -179.9965         calculate D2E/DX2 analytically  !
- ! D35   D(5,6,7,2)              0.0021         calculate D2E/DX2 analytically  !
- ! D36   D(5,6,7,9)            179.9983         calculate D2E/DX2 analytically  !
- ! D37   D(22,6,7,2)           179.9976         calculate D2E/DX2 analytically  !
- ! D38   D(22,6,7,9)            -0.0062         calculate D2E/DX2 analytically  !
- ! D39   D(5,6,22,23)          -56.2955         calculate D2E/DX2 analytically  !
- ! D40   D(5,6,22,24)           56.3819         calculate D2E/DX2 analytically  !
- ! D41   D(5,6,22,25)         -179.9554         calculate D2E/DX2 analytically  !
- ! D42   D(7,6,22,23)          123.7091         calculate D2E/DX2 analytically  !
- ! D43   D(7,6,22,24)         -123.6135         calculate D2E/DX2 analytically  !
- ! D44   D(7,6,22,25)            0.0492         calculate D2E/DX2 analytically  !
- ! D45   D(3,10,13,14)         -58.2624         calculate D2E/DX2 analytically  !
- ! D46   D(3,10,13,15)          58.2514         calculate D2E/DX2 analytically  !
- ! D47   D(3,10,13,16)         179.9947         calculate D2E/DX2 analytically  !
- ! D48   D(11,10,13,14)         64.8759         calculate D2E/DX2 analytically  !
- ! D49   D(11,10,13,15)       -178.6102         calculate D2E/DX2 analytically  !
- ! D50   D(11,10,13,16)        -56.8669         calculate D2E/DX2 analytically  !
- ! D51   D(12,10,13,14)        178.6017         calculate D2E/DX2 analytically  !
- ! D52   D(12,10,13,15)        -64.8844         calculate D2E/DX2 analytically  !
- ! D53   D(12,10,13,16)         56.8588         calculate D2E/DX2 analytically  !
- ! D54   D(10,13,16,17)        -57.6634         calculate D2E/DX2 analytically  !
- ! D55   D(10,13,16,18)         57.6423         calculate D2E/DX2 analytically  !
- ! D56   D(10,13,16,19)        179.99           calculate D2E/DX2 analytically  !
- ! D57   D(14,13,16,17)       -179.8821         calculate D2E/DX2 analytically  !
- ! D58   D(14,13,16,18)        -64.5764         calculate D2E/DX2 analytically  !
- ! D59   D(14,13,16,19)         57.7713         calculate D2E/DX2 analytically  !
- ! D60   D(15,13,16,17)         64.56           calculate D2E/DX2 analytically  !
- ! D61   D(15,13,16,18)        179.8657         calculate D2E/DX2 analytically  !
- ! D62   D(15,13,16,19)        -57.7866         calculate D2E/DX2 analytically  !
- ! D63   D(13,16,19,20)         59.8274         calculate D2E/DX2 analytically  !
- ! D64   D(13,16,19,21)        -59.8699         calculate D2E/DX2 analytically  !
- ! D65   D(13,16,19,35)        179.9784         calculate D2E/DX2 analytically  !
- ! D66   D(17,16,19,20)        -62.3049         calculate D2E/DX2 analytically  !
- ! D67   D(17,16,19,21)        177.9978         calculate D2E/DX2 analytically  !
- ! D68   D(17,16,19,35)         57.8461         calculate D2E/DX2 analytically  !
- ! D69   D(18,16,19,20)       -178.0409         calculate D2E/DX2 analytically  !
- ! D70   D(18,16,19,21)         62.2619         calculate D2E/DX2 analytically  !
- ! D71   D(18,16,19,35)        -57.8898         calculate D2E/DX2 analytically  !
- ! D72   D(6,22,25,26)         -58.2481         calculate D2E/DX2 analytically  !
- ! D73   D(6,22,25,27)          58.2546         calculate D2E/DX2 analytically  !
- ! D74   D(6,22,25,28)        -179.9972         calculate D2E/DX2 analytically  !
- ! D75   D(23,22,25,26)        178.6237         calculate D2E/DX2 analytically  !
- ! D76   D(23,22,25,27)        -64.8736         calculate D2E/DX2 analytically  !
- ! D77   D(23,22,25,28)         56.8746         calculate D2E/DX2 analytically  !
- ! D78   D(24,22,25,26)         64.8825         calculate D2E/DX2 analytically  !
- ! D79   D(24,22,25,27)       -178.6148         calculate D2E/DX2 analytically  !
- ! D80   D(24,22,25,28)        -56.8665         calculate D2E/DX2 analytically  !
- ! D81   D(22,25,28,29)        -57.6495         calculate D2E/DX2 analytically  !
- ! D82   D(22,25,28,30)         57.6788         calculate D2E/DX2 analytically  !
- ! D83   D(22,25,28,31)       -179.9857         calculate D2E/DX2 analytically  !
- ! D84   D(26,25,28,29)       -179.8797         calculate D2E/DX2 analytically  !
- ! D85   D(26,25,28,30)        -64.5514         calculate D2E/DX2 analytically  !
- ! D86   D(26,25,28,31)         57.7841         calculate D2E/DX2 analytically  !
- ! D87   D(27,25,28,29)         64.5751         calculate D2E/DX2 analytically  !
- ! D88   D(27,25,28,30)        179.9034         calculate D2E/DX2 analytically  !
- ! D89   D(27,25,28,31)        -57.7611         calculate D2E/DX2 analytically  !
- ! D90   D(25,28,31,32)         59.8716         calculate D2E/DX2 analytically  !
- ! D91   D(25,28,31,33)        -59.8258         calculate D2E/DX2 analytically  !
- ! D92   D(25,28,31,36)       -179.9766         calculate D2E/DX2 analytically  !
- ! D93   D(29,28,31,32)        -62.2532         calculate D2E/DX2 analytically  !
- ! D94   D(29,28,31,33)        178.0494         calculate D2E/DX2 analytically  !
- ! D95   D(29,28,31,36)         57.8986         calculate D2E/DX2 analytically  !
- ! D96   D(30,28,31,32)       -178.0027         calculate D2E/DX2 analytically  !
- ! D97   D(30,28,31,33)         62.2998         calculate D2E/DX2 analytically  !
- ! D98   D(30,28,31,36)        -57.851          calculate D2E/DX2 analytically  !
- ! D99   D(34,37,38,39)       -179.9945         calculate D2E/DX2 analytically  !
- ! D100  D(34,37,38,45)          0.0037         calculate D2E/DX2 analytically  !
- ! D101  D(42,37,38,39)          0.0037         calculate D2E/DX2 analytically  !
- ! D102  D(42,37,38,45)       -179.9981         calculate D2E/DX2 analytically  !
- ! D103  D(34,37,42,41)        179.995          calculate D2E/DX2 analytically  !
- ! D104  D(34,37,42,46)         -0.0027         calculate D2E/DX2 analytically  !
- ! D105  D(38,37,42,41)         -0.0032         calculate D2E/DX2 analytically  !
- ! D106  D(38,37,42,46)        179.9991         calculate D2E/DX2 analytically  !
- ! D107  D(37,38,39,40)         -0.002          calculate D2E/DX2 analytically  !
- ! D108  D(37,38,39,47)        179.998          calculate D2E/DX2 analytically  !
- ! D109  D(45,38,39,40)        179.9999         calculate D2E/DX2 analytically  !
- ! D110  D(45,38,39,47)         -0.0001         calculate D2E/DX2 analytically  !
- ! D111  D(38,39,40,41)         -0.0003         calculate D2E/DX2 analytically  !
- ! D112  D(38,39,40,43)        179.9997         calculate D2E/DX2 analytically  !
- ! D113  D(47,39,40,41)        179.9997         calculate D2E/DX2 analytically  !
- ! D114  D(47,39,40,43)         -0.0004         calculate D2E/DX2 analytically  !
- ! D115  D(39,40,41,42)          0.0008         calculate D2E/DX2 analytically  !
- ! D116  D(39,40,41,44)        179.9999         calculate D2E/DX2 analytically  !
- ! D117  D(43,40,41,42)       -179.9992         calculate D2E/DX2 analytically  !
- ! D118  D(43,40,41,44)         -0.0001         calculate D2E/DX2 analytically  !
- ! D119  D(40,41,42,37)          0.001          calculate D2E/DX2 analytically  !
- ! D120  D(40,41,42,46)        179.9987         calculate D2E/DX2 analytically  !
- ! D121  D(44,41,42,37)       -179.9981         calculate D2E/DX2 analytically  !
- ! D122  D(44,41,42,46)         -0.0005         calculate D2E/DX2 analytically  !
- ! D123  D(53,54,86,87)         -0.1085         calculate D2E/DX2 analytically  !
- ! D124  D(53,54,86,91)        179.9043         calculate D2E/DX2 analytically  !
- ! D125  D(55,54,86,87)        179.9219         calculate D2E/DX2 analytically  !
- ! D126  D(55,54,86,91)         -0.0653         calculate D2E/DX2 analytically  !
- ! D127  D(49,51,52,53)       -179.9969         calculate D2E/DX2 analytically  !
- ! D128  D(49,51,52,59)          0.01           calculate D2E/DX2 analytically  !
- ! D129  D(56,51,52,53)          0.0005         calculate D2E/DX2 analytically  !
- ! D130  D(56,51,52,59)       -179.9926         calculate D2E/DX2 analytically  !
- ! D131  D(49,51,56,55)        179.9984         calculate D2E/DX2 analytically  !
- ! D132  D(49,51,56,58)         -0.0054         calculate D2E/DX2 analytically  !
- ! D133  D(52,51,56,55)          0.001          calculate D2E/DX2 analytically  !
- ! D134  D(52,51,56,58)        179.9972         calculate D2E/DX2 analytically  !
- ! D135  D(51,52,53,54)         -0.0029         calculate D2E/DX2 analytically  !
- ! D136  D(51,52,53,57)        179.9986         calculate D2E/DX2 analytically  !
- ! D137  D(59,52,53,54)        179.99           calculate D2E/DX2 analytically  !
- ! D138  D(59,52,53,57)         -0.0085         calculate D2E/DX2 analytically  !
- ! D139  D(51,52,59,60)         56.3685         calculate D2E/DX2 analytically  !
- ! D140  D(51,52,59,61)        -56.2885         calculate D2E/DX2 analytically  !
- ! D141  D(51,52,59,62)       -179.9604         calculate D2E/DX2 analytically  !
- ! D142  D(53,52,59,60)       -123.6242         calculate D2E/DX2 analytically  !
- ! D143  D(53,52,59,61)        123.7188         calculate D2E/DX2 analytically  !
- ! D144  D(53,52,59,62)          0.0469         calculate D2E/DX2 analytically  !
- ! D145  D(52,53,54,50)       -179.992          calculate D2E/DX2 analytically  !
- ! D146  D(52,53,54,55)          0.004          calculate D2E/DX2 analytically  !
- ! D147  D(57,53,54,50)          0.0065         calculate D2E/DX2 analytically  !
- ! D148  D(57,53,54,55)       -179.9975         calculate D2E/DX2 analytically  !
- ! D149  D(50,54,55,56)        179.9935         calculate D2E/DX2 analytically  !
- ! D150  D(50,54,55,71)         -0.0076         calculate D2E/DX2 analytically  !
- ! D151  D(53,54,55,56)         -0.0024         calculate D2E/DX2 analytically  !
- ! D152  D(53,54,55,71)        179.9965         calculate D2E/DX2 analytically  !
- ! D153  D(54,55,56,51)          0.0            calculate D2E/DX2 analytically  !
- ! D154  D(54,55,56,58)       -179.9961         calculate D2E/DX2 analytically  !
- ! D155  D(71,55,56,51)       -179.9989         calculate D2E/DX2 analytically  !
- ! D156  D(71,55,56,58)          0.005          calculate D2E/DX2 analytically  !
- ! D157  D(54,55,71,72)        -56.3932         calculate D2E/DX2 analytically  !
- ! D158  D(54,55,71,73)         56.2844         calculate D2E/DX2 analytically  !
- ! D159  D(54,55,71,74)        179.9438         calculate D2E/DX2 analytically  !
- ! D160  D(56,55,71,72)        123.6057         calculate D2E/DX2 analytically  !
- ! D161  D(56,55,71,73)       -123.7168         calculate D2E/DX2 analytically  !
- ! D162  D(56,55,71,74)         -0.0573         calculate D2E/DX2 analytically  !
- ! D163  D(52,59,62,63)        -58.2514         calculate D2E/DX2 analytically  !
- ! D164  D(52,59,62,64)         58.2625         calculate D2E/DX2 analytically  !
- ! D165  D(52,59,62,65)       -179.9944         calculate D2E/DX2 analytically  !
- ! D166  D(60,59,62,63)         64.8846         calculate D2E/DX2 analytically  !
- ! D167  D(60,59,62,64)       -178.6015         calculate D2E/DX2 analytically  !
- ! D168  D(60,59,62,65)        -56.8583         calculate D2E/DX2 analytically  !
- ! D169  D(61,59,62,63)        178.6104         calculate D2E/DX2 analytically  !
- ! D170  D(61,59,62,64)        -64.8757         calculate D2E/DX2 analytically  !
- ! D171  D(61,59,62,65)         56.8674         calculate D2E/DX2 analytically  !
- ! D172  D(59,62,65,66)        -57.6378         calculate D2E/DX2 analytically  !
- ! D173  D(59,62,65,67)         57.6679         calculate D2E/DX2 analytically  !
- ! D174  D(59,62,65,68)       -179.9857         calculate D2E/DX2 analytically  !
- ! D175  D(63,62,65,66)       -179.8611         calculate D2E/DX2 analytically  !
- ! D176  D(63,62,65,67)        -64.5554         calculate D2E/DX2 analytically  !
- ! D177  D(63,62,65,68)         57.791          calculate D2E/DX2 analytically  !
- ! D178  D(64,62,65,66)         64.581          calculate D2E/DX2 analytically  !
- ! D179  D(64,62,65,67)        179.8867         calculate D2E/DX2 analytically  !
- ! D180  D(64,62,65,68)        -57.767          calculate D2E/DX2 analytically  !
- ! D181  D(62,65,68,69)         59.8735         calculate D2E/DX2 analytically  !
- ! D182  D(62,65,68,70)        -59.8237         calculate D2E/DX2 analytically  !
- ! D183  D(62,65,68,84)       -179.9746         calculate D2E/DX2 analytically  !
- ! D184  D(66,65,68,69)        -62.2584         calculate D2E/DX2 analytically  !
- ! D185  D(66,65,68,70)        178.0443         calculate D2E/DX2 analytically  !
- ! D186  D(66,65,68,84)         57.8934         calculate D2E/DX2 analytically  !
- ! D187  D(67,65,68,69)       -177.9944         calculate D2E/DX2 analytically  !
- ! D188  D(67,65,68,70)         62.3084         calculate D2E/DX2 analytically  !
- ! D189  D(67,65,68,84)        -57.8425         calculate D2E/DX2 analytically  !
- ! D190  D(55,71,74,75)        -58.2517         calculate D2E/DX2 analytically  !
- ! D191  D(55,71,74,76)         58.2509         calculate D2E/DX2 analytically  !
- ! D192  D(55,71,74,77)        179.9998         calculate D2E/DX2 analytically  !
- ! D193  D(72,71,74,75)        178.6169         calculate D2E/DX2 analytically  !
- ! D194  D(72,71,74,76)        -64.8805         calculate D2E/DX2 analytically  !
- ! D195  D(72,71,74,77)         56.8683         calculate D2E/DX2 analytically  !
- ! D196  D(73,71,74,75)         64.8756         calculate D2E/DX2 analytically  !
- ! D197  D(73,71,74,76)       -178.6217         calculate D2E/DX2 analytically  !
- ! D198  D(73,71,74,77)        -56.8729         calculate D2E/DX2 analytically  !
- ! D199  D(71,74,77,78)        -57.6834         calculate D2E/DX2 analytically  !
- ! D200  D(71,74,77,79)         57.6448         calculate D2E/DX2 analytically  !
- ! D201  D(71,74,77,80)        179.9811         calculate D2E/DX2 analytically  !
- ! D202  D(75,74,77,78)       -179.9079         calculate D2E/DX2 analytically  !
- ! D203  D(75,74,77,79)        -64.5796         calculate D2E/DX2 analytically  !
- ! D204  D(75,74,77,80)         57.7567         calculate D2E/DX2 analytically  !
- ! D205  D(76,74,77,78)         64.5469         calculate D2E/DX2 analytically  !
- ! D206  D(76,74,77,79)        179.8752         calculate D2E/DX2 analytically  !
- ! D207  D(76,74,77,80)        -57.7885         calculate D2E/DX2 analytically  !
- ! D208  D(74,77,80,81)         59.8214         calculate D2E/DX2 analytically  !
- ! D209  D(74,77,80,82)        -59.876          calculate D2E/DX2 analytically  !
- ! D210  D(74,77,80,85)        179.9721         calculate D2E/DX2 analytically  !
- ! D211  D(78,77,80,81)        -62.3042         calculate D2E/DX2 analytically  !
- ! D212  D(78,77,80,82)        177.9984         calculate D2E/DX2 analytically  !
- ! D213  D(78,77,80,85)         57.8465         calculate D2E/DX2 analytically  !
- ! D214  D(79,77,80,81)       -178.0537         calculate D2E/DX2 analytically  !
- ! D215  D(79,77,80,82)         62.2489         calculate D2E/DX2 analytically  !
- ! D216  D(79,77,80,85)        -57.903          calculate D2E/DX2 analytically  !
- ! D217  D(83,86,87,88)       -179.9989         calculate D2E/DX2 analytically  !
- ! D218  D(83,86,87,94)          0.0002         calculate D2E/DX2 analytically  !
- ! D219  D(91,86,87,88)          0.002          calculate D2E/DX2 analytically  !
- ! D220  D(91,86,87,94)       -179.9989         calculate D2E/DX2 analytically  !
- ! D221  D(83,86,91,90)        179.9983         calculate D2E/DX2 analytically  !
- ! D222  D(83,86,91,95)         -0.0016         calculate D2E/DX2 analytically  !
- ! D223  D(87,86,91,90)         -0.0026         calculate D2E/DX2 analytically  !
- ! D224  D(87,86,91,95)        179.9975         calculate D2E/DX2 analytically  !
- ! D225  D(86,87,88,89)         -0.0006         calculate D2E/DX2 analytically  !
- ! D226  D(86,87,88,96)        179.9997         calculate D2E/DX2 analytically  !
- ! D227  D(94,87,88,89)       -179.9997         calculate D2E/DX2 analytically  !
- ! D228  D(94,87,88,96)          0.0006         calculate D2E/DX2 analytically  !
- ! D229  D(87,88,89,90)         -0.0002         calculate D2E/DX2 analytically  !
- ! D230  D(87,88,89,92)       -179.9996         calculate D2E/DX2 analytically  !
- ! D231  D(96,88,89,90)        179.9994         calculate D2E/DX2 analytically  !
- ! D232  D(96,88,89,92)          0.0001         calculate D2E/DX2 analytically  !
- ! D233  D(88,89,90,91)         -0.0004         calculate D2E/DX2 analytically  !
- ! D234  D(88,89,90,93)       -179.9994         calculate D2E/DX2 analytically  !
- ! D235  D(92,89,90,91)        179.999          calculate D2E/DX2 analytically  !
- ! D236  D(92,89,90,93)          0.0            calculate D2E/DX2 analytically  !
- ! D237  D(89,90,91,86)          0.0018         calculate D2E/DX2 analytically  !
- ! D238  D(89,90,91,95)       -179.9983         calculate D2E/DX2 analytically  !
- ! D239  D(93,90,91,86)       -179.9992         calculate D2E/DX2 analytically  !
- ! D240  D(93,90,91,95)          0.0007         calculate D2E/DX2 analytically  !
- --------------------------------------------------------------------------------
- Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-06
- Number of steps in this run=    529 maximum allowed number of steps=    576.
+ Trust Radius=3.00D-01 FncErr=1.00D-07 GrdErr=1.00D-07
+ Number of steps in this run=      2 maximum allowed number of steps=      2.
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- Leave Link  103 at Fri May 10 15:44:16 2024, MaxMem=    33554432 cpu:         0.2
+ Leave Link  103 at Tue May 14 10:23:25 2024, MaxMem=    33554432 cpu:         0.1
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l202.exe)
  Stoichiometry    C46H50
  Framework group  C1[X(C46H50)]
@@ -954,7 +416,7 @@
      96          1           0       11.389171   -2.891468    0.000521
  ---------------------------------------------------------------------
  Rotational constants (GHZ):      0.0915072      0.0210237      0.0171250
- Leave Link  202 at Fri May 10 15:44:17 2024, MaxMem=    33554432 cpu:         0.0
+ Leave Link  202 at Tue May 14 10:23:26 2024, MaxMem=    33554432 cpu:         0.0
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l301.exe)
  Standard basis: 6-31+G (6D, 7F)
  Ernie: Thresh=  0.10000D-02 Tol=  0.10000D-05 Strict=F.
@@ -970,7 +432,7 @@
  Integral buffers will be    131072 words long.
  Raffenetti 2 integral format.
  Two-electron integral symmetry is turned on.
- Leave Link  301 at Fri May 10 15:44:17 2024, MaxMem=    33554432 cpu:         0.3
+ Leave Link  301 at Tue May 14 10:23:27 2024, MaxMem=    33554432 cpu:         0.3
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l302.exe)
  NPDir=0 NMtPBC=     1 NCelOv=     1 NCel=       1 NClECP=     1 NCelD=      1
          NCelK=      1 NCelE2=     1 NClLst=     1 CellRange=     0.0.
@@ -982,10 +444,10 @@
  IXCGrd= 4 IRadAn=           0 IRanWt=          -1 IRanGd=           0 AccXCQ= 0.00D+00.
  Generated NRdTot=       0 NPtTot=           0 NUsed=           0 NTot=          32
  NSgBfM=   637   638   638   642   642 MxSgAt=    96 MxSgA2=    96.
- Leave Link  302 at Fri May 10 15:44:19 2024, MaxMem=    33554432 cpu:        11.1
+ Leave Link  302 at Tue May 14 10:23:29 2024, MaxMem=    33554432 cpu:        11.3
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l303.exe)
  DipDrv:  MaxL=1.
- Leave Link  303 at Fri May 10 15:44:19 2024, MaxMem=    33554432 cpu:         0.6
+ Leave Link  303 at Tue May 14 10:23:30 2024, MaxMem=    33554432 cpu:         1.5
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l401.exe)
  ExpMin= 4.38D-02 ExpMax= 3.05D+03 ExpMxC= 4.57D+02 IAcc=2 IRadAn=         4 AccDes= 0.00D+00
  Harris functional with IExCor= 1009 and IRadAn=       4 diagonalized for initial guess.
@@ -998,7 +460,7 @@
  Petite list used in FoFCou.
  Harris En= -1780.95975485355    
  JPrj=0 DoOrth=F DoCkMO=F.
- Leave Link  401 at Fri May 10 15:44:24 2024, MaxMem=    33554432 cpu:        37.2
+ Leave Link  401 at Tue May 14 10:23:35 2024, MaxMem=    33554432 cpu:        37.0
  (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l502.exe)
  Closed shell SCF:
  Using DIIS extrapolation, IDIIS=  1040.
@@ -1020,9 +482,9 @@
          NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
  Symmetry not used in FoFCou.
  FMM levels:  10  Number of levels for PrismC:   9
- E= -1780.34873201179    
+ E= -1780.34873201169    
  DIIS: error= 4.01D-02 at cycle   1 NSaved=   1.
- NSaved= 1 IEnMin= 1 EnMin= -1780.34873201179     IErMin= 1 ErrMin= 4.01D-02
+ NSaved= 1 IEnMin= 1 EnMin= -1780.34873201169     IErMin= 1 ErrMin= 4.01D-02
  ErrMax= 4.01D-02  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.93D-01 BMatP= 7.93D-01
  IDIUse=3 WtCom= 5.99D-01 WtEn= 4.01D-01
  Coeff-Com:  0.100D+01
@@ -1035,9 +497,9 @@
 
  Cycle   2  Pass 1  IDiag  1:
  RMSU=  2.10D-02    CP:  1.26D+00
- E= -1780.84591386248     Delta-E=       -0.497181850687 Rises=F Damp=T
+ E= -1780.84591386240     Delta-E=       -0.497181850707 Rises=F Damp=T
  DIIS: error= 8.39D-03 at cycle   2 NSaved=   2.
- NSaved= 2 IEnMin= 2 EnMin= -1780.84591386248     IErMin= 2 ErrMin= 8.39D-03
+ NSaved= 2 IEnMin= 2 EnMin= -1780.84591386240     IErMin= 2 ErrMin= 8.39D-03
  ErrMax= 8.39D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.04D-02 BMatP= 7.93D-01
  IDIUse=3 WtCom= 9.16D-01 WtEn= 8.39D-02
  Coeff-Com: -0.936D-01 0.109D+01
@@ -1048,9 +510,9 @@
 
  Cycle   3  Pass 1  IDiag  1:
  RMSU=  1.54D-02    CP:  1.30D+00  9.48D-01
- E= -1781.29057972992     Delta-E=       -0.444665867441 Rises=F Damp=F
+ E= -1781.29057972999     Delta-E=       -0.444665867585 Rises=F Damp=F
  DIIS: error= 3.17D-03 at cycle   3 NSaved=   3.
- NSaved= 3 IEnMin= 3 EnMin= -1781.29057972992     IErMin= 3 ErrMin= 3.17D-03
+ NSaved= 3 IEnMin= 3 EnMin= -1781.29057972999     IErMin= 3 ErrMin= 3.17D-03
  ErrMax= 3.17D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.13D-03 BMatP= 3.04D-02
  IDIUse=3 WtCom= 9.68D-01 WtEn= 3.17D-02
  Coeff-Com: -0.378D-01 0.295D+00 0.743D+00
@@ -1061,9 +523,9 @@
 
  Cycle   4  Pass 1  IDiag  1:
  RMSU=  1.62D-03    CP:  1.32D+00  9.81D-01  9.81D-01
- E= -1781.29536163907     Delta-E=       -0.004781909142 Rises=F Damp=F
+ E= -1781.29536163898     Delta-E=       -0.004781908996 Rises=F Damp=F
  DIIS: error= 2.72D-03 at cycle   4 NSaved=   4.
- NSaved= 4 IEnMin= 4 EnMin= -1781.29536163907     IErMin= 4 ErrMin= 2.72D-03
+ NSaved= 4 IEnMin= 4 EnMin= -1781.29536163898     IErMin= 4 ErrMin= 2.72D-03
  ErrMax= 2.72D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.28D-03 BMatP= 5.13D-03
  IDIUse=3 WtCom= 9.73D-01 WtEn= 2.72D-02
  Coeff-Com: -0.261D-02 0.211D-01 0.333D+00 0.649D+00
@@ -1074,9 +536,9 @@
 
  Cycle   5  Pass 1  IDiag  1:
  RMSU=  5.80D-04    CP:  1.30D+00  9.61D-01  9.80D-01  7.11D-01
- E= -1781.29685045159     Delta-E=       -0.001488812524 Rises=F Damp=F
+ E= -1781.29685045164     Delta-E=       -0.001488812655 Rises=F Damp=F
  DIIS: error= 1.20D-03 at cycle   5 NSaved=   5.
- NSaved= 5 IEnMin= 5 EnMin= -1781.29685045159     IErMin= 5 ErrMin= 1.20D-03
+ NSaved= 5 IEnMin= 5 EnMin= -1781.29685045164     IErMin= 5 ErrMin= 1.20D-03
  ErrMax= 1.20D-03  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.49D-04 BMatP= 1.28D-03
  IDIUse=3 WtCom= 9.88D-01 WtEn= 1.20D-02
  Coeff-Com:  0.129D-02-0.545D-02 0.138D+00 0.358D+00 0.509D+00
@@ -1087,9 +549,9 @@
 
  Cycle   6  Pass 1  IDiag  1:
  RMSU=  1.20D-04    CP:  1.30D+00  9.57D-01  9.85D-01  7.53D-01  8.13D-01
- E= -1781.29702295313     Delta-E=       -0.000172501540 Rises=F Damp=F
+ E= -1781.29702295347     Delta-E=       -0.000172501831 Rises=F Damp=F
  DIIS: error= 1.87D-04 at cycle   6 NSaved=   6.
- NSaved= 6 IEnMin= 6 EnMin= -1781.29702295313     IErMin= 6 ErrMin= 1.87D-04
+ NSaved= 6 IEnMin= 6 EnMin= -1781.29702295347     IErMin= 6 ErrMin= 1.87D-04
  ErrMax= 1.87D-04  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.17D-06 BMatP= 1.49D-04
  IDIUse=3 WtCom= 9.98D-01 WtEn= 1.87D-03
  Coeff-Com:  0.107D-02-0.446D-02 0.261D-01 0.907D-01 0.210D+00 0.676D+00
@@ -1101,9 +563,9 @@
  Cycle   7  Pass 1  IDiag  1:
  RMSU=  3.57D-05    CP:  1.30D+00  9.56D-01  9.86D-01  7.61D-01  8.36D-01
                     CP:  9.46D-01
- E= -1781.29702821103     Delta-E=       -0.000005257901 Rises=F Damp=F
+ E= -1781.29702821080     Delta-E=       -0.000005257338 Rises=F Damp=F
  DIIS: error= 7.72D-05 at cycle   7 NSaved=   7.
- NSaved= 7 IEnMin= 7 EnMin= -1781.29702821103     IErMin= 7 ErrMin= 7.72D-05
+ NSaved= 7 IEnMin= 7 EnMin= -1781.29702821080     IErMin= 7 ErrMin= 7.72D-05
  ErrMax= 7.72D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.35D-06 BMatP= 6.17D-06
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.550D-03-0.212D-02-0.515D-02 0.280D-02 0.547D-01 0.427D+00
@@ -1116,9 +578,9 @@
  Cycle   8  Pass 1  IDiag  1:
  RMSU=  1.36D-05    CP:  1.30D+00  9.55D-01  9.86D-01  7.65D-01  8.45D-01
                     CP:  9.81D-01  9.78D-01
- E= -1781.29703069956     Delta-E=       -0.000002488528 Rises=F Damp=F
+ E= -1781.29703069930     Delta-E=       -0.000002488492 Rises=F Damp=F
  DIIS: error= 2.15D-05 at cycle   8 NSaved=   8.
- NSaved= 8 IEnMin= 8 EnMin= -1781.29703069956     IErMin= 8 ErrMin= 2.15D-05
+ NSaved= 8 IEnMin= 8 EnMin= -1781.29703069930     IErMin= 8 ErrMin= 2.15D-05
  ErrMax= 2.15D-05  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.49D-07 BMatP= 2.35D-06
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com:  0.206D-03-0.762D-03-0.509D-02-0.664D-02 0.104D-01 0.166D+00
@@ -1131,9 +593,9 @@
  Cycle   9  Pass 1  IDiag  1:
  RMSU=  4.28D-06    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.48D-01
                     CP:  9.95D-01  1.02D+00  1.04D+00
- E= -1781.29703085103     Delta-E=       -0.000000151471 Rises=F Damp=F
+ E= -1781.29703085107     Delta-E=       -0.000000151777 Rises=F Damp=F
  DIIS: error= 9.89D-06 at cycle   9 NSaved=   9.
- NSaved= 9 IEnMin= 9 EnMin= -1781.29703085103     IErMin= 9 ErrMin= 9.89D-06
+ NSaved= 9 IEnMin= 9 EnMin= -1781.29703085107     IErMin= 9 ErrMin= 9.89D-06
  ErrMax= 9.89D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.30D-08 BMatP= 1.49D-07
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.887D-05 0.411D-04-0.157D-02-0.421D-02-0.656D-02-0.648D-02
@@ -1141,14 +603,14 @@
  Coeff:     -0.887D-05 0.411D-04-0.157D-02-0.421D-02-0.656D-02-0.648D-02
  Coeff:      0.279D-01 0.301D+00 0.690D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=3.86D-06 MaxDP=3.06D-04 DE=-1.51D-07 OVMax= 7.65D-05
+ RMSDP=3.86D-06 MaxDP=3.06D-04 DE=-1.52D-07 OVMax= 7.65D-05
 
  Cycle  10  Pass 1  IDiag  1:
  RMSU=  2.46D-06    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.51D-01
                     CP:  1.00D+00  1.04D+00  1.10D+00  9.24D-01
- E= -1781.29703087975     Delta-E=       -0.000000028725 Rises=F Damp=F
+ E= -1781.29703087977     Delta-E=       -0.000000028697 Rises=F Damp=F
  DIIS: error= 3.41D-06 at cycle  10 NSaved=  10.
- NSaved=10 IEnMin=10 EnMin= -1781.29703087975     IErMin=10 ErrMin= 3.41D-06
+ NSaved=10 IEnMin=10 EnMin= -1781.29703087977     IErMin=10 ErrMin= 3.41D-06
  ErrMax= 3.41D-06  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.63D-09 BMatP= 2.30D-08
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.208D-04 0.799D-04-0.391D-03-0.161D-02-0.427D-02-0.166D-01
@@ -1156,14 +618,14 @@
  Coeff:     -0.208D-04 0.799D-04-0.391D-03-0.161D-02-0.427D-02-0.166D-01
  Coeff:     -0.751D-02 0.112D+00 0.367D+00 0.551D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=8.72D-07 MaxDP=5.96D-05 DE=-2.87D-08 OVMax= 2.28D-05
+ RMSDP=8.71D-07 MaxDP=5.95D-05 DE=-2.87D-08 OVMax= 2.28D-05
 
  Cycle  11  Pass 1  IDiag  1:
  RMSU=  5.27D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
                     CP:  1.00D+00  1.05D+00  1.12D+00  1.01D+00  9.67D-01
- E= -1781.29703088326     Delta-E=       -0.000000003502 Rises=F Damp=F
+ E= -1781.29703088319     Delta-E=       -0.000000003419 Rises=F Damp=F
  DIIS: error= 7.39D-07 at cycle  11 NSaved=  11.
- NSaved=11 IEnMin=11 EnMin= -1781.29703088326     IErMin=11 ErrMin= 7.39D-07
+ NSaved=11 IEnMin=11 EnMin= -1781.29703088319     IErMin=11 ErrMin= 7.39D-07
  ErrMax= 7.39D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.56D-11 BMatP= 2.63D-09
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.335D-05 0.120D-04 0.118D-03 0.198D-03-0.132D-03-0.230D-02
@@ -1171,15 +633,15 @@
  Coeff:     -0.335D-05 0.120D-04 0.118D-03 0.198D-03-0.132D-03-0.230D-02
  Coeff:     -0.500D-02-0.145D-01-0.901D-02 0.123D+00 0.908D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=1.47D-06 MaxDP=2.14D-04 DE=-3.50D-09 OVMax= 7.09D-06
+ RMSDP=1.46D-06 MaxDP=2.06D-04 DE=-3.42D-09 OVMax= 7.09D-06
 
  Cycle  12  Pass 1  IDiag  1:
- RMSU=  1.15D-06    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.04D+00  1.03D+00
-                    CP:  1.08D+00
- E= -1781.29703088293     Delta-E=        0.000000000327 Rises=F Damp=F
+ RMSU=  1.13D-06    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
+                    CP:  1.00D+00  1.05D+00  1.13D+00  1.03D+00  1.03D+00
+                    CP:  1.07D+00
+ E= -1781.29703088314     Delta-E=        0.000000000047 Rises=F Damp=F
  DIIS: error= 1.59D-07 at cycle  12 NSaved=  12.
- NSaved=12 IEnMin=11 EnMin= -1781.29703088326     IErMin=12 ErrMin= 1.59D-07
+ NSaved=12 IEnMin=11 EnMin= -1781.29703088319     IErMin=12 ErrMin= 1.59D-07
  ErrMax= 1.59D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.21D-11 BMatP= 7.56D-11
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
  Coeff-Com: -0.714D-06 0.229D-05 0.716D-04 0.162D-03 0.135D-03-0.253D-03
@@ -1187,516 +649,1717 @@
  Coeff:     -0.714D-06 0.229D-05 0.716D-04 0.162D-03 0.135D-03-0.253D-03
  Coeff:     -0.195D-02-0.122D-01-0.227D-01 0.268D-01 0.409D+00 0.601D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=3.17D-07 MaxDP=4.63D-05 DE= 3.27D-10 OVMax= 1.27D-06
+ RMSDP=3.10D-07 MaxDP=4.31D-05 DE= 4.73D-11 OVMax= 1.27D-06
 
  Cycle  13  Pass 1  IDiag  1:
- RMSU=  1.40D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
+ RMSU=  1.46D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
                     CP:  1.00D+00  1.05D+00  1.13D+00  1.04D+00  1.06D+00
-                    CP:  1.15D+00  1.21D+00
- E= -1781.29703088331     Delta-E=       -0.000000000385 Rises=F Damp=F
+                    CP:  1.14D+00  1.19D+00
+ E= -1781.29703088339     Delta-E=       -0.000000000247 Rises=F Damp=F
  DIIS: error= 5.05D-08 at cycle  13 NSaved=  13.
- NSaved=13 IEnMin=13 EnMin= -1781.29703088331     IErMin=13 ErrMin= 5.05D-08
- ErrMax= 5.05D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 8.17D-13 BMatP= 1.21D-11
+ NSaved=13 IEnMin=13 EnMin= -1781.29703088339     IErMin=13 ErrMin= 5.05D-08
+ ErrMax= 5.05D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 8.16D-13 BMatP= 1.21D-11
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Coeff-Com:  0.165D-06-0.762D-06 0.880D-05 0.279D-04 0.708D-04 0.261D-03
- Coeff-Com:  0.306D-04-0.221D-02-0.658D-02-0.796D-02 0.159D-01 0.202D+00
+ Coeff-Com:  0.166D-06-0.764D-06 0.878D-05 0.279D-04 0.709D-04 0.261D-03
+ Coeff-Com:  0.312D-04-0.221D-02-0.658D-02-0.797D-02 0.159D-01 0.202D+00
  Coeff-Com:  0.798D+00
- Coeff:      0.165D-06-0.762D-06 0.880D-05 0.279D-04 0.708D-04 0.261D-03
- Coeff:      0.306D-04-0.221D-02-0.658D-02-0.796D-02 0.159D-01 0.202D+00
+ Coeff:      0.166D-06-0.764D-06 0.878D-05 0.279D-04 0.709D-04 0.261D-03
+ Coeff:      0.312D-04-0.221D-02-0.658D-02-0.797D-02 0.159D-01 0.202D+00
  Coeff:      0.798D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=4.84D-07 MaxDP=4.84D-05 DE=-3.85D-10 OVMax= 4.98D-07
+ RMSDP=4.66D-07 MaxDP=5.09D-05 DE=-2.47D-10 OVMax= 4.98D-07
 
  Cycle  14  Pass 1  IDiag  1:
- RMSU=  2.78D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
+ RMSU=  2.19D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
                     CP:  1.00D+00  1.05D+00  1.13D+00  1.04D+00  1.09D+00
-                    CP:  1.29D+00  1.46D+00  1.54D+00
- E= -1781.29703088317     Delta-E=        0.000000000146 Rises=F Damp=F
- DIIS: error= 3.07D-08 at cycle  14 NSaved=  14.
- NSaved=14 IEnMin=13 EnMin= -1781.29703088331     IErMin=14 ErrMin= 3.07D-08
- ErrMax= 3.07D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.85D-13 BMatP= 8.17D-13
+                    CP:  1.27D+00  1.45D+00  1.82D+00
+ E= -1781.29703088322     Delta-E=        0.000000000175 Rises=F Damp=F
+ DIIS: error= 3.08D-08 at cycle  14 NSaved=  14.
+ NSaved=14 IEnMin=13 EnMin= -1781.29703088339     IErMin=14 ErrMin= 3.08D-08
+ ErrMax= 3.08D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.90D-13 BMatP= 8.16D-13
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Coeff-Com:  0.123D-06-0.546D-06-0.214D-06 0.338D-05 0.291D-04 0.159D-03
- Coeff-Com:  0.143D-03-0.345D-03-0.195D-02-0.639D-02-0.210D-01 0.700D-01
- Coeff-Com:  0.423D+00 0.536D+00
- Coeff:      0.123D-06-0.546D-06-0.214D-06 0.338D-05 0.291D-04 0.159D-03
- Coeff:      0.143D-03-0.345D-03-0.195D-02-0.639D-02-0.210D-01 0.700D-01
- Coeff:      0.423D+00 0.536D+00
+ Coeff-Com:  0.124D-06-0.548D-06-0.102D-06 0.367D-05 0.296D-04 0.160D-03
+ Coeff-Com:  0.142D-03-0.368D-03-0.201D-02-0.640D-02-0.205D-01 0.715D-01
+ Coeff-Com:  0.427D+00 0.530D+00
+ Coeff:      0.124D-06-0.548D-06-0.102D-06 0.367D-05 0.296D-04 0.160D-03
+ Coeff:      0.142D-03-0.368D-03-0.201D-02-0.640D-02-0.205D-01 0.715D-01
+ Coeff:      0.427D+00 0.530D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=3.74D-07 MaxDP=4.12D-05 DE= 1.46D-10 OVMax= 1.61D-07
+ RMSDP=4.85D-07 MaxDP=5.60D-05 DE= 1.75D-10 OVMax= 1.59D-07
 
  Cycle  15  Pass 1  IDiag  1:
- RMSU=  1.35D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.04D+00  1.12D+00
-                    CP:  1.36D+00  1.61D+00  2.45D+00  1.48D+00
- E= -1781.29703088304     Delta-E=        0.000000000126 Rises=F Damp=F
- DIIS: error= 1.33D-08 at cycle  15 NSaved=  15.
- NSaved=15 IEnMin=13 EnMin= -1781.29703088331     IErMin=15 ErrMin= 1.33D-08
- ErrMax= 1.33D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.19D-14 BMatP= 1.85D-13
+ RMSU=  1.34D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  1.00D+00  1.05D+00  1.13D+00  1.05D+00  1.14D+00
+                    CP:  1.36D+00  1.67D+00  2.90D+00  1.89D+00
+ E= -1781.29703088296     Delta-E=        0.000000000258 Rises=F Damp=F
+ DIIS: error= 1.51D-08 at cycle  15 NSaved=  15.
+ NSaved=15 IEnMin=13 EnMin= -1781.29703088339     IErMin=15 ErrMin= 1.51D-08
+ ErrMax= 1.51D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.92D-14 BMatP= 1.90D-13
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Coeff-Com:  0.633D-07-0.294D-06-0.539D-06 0.666D-06 0.151D-04 0.889D-04
- Coeff-Com:  0.844D-04-0.123D-03-0.926D-03-0.370D-02-0.141D-01 0.369D-01
- Coeff-Com:  0.229D+00 0.346D+00 0.406D+00
- Coeff:      0.633D-07-0.294D-06-0.539D-06 0.666D-06 0.151D-04 0.889D-04
- Coeff:      0.844D-04-0.123D-03-0.926D-03-0.370D-02-0.141D-01 0.369D-01
- Coeff:      0.229D+00 0.346D+00 0.406D+00
+ Coeff-Com:  0.734D-07-0.337D-06-0.341D-06 0.149D-05 0.180D-04 0.101D-03
+ Coeff-Com:  0.915D-04-0.189D-03-0.116D-02-0.415D-02-0.145D-01 0.442D-01
+ Coeff-Com:  0.266D+00 0.365D+00 0.345D+00
+ Coeff:      0.734D-07-0.337D-06-0.341D-06 0.149D-05 0.180D-04 0.101D-03
+ Coeff:      0.915D-04-0.189D-03-0.116D-02-0.415D-02-0.145D-01 0.442D-01
+ Coeff:      0.266D+00 0.365D+00 0.345D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=3.82D-07 MaxDP=5.52D-05 DE= 1.26D-10 OVMax= 2.47D-08
+ RMSDP=3.87D-07 MaxDP=5.82D-05 DE= 2.58D-10 OVMax= 2.35D-08
 
  Cycle  16  Pass 1  IDiag  1:
- RMSU=  8.23D-08    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
-                    CP:  9.99D-01  1.05D+00  1.13D+00  1.04D+00  1.15D+00
-                    CP:  1.47D+00  1.71D+00  2.99D+00  2.11D+00  1.67D+00
- E= -1781.29703088300     Delta-E=        0.000000000044 Rises=F Damp=F
- DIIS: error= 1.98D-08 at cycle  16 NSaved=  16.
- NSaved=16 IEnMin=13 EnMin= -1781.29703088331     IErMin=15 ErrMin= 1.33D-08
- ErrMax= 1.98D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 8.43D-14 BMatP= 5.19D-14
+ RMSU=  1.39D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  9.99D-01  1.05D+00  1.14D+00  1.05D+00  1.16D+00
+                    CP:  1.46D+00  1.77D+00  3.00D+00  2.64D+00  1.58D+00
+ E= -1781.29703088327     Delta-E=       -0.000000000311 Rises=F Damp=F
+ DIIS: error= 1.95D-08 at cycle  16 NSaved=  16.
+ NSaved=16 IEnMin=13 EnMin= -1781.29703088339     IErMin=15 ErrMin= 1.51D-08
+ ErrMax= 1.95D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.64D-14 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Coeff-Com:  0.525D-07-0.255D-06-0.108D-05-0.105D-05 0.116D-04 0.773D-04
- Coeff-Com:  0.837D-04-0.330D-05-0.579D-03-0.344D-02-0.158D-01 0.277D-01
- Coeff-Com:  0.194D+00 0.368D+00 0.965D+00-0.535D+00
- Coeff:      0.525D-07-0.255D-06-0.108D-05-0.105D-05 0.116D-04 0.773D-04
- Coeff:      0.837D-04-0.330D-05-0.579D-03-0.344D-02-0.158D-01 0.277D-01
- Coeff:      0.194D+00 0.368D+00 0.965D+00-0.535D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-8.43D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.599D-07-0.375D-06-0.381D-06 0.100D-04 0.596D-04 0.527D-04
+ Coeff-Com: -0.921D-04-0.712D-03-0.334D-02-0.136D-01 0.376D-01 0.232D+00
+ Coeff-Com:  0.374D+00 0.797D+00-0.422D+00
+ Coeff:     -0.599D-07-0.375D-06-0.381D-06 0.100D-04 0.596D-04 0.527D-04
+ Coeff:     -0.921D-04-0.712D-03-0.334D-02-0.136D-01 0.376D-01 0.232D+00
+ Coeff:      0.374D+00 0.797D+00-0.422D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=4.15D-07 MaxDP=4.52D-05 DE= 4.37D-11 OVMax= 2.70D-08
+ RMSDP=2.39D-07 MaxDP=4.29D-05 DE=-3.11D-10 OVMax= 1.37D-08
 
  Cycle  17  Pass 1  IDiag  1:
- RMSU=  1.53D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.03D+00  1.12D+00
-                    CP:  1.40D+00  1.55D+00  2.23D+00  2.18D+00  3.70D-01
-                    CP: -7.11D-02
- E= -1781.29703088287     Delta-E=        0.000000000132 Rises=F Damp=F
- DIIS: error= 1.46D-08 at cycle  17 NSaved=  17.
- NSaved=17 IEnMin=13 EnMin= -1781.29703088331     IErMin=15 ErrMin= 1.33D-08
- ErrMax= 1.46D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.71D-14 BMatP= 5.19D-14
+ RMSU=  1.23D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  1.00D+00  1.05D+00  1.14D+00  1.05D+00  1.15D+00
+                    CP:  1.43D+00  1.70D+00  3.00D+00  2.62D+00  8.25D-01
+                    CP:  3.10D-01
+ E= -1781.29703088307     Delta-E=        0.000000000198 Rises=F Damp=F
+ DIIS: error= 1.97D-08 at cycle  17 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703088339     IErMin=14 ErrMin= 1.51D-08
+ ErrMax= 1.97D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.63D-14 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Coeff-Com:  0.362D-07-0.181D-06-0.932D-06-0.120D-05 0.799D-05 0.564D-04
- Coeff-Com:  0.618D-04 0.240D-04-0.350D-03-0.249D-02-0.120D-01 0.192D-01
- Coeff-Com:  0.135D+00 0.276D+00 0.842D+00-0.745D+00 0.487D+00
- Coeff:      0.362D-07-0.181D-06-0.932D-06-0.120D-05 0.799D-05 0.564D-04
- Coeff:      0.618D-04 0.240D-04-0.350D-03-0.249D-02-0.120D-01 0.192D-01
- Coeff:      0.135D+00 0.276D+00 0.842D+00-0.745D+00 0.487D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-6.83D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.348D-06-0.413D-06 0.967D-05 0.588D-04 0.529D-04-0.837D-04
+ Coeff-Com: -0.678D-03-0.320D-02-0.130D-01 0.358D-01 0.219D+00 0.353D+00
+ Coeff-Com:  0.752D+00-0.612D+00 0.270D+00
+ Coeff:     -0.348D-06-0.413D-06 0.967D-05 0.588D-04 0.529D-04-0.837D-04
+ Coeff:     -0.678D-03-0.320D-02-0.130D-01 0.358D-01 0.219D+00 0.353D+00
+ Coeff:      0.752D+00-0.612D+00 0.270D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=2.56D-07 MaxDP=2.89D-05 DE= 1.32D-10 OVMax= 1.48D-08
+ RMSDP=8.79D-08 MaxDP=6.72D-06 DE= 1.98D-10 OVMax= 5.36D-09
 
  Cycle  18  Pass 1  IDiag  1:
- RMSU=  1.11D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.02D+00  1.13D+00
-                    CP:  1.34D+00  1.57D+00  2.71D+00  2.34D+00  5.82D-01
-                    CP: -1.94D+00  1.71D+00
- E= -1781.29703088288     Delta-E=       -0.000000000018 Rises=F Damp=F
- DIIS: error= 1.33D-08 at cycle  18 NSaved=  18.
- NSaved=18 IEnMin=13 EnMin= -1781.29703088331     IErMin=15 ErrMin= 1.33D-08
- ErrMax= 1.33D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.77D-14 BMatP= 4.71D-14
+ RMSU=  5.91D-08    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  1.00D+00  1.05D+00  1.14D+00  1.05D+00  1.15D+00
+                    CP:  1.42D+00  1.72D+00  3.00D+00  2.71D+00  1.03D+00
+                    CP:  2.03D-02  1.14D+00
+ E= -1781.29703088301     Delta-E=        0.000000000061 Rises=F Damp=F
+ DIIS: error= 1.52D-08 at cycle  18 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703088339     IErMin=13 ErrMin= 1.51D-08
+ ErrMax= 1.52D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.92D-14 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Large coefficients: NSaved= 18 BigCof=    0.00 CofMax=   10.00 Det=-5.53D-15
- Inversion failed.  Reducing to 17 matrices.
- Large coefficients: NSaved= 17 BigCof=    0.00 CofMax=   10.00 Det=-5.65D-15
- Inversion failed.  Reducing to 16 matrices.
- Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.65D-15
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.90D-15
  Inversion failed.  Reducing to 15 matrices.
- Coeff-Com: -0.689D-07 0.619D-05 0.332D-04 0.265D-04-0.620D-06-0.236D-03
- Coeff-Com: -0.200D-02-0.104D-01 0.141D-01 0.101D+00 0.304D+00 0.143D+01
- Coeff-Com: -0.120D+01 0.828D+00-0.468D+00
- Coeff:     -0.689D-07 0.619D-05 0.332D-04 0.265D-04-0.620D-06-0.236D-03
- Coeff:     -0.200D-02-0.104D-01 0.141D-01 0.101D+00 0.304D+00 0.143D+01
- Coeff:     -0.120D+01 0.828D+00-0.468D+00
+ Coeff-Com:  0.420D-06 0.106D-04 0.588D-04 0.472D-04-0.124D-03-0.761D-03
+ Coeff-Com: -0.318D-02-0.122D-01 0.368D-01 0.220D+00 0.352D+00 0.752D+00
+ Coeff-Com: -0.612D+00 0.284D+00-0.151D-01
+ Coeff:      0.420D-06 0.106D-04 0.588D-04 0.472D-04-0.124D-03-0.761D-03
+ Coeff:     -0.318D-02-0.122D-01 0.368D-01 0.220D+00 0.352D+00 0.752D+00
+ Coeff:     -0.612D+00 0.284D+00-0.151D-01
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=3.52D-07 MaxDP=4.18D-05 DE=-1.82D-11 OVMax= 2.38D-08
+ RMSDP=7.96D-09 MaxDP=1.05D-06 DE= 6.09D-11 OVMax= 5.66D-10
 
  Cycle  19  Pass 1  IDiag  1:
- RMSU=  1.22D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.03D+00  1.10D+00
-                    CP:  1.27D+00  1.52D+00  1.96D+00  1.56D+00  2.34D-02
-                    CP: -1.87D+00  7.15D-01  4.30D-01
- E= -1781.29703088315     Delta-E=       -0.000000000264 Rises=F Damp=F
- DIIS: error= 1.24D-08 at cycle  19 NSaved=  16.
- NSaved=16 IEnMin=10 EnMin= -1781.29703088331     IErMin=16 ErrMin= 1.24D-08
- ErrMax= 1.24D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 5.64D-14 BMatP= 4.71D-14
+ RMSU=  4.18D-09    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  1.00D+00  1.05D+00  1.14D+00  1.05D+00  1.15D+00
+                    CP:  1.42D+00  1.72D+00  3.00D+00  2.70D+00  1.04D+00
+                    CP:  1.19D-02  1.11D+00  1.00D+00
+ E= -1781.29703088314     Delta-E=       -0.000000000126 Rises=F Damp=F
+ DIIS: error= 1.56D-08 at cycle  19 NSaved=  16.
+ NSaved=16 IEnMin=10 EnMin= -1781.29703088339     IErMin=12 ErrMin= 1.51D-08
+ ErrMax= 1.56D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.27D-14 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.30D-15
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.18D-15
  Inversion failed.  Reducing to 15 matrices.
- Coeff-Com:  0.496D-05 0.265D-04 0.195D-04 0.440D-05-0.154D-03-0.147D-02
- Coeff-Com: -0.782D-02 0.944D-02 0.666D-01 0.231D+00 0.123D+01-0.106D+01
- Coeff-Com:  0.904D+00-0.777D+00 0.403D+00
- Coeff:      0.496D-05 0.265D-04 0.195D-04 0.440D-05-0.154D-03-0.147D-02
- Coeff:     -0.782D-02 0.944D-02 0.666D-01 0.231D+00 0.123D+01-0.106D+01
- Coeff:      0.904D+00-0.777D+00 0.403D+00
+ Coeff-Com:  0.929D-05 0.527D-04 0.438D-04-0.924D-04-0.658D-03-0.307D-02
+ Coeff-Com: -0.124D-01 0.356D-01 0.216D+00 0.350D+00 0.763D+00-0.623D+00
+ Coeff-Com:  0.285D+00-0.750D-01 0.641D-01
+ Coeff:      0.929D-05 0.527D-04 0.438D-04-0.924D-04-0.658D-03-0.307D-02
+ Coeff:     -0.124D-01 0.356D-01 0.216D+00 0.350D+00 0.763D+00-0.623D+00
+ Coeff:      0.285D+00-0.750D-01 0.641D-01
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=2.57D-07 MaxDP=3.45D-05 DE=-2.64D-10 OVMax= 1.33D-08
+ RMSDP=2.04D-08 MaxDP=2.63D-06 DE=-1.26D-10 OVMax= 1.78D-09
 
  Cycle  20  Pass 1  IDiag  1:
- RMSU=  1.36D-07    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.52D-01
-                    CP:  1.00D+00  1.05D+00  1.13D+00  1.04D+00  1.11D+00
-                    CP:  1.27D+00  1.62D+00  1.85D+00  1.24D+00 -1.56D-01
-                    CP: -1.39D+00  1.38D-01 -4.00D-01  9.80D-01
- E= -1781.29703088316     Delta-E=       -0.000000000011 Rises=F Damp=F
- DIIS: error= 1.17D-08 at cycle  20 NSaved=  16.
- NSaved=16 IEnMin= 9 EnMin= -1781.29703088331     IErMin=16 ErrMin= 1.17D-08
- ErrMax= 1.17D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.82D-14 BMatP= 4.71D-14
+ RMSU=  1.46D-08    CP:  1.30D+00  9.55D-01  9.86D-01  7.66D-01  8.53D-01
+                    CP:  1.00D+00  1.05D+00  1.14D+00  1.05D+00  1.15D+00
+                    CP:  1.42D+00  1.71D+00  3.00D+00  2.71D+00  1.04D+00
+                    CP: -2.71D-02  1.16D+00  1.06D+00  1.15D+00
+ E= -1781.29703088327     Delta-E=       -0.000000000133 Rises=F Damp=F
+ DIIS: error= 1.74D-08 at cycle  20 NSaved=  16.
+ NSaved=16 IEnMin= 9 EnMin= -1781.29703088339     IErMin=11 ErrMin= 1.51D-08
+ ErrMax= 1.74D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 8.79D-14 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.15D-15
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.28D-15
  Inversion failed.  Reducing to 15 matrices.
- Coeff-Com:  0.783D-06-0.548D-05 0.460D-04 0.117D-03-0.536D-03-0.432D-02
- Coeff-Com:  0.251D-02 0.191D-01 0.178D+00 0.118D+01-0.103D+01 0.946D+00
- Coeff-Com: -0.784D+00 0.393D+00 0.963D-01
- Coeff:      0.783D-06-0.548D-05 0.460D-04 0.117D-03-0.536D-03-0.432D-02
- Coeff:      0.251D-02 0.191D-01 0.178D+00 0.118D+01-0.103D+01 0.946D+00
- Coeff:     -0.784D+00 0.393D+00 0.963D-01
+ Coeff-Com:  0.486D-05-0.255D-05-0.732D-05-0.150D-03-0.152D-02-0.716D-02
+ Coeff-Com:  0.245D-01 0.142D+00 0.297D+00 0.886D+00-0.656D+00 0.330D+00
+ Coeff-Com: -0.116D+00 0.267D+00-0.166D+00
+ Coeff:      0.486D-05-0.255D-05-0.732D-05-0.150D-03-0.152D-02-0.716D-02
+ Coeff:      0.245D-01 0.142D+00 0.297D+00 0.886D+00-0.656D+00 0.330D+00
+ Coeff:     -0.116D+00 0.267D+00-0.166D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=7.82D-08 MaxDP=7.49D-06 DE=-1.09D-11 OVMax= 7.89D-09
+ RMSDP=1.43D-07 MaxDP=1.92D-05 DE=-1.33D-10 OVMax= 1.64D-08
 
  Cycle  21  Pass 1  IDiag  1:
  Restarting incremental Fock formation.
- E= -1781.29703088684     Delta-E=       -0.000000003679 Rises=F Damp=F
- DIIS: error= 3.29D-07 at cycle  21 NSaved=  16.
- NSaved=16 IEnMin=16 EnMin= -1781.29703088684     IErMin=15 ErrMin= 1.17D-08
- ErrMax= 3.29D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.45D-11 BMatP= 3.82D-14
+ E= -1781.29703088680     Delta-E=       -0.000000003528 Rises=F Damp=F
+ DIIS: error= 3.27D-07 at cycle  21 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088680     IErMin=10 ErrMin= 1.51D-08
+ ErrMax= 3.27D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.44D-11 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.15D-15
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.26D-15
  Inversion failed.  Reducing to 15 matrices.
- Coeff-Com: -0.628D-05 0.474D-04 0.124D-03-0.529D-03-0.436D-02 0.235D-02
- Coeff-Com:  0.185D-01 0.178D+00 0.118D+01-0.103D+01 0.950D+00-0.789D+00
- Coeff-Com:  0.397D+00 0.933D-01 0.885D-03
- Coeff:     -0.628D-05 0.474D-04 0.124D-03-0.529D-03-0.436D-02 0.235D-02
- Coeff:      0.185D-01 0.178D+00 0.118D+01-0.103D+01 0.950D+00-0.789D+00
- Coeff:      0.397D+00 0.933D-01 0.885D-03
+ Coeff-Com: -0.753D-05 0.337D-06-0.111D-03-0.150D-02-0.744D-02 0.238D-01
+ Coeff-Com:  0.140D+00 0.297D+00 0.888D+00-0.657D+00 0.332D+00-0.113D+00
+ Coeff-Com:  0.261D+00-0.163D+00 0.767D-03
+ Coeff:     -0.753D-05 0.337D-06-0.111D-03-0.150D-02-0.744D-02 0.238D-01
+ Coeff:      0.140D+00 0.297D+00 0.888D+00-0.657D+00 0.332D+00-0.113D+00
+ Coeff:      0.261D+00-0.163D+00 0.767D-03
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=1.63D-08 MaxDP=1.58D-06 DE=-3.68D-09 OVMax= 1.02D-09
+ RMSDP=1.66D-08 MaxDP=1.76D-06 DE=-3.53D-09 OVMax= 2.81D-09
 
  Cycle  22  Pass 1  IDiag  1:
  RMSU=  1.58D-08    CP:  1.00D+00
- E= -1781.29703088674     Delta-E=        0.000000000096 Rises=F Damp=F
- DIIS: error= 3.29D-07 at cycle  22 NSaved=  16.
- NSaved=16 IEnMin=15 EnMin= -1781.29703088684     IErMin=14 ErrMin= 1.17D-08
- ErrMax= 3.29D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.45D-11 BMatP= 3.82D-14
+ E= -1781.29703088685     Delta-E=       -0.000000000056 Rises=F Damp=F
+ DIIS: error= 3.27D-07 at cycle  22 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088685     IErMin= 9 ErrMin= 1.51D-08
+ ErrMax= 3.27D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.45D-11 BMatP= 5.92D-14
  IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
- Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.15D-15
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.24D-15
  Inversion failed.  Reducing to 15 matrices.
- Coeff-Com:  0.778D-04 0.176D-03-0.583D-03-0.516D-02 0.149D-02 0.186D-01
- Coeff-Com:  0.179D+00 0.119D+01-0.103D+01 0.951D+00-0.791D+00 0.400D+00
- Coeff-Com:  0.912D-01 0.259D-01-0.250D-01
- Coeff:      0.778D-04 0.176D-03-0.583D-03-0.516D-02 0.149D-02 0.186D-01
- Coeff:      0.179D+00 0.119D+01-0.103D+01 0.951D+00-0.791D+00 0.400D+00
- Coeff:      0.912D-01 0.259D-01-0.250D-01
+ Coeff-Com:  0.385D-04-0.470D-04-0.159D-02-0.861D-02 0.226D-01 0.141D+00
+ Coeff-Com:  0.299D+00 0.892D+00-0.662D+00 0.330D+00-0.118D+00 0.227D+00
+ Coeff-Com: -0.124D+00 0.323D+00-0.322D+00
+ Coeff:      0.385D-04-0.470D-04-0.159D-02-0.861D-02 0.226D-01 0.141D+00
+ Coeff:      0.299D+00 0.892D+00-0.662D+00 0.330D+00-0.118D+00 0.227D+00
+ Coeff:     -0.124D+00 0.323D+00-0.322D+00
  Gap=     0.168 Goal=   None    Shift=    0.000
- RMSDP=6.48D-09 MaxDP=7.94D-07 DE= 9.64D-11 OVMax= 1.89D-09
+ RMSDP=9.58D-08 MaxDP=9.46D-06 DE=-5.64D-11 OVMax= 5.85D-09
 
- SCF Done:  E(RBMK) =  -1781.29703089     A.U. after   22 cycles
-            NFock= 22  Conv=0.65D-08     -V/T= 2.0059
- KE= 1.770787628160D+03 PE=-1.345891933888D+04 EE= 5.239927753998D+03
- Leave Link  502 at Fri May 10 15:53:01 2024, MaxMem=    33554432 cpu:      4120.5
- (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l801.exe)
- DoSCS=F DFT=T ScalE2(SS,OS)=  1.000000  1.000000
- Range of M.O.s used for correlation:     1   673
- NBasis=   698 NAE=   163 NBE=   163 NFC=     0 NFV=     0
- NROrb=    673 NOA=   163 NOB=   163 NVA=   510 NVB=   510
+ Cycle  23  Pass 1  IDiag  1:
+ RMSU=  9.18D-08    CP:  1.00D+00 -5.02D-01
+ E= -1781.29703088673     Delta-E=        0.000000000122 Rises=F Damp=F
+ DIIS: error= 3.26D-07 at cycle  23 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703088685     IErMin= 8 ErrMin= 1.51D-08
+ ErrMax= 3.26D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.43D-11 BMatP= 5.92D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-2.51D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.129D-03-0.154D-02-0.758D-02 0.235D-01 0.140D+00 0.293D+00
+ Coeff-Com:  0.867D+00-0.629D+00 0.324D+00-0.826D-01 0.177D+00-0.105D+00
+ Coeff-Com: -0.104D+00-0.226D+00 0.333D+00
+ Coeff:     -0.129D-03-0.154D-02-0.758D-02 0.235D-01 0.140D+00 0.293D+00
+ Coeff:      0.867D+00-0.629D+00 0.324D+00-0.826D-01 0.177D+00-0.105D+00
+ Coeff:     -0.104D+00-0.226D+00 0.333D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=9.27D-08 MaxDP=7.83D-06 DE= 1.22D-10 OVMax= 5.45D-09
 
- **** Warning!!: The largest alpha MO coefficient is  0.12115322D+03
+ Cycle  24  Pass 1  IDiag  1:
+ RMSU=  8.33D-08    CP:  1.00D+00  6.83D-01  1.39D+00
+ E= -1781.29703088707     Delta-E=       -0.000000000336 Rises=F Damp=F
+ DIIS: error= 3.27D-07 at cycle  24 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088707     IErMin= 7 ErrMin= 1.51D-08
+ ErrMax= 3.27D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.44D-11 BMatP= 5.92D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.19D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.129D-02-0.721D-02 0.214D-01 0.130D+00 0.286D+00 0.865D+00
+ Coeff-Com: -0.596D+00 0.330D+00-0.402D-01 0.139D+00-0.127D+00 0.227D+00
+ Coeff-Com: -0.539D+00-0.323D-01 0.347D+00
+ Coeff:     -0.129D-02-0.721D-02 0.214D-01 0.130D+00 0.286D+00 0.865D+00
+ Coeff:     -0.596D+00 0.330D+00-0.402D-01 0.139D+00-0.127D+00 0.227D+00
+ Coeff:     -0.539D+00-0.323D-01 0.347D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.65D-07 MaxDP=1.83D-05 DE=-3.36D-10 OVMax= 9.84D-09
 
- Leave Link  801 at Fri May 10 15:53:02 2024, MaxMem=    33554432 cpu:         0.4
- (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1101.exe)
- Using compressed storage, NAtomX=    96.
- Will process     39 centers per pass.
- PrsmSu:  requested number of processors reduced to:   5 ShMem   1 Linda.
- PrsmSu:  requested number of processors reduced to:   1 ShMem   1 Linda.
- PrsmSu:  requested number of processors reduced to:   1 ShMem   1 Linda.
- PrsmSu:  requested number of processors reduced to:   1 ShMem   1 Linda.
- Leave Link 1101 at Fri May 10 15:53:05 2024, MaxMem=    33554432 cpu:        13.6
- (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1102.exe)
- Symmetrizing basis deriv contribution to polar:
- IMax=3 JMax=2 DiffMx= 0.00D+00
- Leave Link 1102 at Fri May 10 15:53:05 2024, MaxMem=    33554432 cpu:         1.0
- (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1110.exe)
- Forming Gx(P) for the SCF density, NAtomX=    96.
- Integral derivatives from FoFJK, PRISM(SPDF).
- Do as many integral derivatives as possible in FoFJK.
- G2DrvN: MDV=      33553560.
- G2DrvN: will do     1 centers at a time, making   97 passes.
- G2DrvN:  IPasSy=1 do centers    0 through    0.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- FoFJK:  IHMeth= 1 ICntrl=    3107 DoSepK=F KAlg= 0 I1Cent=   0 FoldK=F
- IRaf=         0 NMat=   1 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 0.
- FoFCou: FMM=T IPFlag=           0 FMFlag=      100000 FMFlg1=        2001
-         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
-         wScrn=  0.000000 ICntrl=    3107 IOpCl=  0 I1Cent=           0 NGrid=           0
-         NMat0=    1 NMatS0=      1 NMatT0=    0 NMatD0=    1 NMtDS0=    0 NMtDT0=    0
- Symmetry not used in FoFCou.
- FMM levels:  10  Number of levels for PrismC:   9
- G2DrvN:  IPasSy=1 do centers    1 through    1.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    2 through    2.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    3 through    3.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    4 through    4.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    5 through    5.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    6 through    6.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    7 through    7.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    8 through    8.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers    9 through    9.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   10 through   10.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   11 through   11.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   12 through   12.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   13 through   13.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   14 through   14.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   15 through   15.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   16 through   16.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   17 through   17.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   18 through   18.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   19 through   19.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   20 through   20.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   21 through   21.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   22 through   22.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   23 through   23.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   24 through   24.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   25 through   25.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   26 through   26.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   27 through   27.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   28 through   28.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   29 through   29.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   30 through   30.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   31 through   31.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   32 through   32.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   33 through   33.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   34 through   34.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   35 through   35.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   36 through   36.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   37 through   37.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   38 through   38.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   39 through   39.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   40 through   40.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   41 through   41.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   42 through   42.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   43 through   43.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   44 through   44.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   45 through   45.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   46 through   46.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   47 through   47.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   48 through   48.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   49 through   49.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   50 through   50.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   51 through   51.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   52 through   52.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   53 through   53.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   54 through   54.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   55 through   55.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   56 through   56.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   57 through   57.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   58 through   58.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   59 through   59.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   60 through   60.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   61 through   61.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   62 through   62.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   63 through   63.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   64 through   64.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   65 through   65.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   66 through   66.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   67 through   67.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   68 through   68.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   69 through   69.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   70 through   70.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   71 through   71.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   72 through   72.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   73 through   73.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   74 through   74.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   75 through   75.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   76 through   76.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   77 through   77.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   78 through   78.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   79 through   79.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   80 through   80.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   81 through   81.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   82 through   82.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   83 through   83.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   84 through   84.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   85 through   85.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   86 through   86.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   87 through   87.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   88 through   88.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   89 through   89.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   90 through   90.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   91 through   91.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   92 through   92.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   93 through   93.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   94 through   94.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   95 through   95.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- G2DrvN:  IPasSy=1 do centers   96 through   96.
- Calling FoFCou, ICntrl=  3107 FMM=T I1Cent=   0 AccDes= 0.00D+00.
- End of G2Drv F.D. properties file   721 does not exist.
- End of G2Drv F.D. properties file   722 does not exist.
- End of G2Drv F.D. properties file   788 does not exist.
- Leave Link 1110 at Fri May 10 16:46:56 2024, MaxMem=    33554432 cpu:     24388.6
- (Enter /hits/basement/its/doserbd/software/gaussian/g09d1/g09/l1002.exe)
- Minotr:  Closed shell wavefunction.
-          IDoAtm=11111111111111111111111111111111111111111111111111
-          IDoAtm=1111111111111111111111111111111111111111111111
-          Direct CPHF calculation.
-          Differentiating once with respect to nuclear coordinates.
-          Requested convergence is 1.0D-08 RMS, and 1.0D-07 maximum.
-          Secondary convergence is 1.0D-12 RMS, and 1.0D-12 maximum.
-          NewPWx=T KeepS1=F KeepF1=F KeepIn=T MapXYZ=F SortEE=F KeepMc=T.
-          MDV=      33552795 using IRadAn=       2.
- Generate precomputed XC quadrature information.
-          Solving linear equations simultaneously, MaxMat=      72.
- FoF2E skips out because all densities are zero.
- CalDSu exits because no D1Ps are significant.
- FoFJK:  IHMeth= 1 ICntrl=       0 DoSepK=F KAlg= 0 I1Cent=   0 FoldK=F
- IRaf= 710000000 NMat=   9 IRICut=       1 DoRegI=T DoRafI=F ISym2E= 2.
- FoFCou: FMM=T IPFlag=           0 FMFlag=      100000 FMFlg1=        2001
-         NFxFlg=           0 DoJE=F BraDBF=F KetDBF=F FulRan=T
-         wScrn=  0.000000 ICntrl=       0 IOpCl=  0 I1Cent=           0 NGrid=           0
-         NMat0=    9 NMatS0=      9 NMatT0=    0 NMatD0=    9 NMtDS0=    0 NMtDT0=    0
- Symmetry not used in FoFCou.
- FMM levels:  10  Number of levels for PrismC:   9
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
-          There are   291 degrees of freedom in the 1st order CPHF.  IDoFFX=6 NUNeed=     0.
-    288 vectors produced by pass  0 Test12= 8.31D-14 1.00D-09 XBig12= 3.62D-01 1.72D-01.
- AX will form     9 AO Fock derivatives at one time.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
- CalDSu:  requested number of processors reduced to:   7 ShMem   1 Linda.
+ Cycle  25  Pass 1  IDiag  1:
+ RMSU=  1.03D-07    CP:  1.00D+00 -1.81D+00  2.60D+00  1.46D+00
+ E= -1781.29703088694     Delta-E=        0.000000000126 Rises=F Damp=F
+ DIIS: error= 3.25D-07 at cycle  25 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703088707     IErMin= 6 ErrMin= 1.51D-08
+ ErrMax= 3.25D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.41D-11 BMatP= 5.92D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-1.44D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.137D-02 0.191D-01 0.953D-01 0.253D+00 0.893D+00-0.625D+00
+ Coeff-Com:  0.390D+00-0.329D-01 0.124D+00-0.116D+00 0.415D+00-0.101D+01
+ Coeff-Com:  0.283D+00 0.534D+00-0.221D+00
+ Coeff:     -0.137D-02 0.191D-01 0.953D-01 0.253D+00 0.893D+00-0.625D+00
+ Coeff:      0.390D+00-0.329D-01 0.124D+00-0.116D+00 0.415D+00-0.101D+01
+ Coeff:      0.283D+00 0.534D+00-0.221D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=7.91D-08 MaxDP=9.46D-06 DE= 1.26D-10 OVMax= 2.30D-08
+
+ Cycle  26  Pass 1  IDiag  1:
+ RMSU=  5.40D-08    CP:  1.00D+00  6.31D-02  2.32D+00  1.71D+00  6.50D-01
+ E= -1781.29703088724     Delta-E=       -0.000000000297 Rises=F Damp=F
+ DIIS: error= 3.26D-07 at cycle  26 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088724     IErMin= 5 ErrMin= 1.51D-08
+ ErrMax= 3.26D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.43D-11 BMatP= 5.92D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-1.03D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.125D-02 0.290D-01 0.150D+00 0.252D+00 0.125D-01 0.312D+00
+ Coeff-Com:  0.251D+00 0.870D-01-0.950D-01 0.541D+00-0.123D+01 0.342D+00
+ Coeff-Com:  0.600D+00-0.326D+00 0.780D-01
+ Coeff:     -0.125D-02 0.290D-01 0.150D+00 0.252D+00 0.125D-01 0.312D+00
+ Coeff:      0.251D+00 0.870D-01-0.950D-01 0.541D+00-0.123D+01 0.342D+00
+ Coeff:      0.600D+00-0.326D+00 0.780D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.45D-07 MaxDP=6.50D-05 DE=-2.97D-10 OVMax= 1.79D-08
+
+ Cycle  27  Pass 1  IDiag  1:
+ RMSU=  2.48D-07    CP:  1.00D+00  3.00D+00  1.13D+00  2.37D+00  6.85D-01
+                    CP: -3.81D-01
+ E= -1781.29703088681     Delta-E=        0.000000000428 Rises=F Damp=F
+ DIIS: error= 3.28D-07 at cycle  27 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703088724     IErMin= 7 ErrMin= 1.52D-08
+ ErrMax= 3.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.47D-11 BMatP= 6.63D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.55D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.426D-02 0.190D-01 0.116D+00 0.248D+00-0.142D+00 0.556D+00
+ Coeff-Com:  0.332D+00-0.127D+00 0.215D+01-0.380D+01 0.207D+01-0.231D+00
+ Coeff-Com: -0.115D+01 0.242D+00 0.723D+00
+ Coeff:     -0.426D-02 0.190D-01 0.116D+00 0.248D+00-0.142D+00 0.556D+00
+ Coeff:      0.332D+00-0.127D+00 0.215D+01-0.380D+01 0.207D+01-0.231D+00
+ Coeff:     -0.115D+01 0.242D+00 0.723D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.04D-07 MaxDP=3.37D-05 DE= 4.28D-10 OVMax= 2.18D-08
+
+ Cycle  28  Pass 1  IDiag  1:
+ RMSU=  2.09D-07    CP:  1.00D+00  3.00D+00  2.23D+00  2.89D+00  7.26D-01
+                    CP: -1.89D+00  1.38D+00
+ E= -1781.29703088673     Delta-E=        0.000000000081 Rises=F Damp=F
+ DIIS: error= 3.28D-07 at cycle  28 NSaved=  16.
+ NSaved=16 IEnMin=14 EnMin= -1781.29703088724     IErMin= 7 ErrMin= 1.56D-08
+ ErrMax= 3.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.49D-11 BMatP= 6.63D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.96D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.516D-02 0.195D-01 0.126D+00 0.257D+00 0.124D+00 0.716D+00
+ Coeff-Com: -0.236D+00 0.302D+01-0.437D+01 0.210D+01-0.626D+00-0.153D+01
+ Coeff-Com:  0.651D+00 0.433D+00 0.328D+00
+ Coeff:     -0.516D-02 0.195D-01 0.126D+00 0.257D+00 0.124D+00 0.716D+00
+ Coeff:     -0.236D+00 0.302D+01-0.437D+01 0.210D+01-0.626D+00-0.153D+01
+ Coeff:      0.651D+00 0.433D+00 0.328D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.11D-07 MaxDP=2.15D-05 DE= 8.09D-11 OVMax= 1.37D-08
+
+ Cycle  29  Pass 1  IDiag  1:
+ RMSU=  1.35D-07    CP:  1.00D+00  3.00D+00  1.89D+00  2.23D+00  2.17D-01
+                    CP: -1.28D+00  1.82D+00  1.08D+00
+ E= -1781.29703088712     Delta-E=       -0.000000000389 Rises=F Damp=F
+ DIIS: error= 3.28D-07 at cycle  29 NSaved=  16.
+ NSaved=16 IEnMin=13 EnMin= -1781.29703088724     IErMin= 6 ErrMin= 1.56D-08
+ ErrMax= 3.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.50D-11 BMatP= 7.27D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.02D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.448D-02 0.233D-01 0.143D+00 0.283D+00 0.308D+00 0.246D+00
+ Coeff-Com:  0.238D+01-0.382D+01 0.192D+01-0.338D+00-0.122D+01 0.423D+00
+ Coeff-Com:  0.518D+00 0.144D+00-0.295D-02
+ Coeff:     -0.448D-02 0.233D-01 0.143D+00 0.283D+00 0.308D+00 0.246D+00
+ Coeff:      0.238D+01-0.382D+01 0.192D+01-0.338D+00-0.122D+01 0.423D+00
+ Coeff:      0.518D+00 0.144D+00-0.295D-02
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.95D-07 MaxDP=1.60D-05 DE=-3.89D-10 OVMax= 1.44D-08
+
+ Cycle  30  Pass 1  IDiag  1:
+ RMSU=  1.48D-07    CP:  1.00D+00  2.18D+00  2.69D+00  3.00D+00  5.15D-01
+                    CP: -1.21D+00  1.78D+00  8.75D-01  8.20D-01
+ E= -1781.29703088740     Delta-E=       -0.000000000286 Rises=F Damp=F
+ DIIS: error= 3.28D-07 at cycle  30 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088740     IErMin= 6 ErrMin= 1.74D-08
+ ErrMax= 3.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.48D-11 BMatP= 7.64D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.51D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.671D-02 0.810D-01 0.261D+00 0.396D+00 0.269D+00 0.310D+01
+ Coeff-Com: -0.483D+01 0.219D+01-0.391D+00-0.146D+01 0.605D+00 0.618D+00
+ Coeff-Com:  0.259D+00 0.235D+00-0.340D+00
+ Coeff:     -0.671D-02 0.810D-01 0.261D+00 0.396D+00 0.269D+00 0.310D+01
+ Coeff:     -0.483D+01 0.219D+01-0.391D+00-0.146D+01 0.605D+00 0.618D+00
+ Coeff:      0.259D+00 0.235D+00-0.340D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.13D-07 MaxDP=3.30D-05 DE=-2.86D-10 OVMax= 3.12D-08
+
+ Cycle  31  Pass 1  IDiag  1:
+ RMSU=  1.07D-07    CP:  1.00D+00  3.00D+00  2.14D+00  3.00D+00  1.68D-02
+                    CP: -7.40D-01  2.11D+00  9.71D-01  9.41D-01  1.07D+00
+ E= -1781.29703088754     Delta-E=       -0.000000000132 Rises=F Damp=F
+ DIIS: error= 3.29D-07 at cycle  31 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088754     IErMin= 5 ErrMin= 1.74D-08
+ ErrMax= 3.29D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.50D-11 BMatP= 7.64D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.41D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.783D-01 0.254D+00 0.409D+00 0.258D+00 0.213D+01-0.393D+01
+ Coeff-Com:  0.194D+01-0.282D+00-0.704D+00 0.214D+00 0.617D+00 0.240D+00
+ Coeff-Com:  0.440D+00-0.128D+01 0.625D+00
+ Coeff:      0.783D-01 0.254D+00 0.409D+00 0.258D+00 0.213D+01-0.393D+01
+ Coeff:      0.194D+01-0.282D+00-0.704D+00 0.214D+00 0.617D+00 0.240D+00
+ Coeff:      0.440D+00-0.128D+01 0.625D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.17D-07 MaxDP=1.54D-05 DE=-1.32D-10 OVMax= 1.81D-08
+
+ Cycle  32  Pass 1  IDiag  1:
+ RMSU=  1.62D-07    CP:  1.00D+00  3.00D+00  3.00D+00  3.00D+00  6.83D-01
+                    CP: -7.60D-01  2.26D+00  9.73D-01  7.95D-01  8.90D-01
+                    CP:  1.35D+00
+ E= -1781.29703088742     Delta-E=        0.000000000116 Rises=F Damp=F
+ DIIS: error= 3.27D-07 at cycle  32 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703088754     IErMin= 4 ErrMin= 1.74D-08
+ ErrMax= 3.27D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.50D-11 BMatP= 7.64D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.91D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.391D-01 0.610D+00 0.350D+00 0.278D+01-0.453D+01 0.195D+01
+ Coeff-Com: -0.262D+00-0.103D+01 0.444D+00 0.482D+00 0.344D+00 0.470D+00
+ Coeff-Com: -0.121D+01 0.433D+00 0.117D+00
+ Coeff:      0.391D-01 0.610D+00 0.350D+00 0.278D+01-0.453D+01 0.195D+01
+ Coeff:     -0.262D+00-0.103D+01 0.444D+00 0.482D+00 0.344D+00 0.470D+00
+ Coeff:     -0.121D+01 0.433D+00 0.117D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=4.08D-07 MaxDP=6.56D-05 DE= 1.16D-10 OVMax= 3.87D-08
+
+ Cycle  33  Pass 1  IDiag  1:
+ RMSU=  1.09D-07    CP:  1.00D+00  3.00D+00  2.03D+00  3.00D+00 -1.38D-01
+                    CP: -5.70D-01  3.00D+00  1.18D+00  1.28D+00  9.91D-01
+                    CP:  2.77D+00  7.68D-01
+ E= -1781.29703088786     Delta-E=       -0.000000000437 Rises=F Damp=F
+ DIIS: error= 3.28D-07 at cycle  33 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088786     IErMin= 3 ErrMin= 1.74D-08
+ ErrMax= 3.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.51D-11 BMatP= 7.64D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.17D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.442D-01 0.955D+00 0.223D+01-0.400D+01 0.175D+01-0.276D-01
+ Coeff-Com: -0.809D+00 0.302D+00 0.534D+00 0.321D+00 0.407D+00-0.120D+01
+ Coeff-Com:  0.348D+00 0.101D+00 0.527D-01
+ Coeff:      0.442D-01 0.955D+00 0.223D+01-0.400D+01 0.175D+01-0.276D-01
+ Coeff:     -0.809D+00 0.302D+00 0.534D+00 0.321D+00 0.407D+00-0.120D+01
+ Coeff:      0.348D+00 0.101D+00 0.527D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.87D-07 MaxDP=3.49D-05 DE=-4.37D-10 OVMax= 1.59D-08
+
+ Cycle  34  Pass 1  IDiag  1:
+ RMSU=  2.09D-07    CP:  1.00D+00  3.00D+00  6.31D-01  3.00D+00 -8.69D-01
+                    CP: -2.06D+00  3.00D+00  9.31D-01  1.13D+00  1.40D+00
+                    CP:  2.65D+00  7.98D-01  7.41D-01
+ E= -1781.29703088800     Delta-E=       -0.000000000145 Rises=F Damp=F
+ DIIS: error= 3.30D-07 at cycle  34 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088800     IErMin= 2 ErrMin= 1.95D-08
+ ErrMax= 3.30D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.52D-11 BMatP= 7.64D-14
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.94D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.968D+00-0.370D+01 0.266D+01 0.115D+00-0.376D+00 0.179D+01
+ Coeff-Com:  0.287D+00-0.451D+00 0.450D+00 0.754D+00-0.324D+01 0.127D+01
+ Coeff-Com: -0.242D+00 0.366D-02 0.714D+00
+ Coeff:      0.968D+00-0.370D+01 0.266D+01 0.115D+00-0.376D+00 0.179D+01
+ Coeff:      0.287D+00-0.451D+00 0.450D+00 0.754D+00-0.324D+01 0.127D+01
+ Coeff:     -0.242D+00 0.366D-02 0.714D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.05D-06 MaxDP=3.31D-04 DE=-1.45D-10 OVMax= 2.55D-07
+
+ Cycle  35  Pass 1  IDiag  1:
+ RMSU=  8.04D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.17D+00  3.00D+00
+                    CP:  1.75D+00 -3.33D-01 -4.18D-01 -8.38D-02 -6.96D-01
+                    CP: -2.03D-01  3.00D+00 -2.01D+00  8.56D-01
+ E= -1781.29703088637     Delta-E=        0.000000001628 Rises=F Damp=F
+ DIIS: error= 3.14D-07 at cycle  35 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703088800     IErMin= 1 ErrMin= 5.05D-08
+ ErrMax= 3.14D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.44D-11 BMatP= 8.16D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.98D-16
+ Inversion failed.  Reducing to 15 matrices.
+ Large coefficients: NSaved= 15 BigCof=   65.73 CofMax=   10.00 Det=-4.33D-16
+ Inversion failed.  Reducing to 14 matrices.
+ Large coefficients: NSaved= 14 BigCof=   53.21 CofMax=   10.00 Det=-5.21D-16
+ Inversion failed.  Reducing to 13 matrices.
+ Large coefficients: NSaved= 13 BigCof=   53.07 CofMax=   10.00 Det=-5.22D-16
+ Inversion failed.  Reducing to 12 matrices.
+ Coeff-Com: -0.211D+01 0.210D+01 0.396D+01-0.362D+01 0.489D+01-0.551D+01
+ Coeff-Com:  0.257D+01 0.907D+00-0.305D+01 0.781D+00-0.597D+00 0.684D+00
+ Coeff:     -0.211D+01 0.210D+01 0.396D+01-0.362D+01 0.489D+01-0.551D+01
+ Coeff:      0.257D+01 0.907D+00-0.305D+01 0.781D+00-0.597D+00 0.684D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.89D-05 MaxDP=1.87D-03 DE= 1.63D-09 OVMax= 1.19D-06
+
+ Cycle  36  Pass 1  IDiag  1:
+ RMSU=  1.71D-05    CP:  1.00D+00  3.00D+00  3.00D+00 -3.00D+00  3.00D+00
+                    CP: -1.46D-01 -3.00D+00 -3.00D+00  3.00D+00 -3.00D+00
+                    CP:  3.00D+00 -3.00D+00  3.00D+00  3.00D+00  3.00D+00
+ E= -1781.29703088761     Delta-E=       -0.000000001236 Rises=F Damp=F
+ DIIS: error= 1.03D-07 at cycle  36 NSaved=  13.
+ NSaved=13 IEnMin=11 EnMin= -1781.29703088800     IErMin=13 ErrMin= 1.03D-07
+ ErrMax= 1.03D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.25D-12 BMatP= 2.41D-11
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.584D+01 0.692D+01 0.301D+01-0.391D+01 0.404D+01-0.627D+01
+ Coeff-Com:  0.317D+01 0.508D+00-0.244D+01 0.275D+00-0.212D+00 0.824D+00
+ Coeff-Com:  0.937D+00
+ Coeff:     -0.584D+01 0.692D+01 0.301D+01-0.391D+01 0.404D+01-0.627D+01
+ Coeff:      0.317D+01 0.508D+00-0.244D+01 0.275D+00-0.212D+00 0.824D+00
+ Coeff:      0.937D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.74D-06 MaxDP=2.06D-04 DE=-1.24D-09 OVMax= 2.54D-07
+
+ Cycle  37  Pass 1  IDiag  1:
+ RMSU=  2.47D-06    CP:  1.00D+00  3.00D+00  3.00D+00  1.40D+00  3.00D+00
+                    CP: -3.00D+00 -3.00D+00 -3.00D+00  3.00D+00 -3.00D+00
+                    CP:  3.00D+00 -3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP:  1.02D+00
+ E= -1781.29703088918     Delta-E=       -0.000000001573 Rises=F Damp=F
+ DIIS: error= 9.22D-08 at cycle  37 NSaved=  14.
+ NSaved=14 IEnMin=14 EnMin= -1781.29703088918     IErMin=14 ErrMin= 9.22D-08
+ ErrMax= 9.22D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.53D-12 BMatP= 3.25D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.515D+01 0.458D+01 0.257D+01-0.776D+00 0.262D+01-0.386D+01
+ Coeff-Com: -0.266D-01 0.625D+00 0.360D+00-0.986D+00-0.266D+00 0.349D+00
+ Coeff-Com:  0.328D+00 0.635D+00
+ Coeff:     -0.515D+01 0.458D+01 0.257D+01-0.776D+00 0.262D+01-0.386D+01
+ Coeff:     -0.266D-01 0.625D+00 0.360D+00-0.986D+00-0.266D+00 0.349D+00
+ Coeff:      0.328D+00 0.635D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.29D-06 MaxDP=1.54D-04 DE=-1.57D-09 OVMax= 7.25D-08
+
+ Cycle  38  Pass 1  IDiag  1:
+ RMSU=  9.85D-07    CP:  1.00D+00  3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP: -3.00D+00 -3.00D+00 -3.00D+00  3.00D+00 -3.00D+00
+                    CP:  3.00D+00 -3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP:  1.03D+00  1.27D+00
+ E= -1781.29703088972     Delta-E=       -0.000000000538 Rises=F Damp=F
+ DIIS: error= 9.53D-08 at cycle  38 NSaved=  15.
+ NSaved=15 IEnMin=15 EnMin= -1781.29703088972     IErMin=14 ErrMin= 9.22D-08
+ ErrMax= 9.53D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.80D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.535D+01 0.447D+01 0.255D+01-0.146D+00 0.214D+01-0.311D+01
+ Coeff-Com: -0.948D+00 0.797D+00 0.931D+00-0.128D+01-0.332D+00 0.308D+00
+ Coeff-Com:  0.249D+00 0.185D+00 0.531D+00
+ Coeff:     -0.535D+01 0.447D+01 0.255D+01-0.146D+00 0.214D+01-0.311D+01
+ Coeff:     -0.948D+00 0.797D+00 0.931D+00-0.128D+01-0.332D+00 0.308D+00
+ Coeff:      0.249D+00 0.185D+00 0.531D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.04D-06 MaxDP=1.44D-04 DE=-5.38D-10 OVMax= 6.10D-08
+
+ Cycle  39  Pass 1  IDiag  1:
+ RMSU=  2.73D-07    CP:  1.00D+00  3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP: -3.00D+00 -3.00D+00 -3.00D+00  3.00D+00 -3.00D+00
+                    CP:  3.00D+00 -3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP:  1.05D+00  1.48D+00  1.79D+00
+ E= -1781.29703088993     Delta-E=       -0.000000000207 Rises=F Damp=F
+ DIIS: error= 9.79D-08 at cycle  39 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703088993     IErMin=14 ErrMin= 9.22D-08
+ ErrMax= 9.79D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.17D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-1.90D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.616D+01 0.426D+01 0.257D+01 0.161D+01 0.126D+01-0.124D+01
+ Coeff-Com: -0.351D+01 0.743D+00 0.274D+01-0.198D+01-0.265D+00 0.509D-01
+ Coeff-Com: -0.146D+00 0.385D+00 0.683D+00
+ Coeff:     -0.616D+01 0.426D+01 0.257D+01 0.161D+01 0.126D+01-0.124D+01
+ Coeff:     -0.351D+01 0.743D+00 0.274D+01-0.198D+01-0.265D+00 0.509D-01
+ Coeff:     -0.146D+00 0.385D+00 0.683D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.23D-06 MaxDP=2.75D-04 DE=-2.07D-10 OVMax= 1.22D-07
+
+ Cycle  40  Pass 1  IDiag  1:
+ RMSU=  5.86D-07    CP:  1.00D+00  3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP: -3.00D+00 -3.00D+00 -3.00D+00  3.00D+00 -3.00D+00
+                    CP:  3.00D+00 -3.00D+00  3.00D+00  3.00D+00  3.00D+00
+                    CP:  1.07D+00  1.96D+00  3.00D+00  2.41D+00
+ E= -1781.29703089032     Delta-E=       -0.000000000393 Rises=F Damp=F
+ DIIS: error= 1.07D-07 at cycle  40 NSaved=  16.
+ NSaved=16 IEnMin=16 EnMin= -1781.29703089032     IErMin=13 ErrMin= 9.22D-08
+ ErrMax= 1.07D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.10D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-1.95D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.749D+01 0.583D+01 0.210D+01 0.249D+01-0.779D+00-0.336D+01
+ Coeff-Com:  0.304D+00 0.309D+01-0.252D+01 0.359D+00 0.140D+00 0.139D+00
+ Coeff-Com:  0.215D-01-0.212D+00 0.884D+00
+ Coeff:     -0.749D+01 0.583D+01 0.210D+01 0.249D+01-0.779D+00-0.336D+01
+ Coeff:      0.304D+00 0.309D+01-0.252D+01 0.359D+00 0.140D+00 0.139D+00
+ Coeff:      0.215D-01-0.212D+00 0.884D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.38D-06 MaxDP=1.04D-04 DE=-3.93D-10 OVMax= 7.68D-08
+
+ Cycle  41  Pass 1  IDiag  1:
+ Restarting incremental Fock formation.
+ E= -1781.29703088714     Delta-E=        0.000000003179 Rises=F Damp=F
+ DIIS: error= 2.02D-07 at cycle  41 NSaved=  16.
+ NSaved=16 IEnMin=15 EnMin= -1781.29703089032     IErMin=12 ErrMin= 9.22D-08
+ ErrMax= 2.02D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.31D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-1.47D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.864D+00 0.349D+00 0.302D+01-0.356D+01 0.103D+01-0.683D+00
+ Coeff-Com:  0.308D+01-0.220D+01-0.153D+00-0.465D-01 0.521D+00 0.948D+00
+ Coeff-Com: -0.316D+00 0.149D+00-0.286D+00
+ Coeff:     -0.864D+00 0.349D+00 0.302D+01-0.356D+01 0.103D+01-0.683D+00
+ Coeff:      0.308D+01-0.220D+01-0.153D+00-0.465D-01 0.521D+00 0.948D+00
+ Coeff:     -0.316D+00 0.149D+00-0.286D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=5.24D-06 MaxDP=6.05D-04 DE= 3.18D-09 OVMax= 3.06D-07
+
+ Cycle  42  Pass 1  IDiag  1:
+ RMSU=  5.07D-06    CP:  1.00D+00
+ E= -1781.29703088643     Delta-E=        0.000000000708 Rises=F Damp=F
+ DIIS: error= 1.51D-07 at cycle  42 NSaved=  16.
+ NSaved=16 IEnMin=14 EnMin= -1781.29703089032     IErMin=11 ErrMin= 9.22D-08
+ ErrMax= 1.51D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.36D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-2.59D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.742D+00 0.321D+01-0.366D+01 0.140D+01-0.920D+00 0.299D+01
+ Coeff-Com: -0.225D+01 0.291D-02-0.533D-02 0.489D+00 0.887D+00-0.410D+00
+ Coeff-Com:  0.265D+00-0.389D+00 0.134D+00
+ Coeff:     -0.742D+00 0.321D+01-0.366D+01 0.140D+01-0.920D+00 0.299D+01
+ Coeff:     -0.225D+01 0.291D-02-0.533D-02 0.489D+00 0.887D+00-0.410D+00
+ Coeff:      0.265D+00-0.389D+00 0.134D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.97D-07 MaxDP=4.01D-05 DE= 7.08D-10 OVMax= 2.41D-08
+
+ Cycle  43  Pass 1  IDiag  1:
+ RMSU=  2.39D-07    CP:  1.00D+00  1.06D+00
+ E= -1781.29703088663     Delta-E=       -0.000000000196 Rises=F Damp=F
+ DIIS: error= 1.49D-07 at cycle  43 NSaved=  16.
+ NSaved=16 IEnMin=13 EnMin= -1781.29703089032     IErMin=10 ErrMin= 9.22D-08
+ ErrMax= 1.49D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.21D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.46D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.254D+01-0.386D+01 0.150D+01-0.111D+01 0.320D+01-0.202D+01
+ Coeff-Com: -0.226D+00-0.437D-02 0.483D+00 0.897D+00-0.415D+00 0.266D+00
+ Coeff-Com: -0.386D+00-0.438D+00 0.568D+00
+ Coeff:      0.254D+01-0.386D+01 0.150D+01-0.111D+01 0.320D+01-0.202D+01
+ Coeff:     -0.226D+00-0.437D-02 0.483D+00 0.897D+00-0.415D+00 0.266D+00
+ Coeff:     -0.386D+00-0.438D+00 0.568D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.73D-07 MaxDP=2.81D-05 DE=-1.96D-10 OVMax= 2.06D-08
+
+ Cycle  44  Pass 1  IDiag  1:
+ RMSU=  1.70D-07    CP:  1.00D+00  1.10D+00  1.53D+00
+ E= -1781.29703088667     Delta-E=       -0.000000000037 Rises=F Damp=F
+ DIIS: error= 1.46D-07 at cycle  44 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.46D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.11D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.83D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.257D+01-0.396D+01 0.162D+01-0.105D+01 0.310D+01-0.201D+01
+ Coeff-Com: -0.232D+00 0.152D-02 0.516D+00 0.894D+00-0.460D+00 0.278D+00
+ Coeff-Com: -0.396D+00 0.319D+00-0.182D+00
+ Coeff:      0.257D+01-0.396D+01 0.162D+01-0.105D+01 0.310D+01-0.201D+01
+ Coeff:     -0.232D+00 0.152D-02 0.516D+00 0.894D+00-0.460D+00 0.278D+00
+ Coeff:     -0.396D+00 0.319D+00-0.182D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.57D-07 MaxDP=1.37D-05 DE=-3.73D-11 OVMax= 1.03D-08
+
+ Cycle  45  Pass 1  IDiag  1:
+ RMSU=  8.19D-08    CP:  1.00D+00  1.08D+00  1.19D+00  5.31D-01
+ E= -1781.29703088649     Delta-E=        0.000000000173 Rises=F Damp=F
+ DIIS: error= 1.47D-07 at cycle  45 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.47D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.10D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.99D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.256D+01-0.394D+01 0.161D+01-0.109D+01 0.314D+01-0.202D+01
+ Coeff-Com: -0.233D+00-0.464D-02 0.523D+00 0.900D+00-0.449D+00 0.265D+00
+ Coeff-Com: -0.377D+00 0.214D+00-0.101D+00
+ Coeff:      0.256D+01-0.394D+01 0.161D+01-0.109D+01 0.314D+01-0.202D+01
+ Coeff:     -0.233D+00-0.464D-02 0.523D+00 0.900D+00-0.449D+00 0.265D+00
+ Coeff:     -0.377D+00 0.214D+00-0.101D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.35D-07 MaxDP=2.51D-05 DE= 1.73D-10 OVMax= 9.73D-09
+
+ Cycle  46  Pass 1  IDiag  1:
+ RMSU=  8.33D-08    CP:  1.00D+00  1.08D+00  1.34D+00  6.43D-01  1.34D-01
+ E= -1781.29703088651     Delta-E=       -0.000000000015 Rises=F Damp=F
+ DIIS: error= 1.45D-07 at cycle  46 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.45D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.07D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.93D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.253D+01-0.395D+01 0.171D+01-0.116D+01 0.309D+01-0.197D+01
+ Coeff-Com: -0.225D+00 0.280D-02 0.524D+00 0.881D+00-0.453D+00 0.270D+00
+ Coeff-Com: -0.376D+00-0.603D+00 0.724D+00
+ Coeff:      0.253D+01-0.395D+01 0.171D+01-0.116D+01 0.309D+01-0.197D+01
+ Coeff:     -0.225D+00 0.280D-02 0.524D+00 0.881D+00-0.453D+00 0.270D+00
+ Coeff:     -0.376D+00-0.603D+00 0.724D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.69D-07 MaxDP=1.80D-05 DE=-1.46D-11 OVMax= 1.31D-08
+
+ Cycle  47  Pass 1  IDiag  1:
+ RMSU=  1.32D-07    CP:  1.00D+00  1.06D+00  1.11D+00  7.97D-01  2.70D-01
+                    CP:  1.05D+00
+ E= -1781.29703088661     Delta-E=       -0.000000000100 Rises=F Damp=F
+ DIIS: error= 1.44D-07 at cycle  47 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.44D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.02D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.81D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.251D+01-0.390D+01 0.167D+01-0.108D+01 0.307D+01-0.198D+01
+ Coeff-Com: -0.252D+00 0.479D-02 0.499D+00 0.877D+00-0.447D+00 0.290D+00
+ Coeff-Com: -0.396D+00-0.215D+00 0.359D+00
+ Coeff:      0.251D+01-0.390D+01 0.167D+01-0.108D+01 0.307D+01-0.198D+01
+ Coeff:     -0.252D+00 0.479D-02 0.499D+00 0.877D+00-0.447D+00 0.290D+00
+ Coeff:     -0.396D+00-0.215D+00 0.359D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.08D-07 MaxDP=2.33D-05 DE=-1.00D-10 OVMax= 1.45D-08
+
+ Cycle  48  Pass 1  IDiag  1:
+ RMSU=  1.24D-07    CP:  1.00D+00  1.07D+00  1.19D+00  4.73D-01 -3.01D-01
+                    CP:  1.39D+00  2.36D-02
+ E= -1781.29703088649     Delta-E=        0.000000000118 Rises=F Damp=F
+ DIIS: error= 1.41D-07 at cycle  48 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.41D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.05D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.42D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.252D+01-0.387D+01 0.153D+01-0.108D+01 0.314D+01-0.203D+01
+ Coeff-Com: -0.182D+00 0.154D-01 0.479D+00 0.864D+00-0.458D+00 0.311D+00
+ Coeff-Com: -0.427D+00-0.188D+00 0.372D+00
+ Coeff:      0.252D+01-0.387D+01 0.153D+01-0.108D+01 0.314D+01-0.203D+01
+ Coeff:     -0.182D+00 0.154D-01 0.479D+00 0.864D+00-0.458D+00 0.311D+00
+ Coeff:     -0.427D+00-0.188D+00 0.372D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.98D-07 MaxDP=3.43D-05 DE= 1.18D-10 OVMax= 1.70D-08
+
+ Cycle  49  Pass 1  IDiag  1:
+ RMSU=  1.54D-07    CP:  1.00D+00  1.09D+00  1.54D+00  1.04D+00  7.49D-01
+                    CP: -2.20D-01  5.69D-01  3.10D-02
+ E= -1781.29703088682     Delta-E=       -0.000000000331 Rises=F Damp=F
+ DIIS: error= 1.44D-07 at cycle  49 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.44D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.02D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.87D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.252D+01-0.388D+01 0.157D+01-0.108D+01 0.311D+01-0.202D+01
+ Coeff-Com: -0.190D+00 0.150D-01 0.483D+00 0.863D+00-0.458D+00 0.310D+00
+ Coeff-Com: -0.424D+00 0.332D+00-0.151D+00
+ Coeff:      0.252D+01-0.388D+01 0.157D+01-0.108D+01 0.311D+01-0.202D+01
+ Coeff:     -0.190D+00 0.150D-01 0.483D+00 0.863D+00-0.458D+00 0.310D+00
+ Coeff:     -0.424D+00 0.332D+00-0.151D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=6.35D-08 MaxDP=4.87D-06 DE=-3.31D-10 OVMax= 4.55D-09
+
+ Cycle  50  Pass 1  IDiag  1:
+ RMSU=  2.59D-08    CP:  1.00D+00  1.08D+00  1.38D+00  9.75D-01  6.75D-01
+                    CP: -4.89D-02  7.58D-01  7.06D-02  8.54D-01
+ E= -1781.29703088684     Delta-E=       -0.000000000016 Rises=F Damp=F
+ DIIS: error= 1.45D-07 at cycle  50 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.45D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.99D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.01D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.253D+01-0.392D+01 0.164D+01-0.109D+01 0.309D+01-0.198D+01
+ Coeff-Com: -0.243D+00 0.620D-02 0.505D+00 0.878D+00-0.456D+00 0.290D+00
+ Coeff-Com: -0.390D+00-0.220D+00 0.359D+00
+ Coeff:      0.253D+01-0.392D+01 0.164D+01-0.109D+01 0.309D+01-0.198D+01
+ Coeff:     -0.243D+00 0.620D-02 0.505D+00 0.878D+00-0.456D+00 0.290D+00
+ Coeff:     -0.390D+00-0.220D+00 0.359D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.78D-07 MaxDP=2.38D-05 DE=-1.64D-11 OVMax= 1.61D-08
+
+ Cycle  51  Pass 1  IDiag  1:
+ RMSU=  8.77D-08    CP:  1.00D+00  1.09D+00  1.46D+00  2.16D-01  3.38D-01
+                    CP:  1.19D+00 -1.71D-02  2.94D-01 -1.48D-01 -1.12D+00
+ E= -1781.29703088641     Delta-E=        0.000000000425 Rises=F Damp=F
+ DIIS: error= 1.39D-07 at cycle  51 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.39D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.04D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.34D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.251D+01-0.385D+01 0.158D+01-0.108D+01 0.310D+01-0.201D+01
+ Coeff-Com: -0.218D+00 0.124D-01 0.478D+00 0.865D+00-0.450D+00 0.308D+00
+ Coeff-Com: -0.423D+00-0.452D-01 0.225D+00
+ Coeff:      0.251D+01-0.385D+01 0.158D+01-0.108D+01 0.310D+01-0.201D+01
+ Coeff:     -0.218D+00 0.124D-01 0.478D+00 0.865D+00-0.450D+00 0.308D+00
+ Coeff:     -0.423D+00-0.452D-01 0.225D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.93D-07 MaxDP=2.41D-05 DE= 4.25D-10 OVMax= 1.50D-08
+
+ Cycle  52  Pass 1  IDiag  1:
+ RMSU=  6.05D-08    CP:  1.00D+00  1.08D+00  1.37D+00  1.05D+00  4.46D-01
+                    CP: -4.52D-01  3.43D-01  3.90D-01  6.22D-01  6.42D-01
+                    CP: -6.14D-01
+ E= -1781.29703088662     Delta-E=       -0.000000000211 Rises=F Damp=F
+ DIIS: error= 1.45D-07 at cycle  52 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.45D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.99D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.97D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.250D+01-0.384D+01 0.157D+01-0.107D+01 0.310D+01-0.201D+01
+ Coeff-Com: -0.211D+00 0.167D-01 0.468D+00 0.857D+00-0.452D+00 0.320D+00
+ Coeff-Com: -0.433D+00 0.170D+00 0.243D-01
+ Coeff:      0.250D+01-0.384D+01 0.157D+01-0.107D+01 0.310D+01-0.201D+01
+ Coeff:     -0.211D+00 0.167D-01 0.468D+00 0.857D+00-0.452D+00 0.320D+00
+ Coeff:     -0.433D+00 0.170D+00 0.243D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=7.59D-08 MaxDP=7.96D-06 DE=-2.11D-10 OVMax= 5.06D-09
+
+ Cycle  53  Pass 1  IDiag  1:
+ RMSU=  1.34D-08    CP:  1.00D+00  1.09D+00  1.56D+00  9.38D-01  3.36D-01
+                    CP: -2.41D-01  2.59D-01  4.34D-01  5.34D-01 -2.94D-02
+                    CP: -3.44D-01  8.36D-01
+ E= -1781.29703088685     Delta-E=       -0.000000000230 Rises=F Damp=F
+ DIIS: error= 1.40D-07 at cycle  53 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.40D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.95D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.99D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.247D+01-0.373D+01 0.151D+01-0.114D+01 0.314D+01-0.202D+01
+ Coeff-Com: -0.219D+00 0.129D-01 0.438D+00 0.855D+00-0.421D+00 0.324D+00
+ Coeff-Com: -0.441D+00-0.600D+00 0.803D+00
+ Coeff:      0.247D+01-0.373D+01 0.151D+01-0.114D+01 0.314D+01-0.202D+01
+ Coeff:     -0.219D+00 0.129D-01 0.438D+00 0.855D+00-0.421D+00 0.324D+00
+ Coeff:     -0.441D+00-0.600D+00 0.803D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.42D-07 MaxDP=3.10D-05 DE=-2.30D-10 OVMax= 1.45D-08
+
+ Cycle  54  Pass 1  IDiag  1:
+ RMSU=  1.40D-07    CP:  1.00D+00  1.09D+00  1.62D+00  1.11D+00  3.01D-01
+                    CP: -8.60D-01  4.12D-01  4.13D-01  8.55D-01  1.95D+00
+                    CP: -1.30D+00  2.65D+00  2.91D+00
+ E= -1781.29703088671     Delta-E=        0.000000000139 Rises=F Damp=F
+ DIIS: error= 1.46D-07 at cycle  54 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.46D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.91D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.99D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.250D+01-0.378D+01 0.151D+01-0.104D+01 0.307D+01-0.199D+01
+ Coeff-Com: -0.228D+00 0.165D-01 0.447D+00 0.854D+00-0.432D+00 0.324D+00
+ Coeff-Com: -0.438D+00 0.640D-01 0.137D+00
+ Coeff:      0.250D+01-0.378D+01 0.151D+01-0.104D+01 0.307D+01-0.199D+01
+ Coeff:     -0.228D+00 0.165D-01 0.447D+00 0.854D+00-0.432D+00 0.324D+00
+ Coeff:     -0.438D+00 0.640D-01 0.137D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.21D-07 MaxDP=2.63D-05 DE= 1.39D-10 OVMax= 1.87D-08
+
+ Cycle  55  Pass 1  IDiag  1:
+ RMSU=  6.79D-08    CP:  1.00D+00  1.11D+00  1.88D+00  3.34D-01  7.34D-01
+                    CP: -1.85D-01  4.75D-02 -1.41D-01  3.72D-01 -1.11D+00
+                    CP:  6.05D-01  1.58D+00  3.00D+00  6.78D-01
+ E= -1781.29703088725     Delta-E=       -0.000000000540 Rises=F Damp=F
+ DIIS: error= 1.28D-07 at cycle  55 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.84D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-4.99D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.244D+01-0.367D+01 0.151D+01-0.110D+01 0.307D+01-0.197D+01
+ Coeff-Com: -0.232D+00 0.297D-01 0.405D+00 0.820D+00-0.431D+00 0.368D+00
+ Coeff-Com: -0.471D+00 0.374D-01 0.215D+00
+ Coeff:      0.244D+01-0.367D+01 0.151D+01-0.110D+01 0.307D+01-0.197D+01
+ Coeff:     -0.232D+00 0.297D-01 0.405D+00 0.820D+00-0.431D+00 0.368D+00
+ Coeff:     -0.471D+00 0.374D-01 0.215D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.87D-07 MaxDP=2.98D-05 DE=-5.40D-10 OVMax= 1.65D-08
+
+ Cycle  56  Pass 1  IDiag  1:
+ RMSU=  9.38D-08    CP:  1.00D+00  1.10D+00  1.86D+00  8.33D-01  8.22D-01
+                    CP: -1.43D+00  3.07D-01  3.40D-01  8.30D-01 -1.09D-01
+                    CP: -6.35D-01  3.00D+00  3.00D+00  1.24D+00  9.56D-01
+ E= -1781.29703088676     Delta-E=        0.000000000494 Rises=F Damp=F
+ DIIS: error= 1.36D-07 at cycle  56 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.36D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.79D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.01D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.243D+01-0.366D+01 0.148D+01-0.107D+01 0.304D+01-0.196D+01
+ Coeff-Com: -0.237D+00 0.313D-01 0.399D+00 0.817D+00-0.428D+00 0.370D+00
+ Coeff-Com: -0.475D+00 0.106D+00 0.153D+00
+ Coeff:      0.243D+01-0.366D+01 0.148D+01-0.107D+01 0.304D+01-0.196D+01
+ Coeff:     -0.237D+00 0.313D-01 0.399D+00 0.817D+00-0.428D+00 0.370D+00
+ Coeff:     -0.475D+00 0.106D+00 0.153D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.06D-07 MaxDP=1.04D-05 DE= 4.94D-10 OVMax= 8.37D-09
+
+ Cycle  57  Pass 1  IDiag  1:
+ RMSU=  3.35D-08    CP:  1.00D+00  1.11D+00  1.99D+00  7.15D-01  9.08D-01
+                    CP: -1.60D+00  7.22D-02  2.36D-01  9.51D-01 -1.73D+00
+                    CP: -3.04D-01  3.00D+00  3.00D+00  1.34D+00  1.65D+00
+                    CP:  1.22D+00
+ E= -1781.29703088684     Delta-E=       -0.000000000079 Rises=F Damp=F
+ DIIS: error= 1.28D-07 at cycle  57 NSaved=  16.
+ NSaved=16 IEnMin=12 EnMin= -1781.29703089032     IErMin= 9 ErrMin= 9.22D-08
+ ErrMax= 1.28D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.83D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-5.03D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.229D+01-0.225D+01-0.938D+00 0.334D+01-0.192D+01-0.505D+00
+ Coeff-Com: -0.533D-01-0.380D+00 0.106D+01 0.645D+00-0.124D+00-0.774D+00
+ Coeff-Com:  0.546D+00 0.700D+00-0.647D+00
+ Coeff:      0.229D+01-0.225D+01-0.938D+00 0.334D+01-0.192D+01-0.505D+00
+ Coeff:     -0.533D-01-0.380D+00 0.106D+01 0.645D+00-0.124D+00-0.774D+00
+ Coeff:      0.546D+00 0.700D+00-0.647D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.58D-06 MaxDP=1.25D-04 DE=-7.91D-11 OVMax= 1.09D-07
+
+ Cycle  58  Pass 1  IDiag  1:
+ RMSU=  1.07D-06    CP:  1.00D+00  1.27D+00  3.00D+00  9.30D-01  3.00D+00
+                    CP: -2.36D+00 -3.58D-01  1.02D+00  3.00D+00 -3.00D+00
+                    CP:  7.53D-01  3.00D+00  3.00D+00  2.18D+00  3.00D+00
+                    CP:  1.07D+00 -2.99D+00
+ E= -1781.29703088833     Delta-E=       -0.000000001492 Rises=F Damp=F
+ DIIS: error= 1.30D-07 at cycle  58 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin= 8 ErrMin= 9.22D-08
+ ErrMax= 1.30D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.59D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.18D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.229D+01-0.208D+01-0.126D+01 0.347D+01-0.186D+01-0.533D+00
+ Coeff-Com: -0.759D-01 0.126D-01 0.118D+01 0.306D+00-0.230D+00-0.479D+00
+ Coeff-Com: -0.168D+00-0.187D+00 0.616D+00
+ Coeff:      0.229D+01-0.208D+01-0.126D+01 0.347D+01-0.186D+01-0.533D+00
+ Coeff:     -0.759D-01 0.126D-01 0.118D+01 0.306D+00-0.230D+00-0.479D+00
+ Coeff:     -0.168D+00-0.187D+00 0.616D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.53D-06 MaxDP=1.57D-04 DE=-1.49D-09 OVMax= 8.50D-08
+
+ Cycle  59  Pass 1  IDiag  1:
+ RMSU=  9.92D-07    CP:  1.00D+00  1.13D+00  3.00D+00  2.27D+00 -6.17D-02
+                    CP:  4.66D-01 -3.00D+00  3.00D+00  3.00D+00 -3.00D+00
+                    CP: -2.32D+00  3.00D+00 -3.00D+00  6.32D-01  3.00D+00
+                    CP:  2.37D+00  2.25D-02  9.12D-01
+ E= -1781.29703088651     Delta-E=        0.000000001824 Rises=F Damp=F
+ DIIS: error= 1.23D-07 at cycle  59 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin= 8 ErrMin= 9.22D-08
+ ErrMax= 1.23D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.87D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.12D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.228D+01-0.225D+01-0.108D+01 0.343D+01-0.191D+01-0.452D+00
+ Coeff-Com: -0.610D-01 0.295D-01 0.116D+01 0.261D+00-0.208D+00-0.498D+00
+ Coeff-Com: -0.356D+00 0.564D+00 0.853D-01
+ Coeff:      0.228D+01-0.225D+01-0.108D+01 0.343D+01-0.191D+01-0.452D+00
+ Coeff:     -0.610D-01 0.295D-01 0.116D+01 0.261D+00-0.208D+00-0.498D+00
+ Coeff:     -0.356D+00 0.564D+00 0.853D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=4.49D-07 MaxDP=4.77D-05 DE= 1.82D-09 OVMax= 2.62D-08
+
+ Cycle  60  Pass 1  IDiag  1:
+ RMSU=  3.41D-07    CP:  1.00D+00  1.14D+00  3.00D+00  3.00D+00 -6.04D-01
+                    CP:  4.07D-01 -3.00D+00  3.00D+00  3.00D+00 -3.00D+00
+                    CP: -2.27D+00  3.00D+00 -3.00D+00  1.74D-01  3.00D+00
+                    CP:  2.73D+00  3.00D+00  9.70D-01  9.78D-01
+ E= -1781.29703088608     Delta-E=        0.000000000428 Rises=F Damp=F
+ DIIS: error= 1.16D-07 at cycle  60 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin= 8 ErrMin= 9.22D-08
+ ErrMax= 1.16D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.93D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.09D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.245D+01-0.212D+01-0.157D+01 0.341D+01-0.160D+01-0.554D+00
+ Coeff-Com: -0.144D+00 0.385D+00 0.147D+01 0.217D+00-0.758D+00-0.113D+01
+ Coeff-Com:  0.965D+00-0.930D+00 0.893D+00
+ Coeff:      0.245D+01-0.212D+01-0.157D+01 0.341D+01-0.160D+01-0.554D+00
+ Coeff:     -0.144D+00 0.385D+00 0.147D+01 0.217D+00-0.758D+00-0.113D+01
+ Coeff:      0.965D+00-0.930D+00 0.893D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.16D-06 MaxDP=1.49D-04 DE= 4.28D-10 OVMax= 6.21D-08
+
+ Cycle  61  Pass 1  IDiag  1:
+ Restarting incremental Fock formation.
+ E= -1781.29703088712     Delta-E=       -0.000000001038 Rises=F Damp=F
+ DIIS: error= 1.17D-07 at cycle  61 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin= 8 ErrMin= 9.22D-08
+ ErrMax= 1.17D-07  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.39D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.33D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.229D+01-0.176D+01-0.176D+01 0.322D+01-0.176D+01-0.206D+00
+ Coeff-Com: -0.611D-01 0.632D+00 0.130D+01-0.254D+00-0.566D+00-0.119D+01
+ Coeff-Com:  0.800D+00-0.320D-02 0.315D+00
+ Coeff:      0.229D+01-0.176D+01-0.176D+01 0.322D+01-0.176D+01-0.206D+00
+ Coeff:     -0.611D-01 0.632D+00 0.130D+01-0.254D+00-0.566D+00-0.119D+01
+ Coeff:      0.800D+00-0.320D-02 0.315D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.56D-06 MaxDP=1.96D-04 DE=-1.04D-09 OVMax= 7.74D-08
+
+ Cycle  62  Pass 1  IDiag  1:
+ RMSU=  1.53D-06    CP:  1.00D+00
+ E= -1781.29703088711     Delta-E=        0.000000000006 Rises=F Damp=F
+ DIIS: error= 9.84D-08 at cycle  62 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin= 8 ErrMin= 9.22D-08
+ ErrMax= 9.84D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.92D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.47D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.222D+01-0.210D+01-0.148D+01 0.330D+01-0.222D+01 0.300D+00
+ Coeff-Com:  0.875D-02 0.719D+00 0.113D+01-0.619D+00-0.275D+00-0.127D+01
+ Coeff-Com:  0.795D+00-0.659D+00 0.116D+01
+ Coeff:      0.222D+01-0.210D+01-0.148D+01 0.330D+01-0.222D+01 0.300D+00
+ Coeff:      0.875D-02 0.719D+00 0.113D+01-0.619D+00-0.275D+00-0.127D+01
+ Coeff:      0.795D+00-0.659D+00 0.116D+01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.17D-06 MaxDP=1.43D-04 DE= 6.37D-12 OVMax= 7.05D-08
+
+ Cycle  63  Pass 1  IDiag  1:
+ RMSU=  8.52D-07    CP:  1.00D+00  1.53D+00
+ E= -1781.29703088679     Delta-E=        0.000000000317 Rises=F Damp=F
+ DIIS: error= 8.82D-08 at cycle  63 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=16 ErrMin= 8.82D-08
+ ErrMax= 8.82D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.49D-12 BMatP= 2.53D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.33D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.225D+01-0.283D+01-0.129D+01 0.352D+01-0.256D+01 0.931D+00
+ Coeff-Com:  0.389D-01 0.831D+00 0.755D+00-0.824D+00 0.527D-01-0.113D+01
+ Coeff-Com:  0.724D+00-0.151D+01 0.204D+01
+ Coeff:      0.225D+01-0.283D+01-0.129D+01 0.352D+01-0.256D+01 0.931D+00
+ Coeff:      0.389D-01 0.831D+00 0.755D+00-0.824D+00 0.527D-01-0.113D+01
+ Coeff:      0.724D+00-0.151D+01 0.204D+01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.56D-06 MaxDP=1.69D-04 DE= 3.17D-10 OVMax= 1.04D-07
+
+ Cycle  64  Pass 1  IDiag  1:
+ RMSU=  7.09D-07    CP:  1.00D+00  2.20D+00  2.08D+00
+ E= -1781.29703088718     Delta-E=       -0.000000000387 Rises=F Damp=F
+ DIIS: error= 7.40D-08 at cycle  64 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=16 ErrMin= 7.40D-08
+ ErrMax= 7.40D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.05D-12 BMatP= 2.49D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-6.65D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.221D+01-0.246D+01-0.128D+01 0.328D+01-0.233D+01 0.606D+00
+ Coeff-Com:  0.349D-01 0.784D+00 0.957D+00-0.705D+00-0.183D+00-0.124D+01
+ Coeff-Com:  0.737D+00 0.282D+00 0.309D+00
+ Coeff:      0.221D+01-0.246D+01-0.128D+01 0.328D+01-0.233D+01 0.606D+00
+ Coeff:      0.349D-01 0.784D+00 0.957D+00-0.705D+00-0.183D+00-0.124D+01
+ Coeff:      0.737D+00 0.282D+00 0.309D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=7.50D-07 MaxDP=6.39D-05 DE=-3.87D-10 OVMax= 1.20D-07
+
+ Cycle  65  Pass 1  IDiag  1:
+ RMSU=  1.82D-07    CP:  1.00D+00  1.95D+00  1.60D+00  3.58D-01
+ E= -1781.29703088705     Delta-E=        0.000000000133 Rises=F Damp=F
+ DIIS: error= 8.05D-08 at cycle  65 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=15 ErrMin= 7.40D-08
+ ErrMax= 8.05D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.20D-12 BMatP= 2.05D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.25D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.221D+01-0.253D+01-0.125D+01 0.328D+01-0.238D+01 0.690D+00
+ Coeff-Com:  0.431D-01 0.782D+00 0.917D+00-0.739D+00-0.140D+00-0.123D+01
+ Coeff-Com:  0.719D+00 0.220D+00 0.406D+00
+ Coeff:      0.221D+01-0.253D+01-0.125D+01 0.328D+01-0.238D+01 0.690D+00
+ Coeff:      0.431D-01 0.782D+00 0.917D+00-0.739D+00-0.140D+00-0.123D+01
+ Coeff:      0.719D+00 0.220D+00 0.406D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.17D-07 MaxDP=4.78D-05 DE= 1.33D-10 OVMax= 3.98D-08
+
+ Cycle  66  Pass 1  IDiag  1:
+ RMSU=  1.61D-07    CP:  1.00D+00  2.10D+00  1.76D+00  3.12D-01  1.34D+00
+ E= -1781.29703088715     Delta-E=       -0.000000000098 Rises=F Damp=F
+ DIIS: error= 7.93D-08 at cycle  66 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=14 ErrMin= 7.40D-08
+ ErrMax= 7.93D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.13D-12 BMatP= 2.05D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.45D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.221D+01-0.246D+01-0.129D+01 0.326D+01-0.233D+01 0.638D+00
+ Coeff-Com:  0.365D-01 0.788D+00 0.936D+00-0.741D+00-0.144D+00-0.124D+01
+ Coeff-Com:  0.738D+00 0.184D+00 0.422D+00
+ Coeff:      0.221D+01-0.246D+01-0.129D+01 0.326D+01-0.233D+01 0.638D+00
+ Coeff:      0.365D-01 0.788D+00 0.936D+00-0.741D+00-0.144D+00-0.124D+01
+ Coeff:      0.738D+00 0.184D+00 0.422D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.27D-07 MaxDP=2.17D-05 DE=-9.82D-11 OVMax= 1.89D-08
+
+ Cycle  67  Pass 1  IDiag  1:
+ RMSU=  1.03D-07    CP:  1.00D+00  2.07D+00  1.64D+00  1.19D-01  1.54D+00
+                    CP:  1.59D+00
+ E= -1781.29703088711     Delta-E=        0.000000000031 Rises=F Damp=F
+ DIIS: error= 8.28D-08 at cycle  67 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=15 ErrMin= 7.93D-08
+ ErrMax= 8.28D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.24D-12 BMatP= 2.13D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.85D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.223D+01-0.263D+01-0.119D+01 0.323D+01-0.235D+01 0.733D+00
+ Coeff-Com:  0.459D-01 0.772D+00 0.907D+00-0.737D+00-0.134D+00-0.122D+01
+ Coeff-Com:  0.717D+00 0.153D+01-0.897D+00
+ Coeff:      0.223D+01-0.263D+01-0.119D+01 0.323D+01-0.235D+01 0.733D+00
+ Coeff:      0.459D-01 0.772D+00 0.907D+00-0.737D+00-0.134D+00-0.122D+01
+ Coeff:      0.717D+00 0.153D+01-0.897D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=5.13D-07 MaxDP=5.29D-05 DE= 3.09D-11 OVMax= 2.40D-08
+
+ Cycle  68  Pass 1  IDiag  1:
+ RMSU=  2.65D-07    CP:  1.00D+00  2.29D+00  1.90D+00  2.70D-01  2.03D+00
+                    CP:  1.31D+00 -1.06D-01
+ E= -1781.29703088708     Delta-E=        0.000000000034 Rises=F Damp=F
+ DIIS: error= 7.85D-08 at cycle  68 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=16 ErrMin= 7.85D-08
+ ErrMax= 7.85D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.09D-12 BMatP= 2.13D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.00D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.220D+01-0.240D+01-0.135D+01 0.328D+01-0.221D+01 0.505D+00
+ Coeff-Com:  0.180D-01 0.752D+00 0.931D+00-0.652D+00-0.173D+00-0.116D+01
+ Coeff-Com:  0.703D+00-0.371D+00 0.930D+00
+ Coeff:      0.220D+01-0.240D+01-0.135D+01 0.328D+01-0.221D+01 0.505D+00
+ Coeff:      0.180D-01 0.752D+00 0.931D+00-0.652D+00-0.173D+00-0.116D+01
+ Coeff:      0.703D+00-0.371D+00 0.930D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=6.76D-07 MaxDP=5.84D-05 DE= 3.37D-11 OVMax= 9.11D-08
+
+ Cycle  69  Pass 1  IDiag  1:
+ RMSU=  2.10D-07    CP:  1.00D+00  2.01D+00  1.55D+00  1.28D-01  1.39D+00
+                    CP:  2.54D+00 -4.04D-01  5.43D-01
+ E= -1781.29703088710     Delta-E=       -0.000000000019 Rises=F Damp=F
+ DIIS: error= 9.28D-08 at cycle  69 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=15 ErrMin= 7.85D-08
+ ErrMax= 9.28D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.31D-12 BMatP= 2.09D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-6.58D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.219D+01-0.240D+01-0.129D+01 0.322D+01-0.227D+01 0.576D+00
+ Coeff-Com:  0.290D-01 0.789D+00 0.938D+00-0.721D+00-0.154D+00-0.123D+01
+ Coeff-Com:  0.738D+00 0.409D+00 0.178D+00
+ Coeff:      0.219D+01-0.240D+01-0.129D+01 0.322D+01-0.227D+01 0.576D+00
+ Coeff:      0.290D-01 0.789D+00 0.938D+00-0.721D+00-0.154D+00-0.123D+01
+ Coeff:      0.738D+00 0.409D+00 0.178D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.14D-07 MaxDP=5.17D-05 DE=-1.91D-11 OVMax= 4.61D-08
+
+ Cycle  70  Pass 1  IDiag  1:
+ RMSU=  3.13D-08    CP:  1.00D+00  2.09D+00  1.63D+00  6.10D-03  1.72D+00
+                    CP:  2.10D+00  1.22D+00  3.30D-01  6.23D-01
+ E= -1781.29703088746     Delta-E=       -0.000000000356 Rises=F Damp=F
+ DIIS: error= 8.39D-08 at cycle  70 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=14 ErrMin= 7.85D-08
+ ErrMax= 8.39D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.24D-12 BMatP= 2.09D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.30D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.217D+01-0.220D+01-0.143D+01 0.321D+01-0.220D+01 0.472D+00
+ Coeff-Com:  0.177D-01 0.772D+00 0.986D+00-0.677D+00-0.192D+00-0.124D+01
+ Coeff-Com:  0.768D+00 0.656D-01 0.477D+00
+ Coeff:      0.217D+01-0.220D+01-0.143D+01 0.321D+01-0.220D+01 0.472D+00
+ Coeff:      0.177D-01 0.772D+00 0.986D+00-0.677D+00-0.192D+00-0.124D+01
+ Coeff:      0.768D+00 0.656D-01 0.477D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.72D-07 MaxDP=3.30D-05 DE=-3.56D-10 OVMax= 2.72D-08
+
+ Cycle  71  Pass 1  IDiag  1:
+ RMSU=  1.74D-07    CP:  1.00D+00  1.92D+00  1.44D+00 -1.24D-01  1.82D+00
+                    CP:  2.06D+00  1.57D+00  2.25D-02  7.37D-01  2.36D+00
+ E= -1781.29703088752     Delta-E=       -0.000000000061 Rises=F Damp=F
+ DIIS: error= 8.54D-08 at cycle  71 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=15 ErrMin= 8.39D-08
+ ErrMax= 8.54D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.36D-12 BMatP= 2.24D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.13D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.218D+01-0.225D+01-0.138D+01 0.321D+01-0.223D+01 0.499D+00
+ Coeff-Com:  0.179D-01 0.776D+00 0.979D+00-0.686D+00-0.184D+00-0.123D+01
+ Coeff-Com:  0.760D+00 0.785D+00-0.238D+00
+ Coeff:      0.218D+01-0.225D+01-0.138D+01 0.321D+01-0.223D+01 0.499D+00
+ Coeff:      0.179D-01 0.776D+00 0.979D+00-0.686D+00-0.184D+00-0.123D+01
+ Coeff:      0.760D+00 0.785D+00-0.238D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.62D-07 MaxDP=1.58D-05 DE=-6.09D-11 OVMax= 9.67D-09
+
+ Cycle  72  Pass 1  IDiag  1:
+ RMSU=  4.94D-08    CP:  1.00D+00  1.93D+00  1.44D+00 -7.50D-02  1.61D+00
+                    CP:  1.99D+00  1.99D+00 -9.79D-02  4.67D-01  1.44D+00
+                    CP:  4.00D-01
+ E= -1781.29703088740     Delta-E=        0.000000000122 Rises=F Damp=F
+ DIIS: error= 8.62D-08 at cycle  72 NSaved=  16.
+ NSaved=16 IEnMin=11 EnMin= -1781.29703089032     IErMin=14 ErrMin= 8.39D-08
+ ErrMax= 8.62D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.37D-12 BMatP= 2.24D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.33D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.190D+01-0.284D+01 0.189D+01-0.985D+00 0.516D-01 0.275D+00
+ Coeff-Com:  0.103D+01 0.427D+00-0.145D+01 0.338D+00-0.106D+01 0.815D+00
+ Coeff-Com:  0.697D+00 0.553D+00-0.635D+00
+ Coeff:      0.190D+01-0.284D+01 0.189D+01-0.985D+00 0.516D-01 0.275D+00
+ Coeff:      0.103D+01 0.427D+00-0.145D+01 0.338D+00-0.106D+01 0.815D+00
+ Coeff:      0.697D+00 0.553D+00-0.635D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.97D-06 MaxDP=4.69D-04 DE= 1.22D-10 OVMax= 2.46D-07
+
+ Cycle  73  Pass 1  IDiag  1:
+ RMSU=  1.89D-06    CP:  1.00D+00  2.28D+00  2.69D+00  1.76D+00  3.00D+00
+                    CP:  2.34D-01  7.92D-01 -1.99D+00 -6.55D-01 -3.00D+00
+                    CP:  2.99D+00  3.00D+00
+ E= -1781.29703088702     Delta-E=        0.000000000377 Rises=F Damp=F
+ DIIS: error= 8.61D-08 at cycle  73 NSaved=  16.
+ NSaved=16 IEnMin=10 EnMin= -1781.29703089032     IErMin=13 ErrMin= 8.39D-08
+ ErrMax= 8.61D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.80D-12 BMatP= 2.24D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.69D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.271D+01-0.392D+01 0.182D+01-0.319D+00-0.270D+00 0.197D+00
+ Coeff-Com:  0.168D+00 0.587D+00-0.418D+00-0.148D+00 0.218D+00 0.712D+00
+ Coeff-Com:  0.295D+01-0.405D+01 0.764D+00
+ Coeff:      0.271D+01-0.392D+01 0.182D+01-0.319D+00-0.270D+00 0.197D+00
+ Coeff:      0.168D+00 0.587D+00-0.418D+00-0.148D+00 0.218D+00 0.712D+00
+ Coeff:      0.295D+01-0.405D+01 0.764D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.34D-06 MaxDP=2.33D-04 DE= 3.77D-10 OVMax= 1.50D-07
+
+ Cycle  74  Pass 1  IDiag  1:
+ RMSU=  1.35D-06    CP:  1.00D+00  2.86D+00  3.00D+00  2.70D+00  3.00D+00
+                    CP:  3.00D+00 -1.59D-01 -3.00D+00 -3.00D+00  5.80D-01
+                    CP:  4.59D-01 -3.00D+00  1.35D+00
+ E= -1781.29703088748     Delta-E=       -0.000000000458 Rises=F Damp=F
+ DIIS: error= 7.34D-08 at cycle  74 NSaved=  16.
+ NSaved=16 IEnMin=10 EnMin= -1781.29703089032     IErMin=16 ErrMin= 7.34D-08
+ ErrMax= 7.34D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.35D-12 BMatP= 1.80D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.91D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.278D+01-0.428D+01 0.205D+01-0.379D+00-0.170D+00 0.148D+00
+ Coeff-Com: -0.674D-01 0.613D+00-0.997D-03-0.408D+00 0.159D+00-0.239D+00
+ Coeff-Com: -0.966D-01 0.293D+00 0.590D+00
+ Coeff:      0.278D+01-0.428D+01 0.205D+01-0.379D+00-0.170D+00 0.148D+00
+ Coeff:     -0.674D-01 0.613D+00-0.997D-03-0.408D+00 0.159D+00-0.239D+00
+ Coeff:     -0.966D-01 0.293D+00 0.590D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.43D-06 MaxDP=3.14D-04 DE=-4.58D-10 OVMax= 1.77D-07
+
+ Cycle  75  Pass 1  IDiag  1:
+ RMSU=  1.67D-06    CP:  1.00D+00  2.55D+00  3.00D+00  2.71D+00  3.00D+00
+                    CP:  9.10D-01  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -2.48D+00 -2.10D+00  1.45D+00  9.73D-01
+ E= -1781.29703088660     Delta-E=        0.000000000872 Rises=F Damp=F
+ DIIS: error= 5.64D-08 at cycle  75 NSaved=  16.
+ NSaved=16 IEnMin=10 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.64D-08
+ ErrMax= 5.64D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.11D-12 BMatP= 1.35D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.82D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.325D+01-0.489D+01 0.238D+01-0.265D+00-0.461D+00 0.301D-01
+ Coeff-Com: -0.246D+00 0.715D+00 0.341D+00-0.601D+00 0.905D-01-0.296D+01
+ Coeff-Com:  0.261D+01 0.684D-01 0.939D+00
+ Coeff:      0.325D+01-0.489D+01 0.238D+01-0.265D+00-0.461D+00 0.301D-01
+ Coeff:     -0.246D+00 0.715D+00 0.341D+00-0.601D+00 0.905D-01-0.296D+01
+ Coeff:      0.261D+01 0.684D-01 0.939D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.98D-06 MaxDP=2.26D-04 DE= 8.72D-10 OVMax= 1.53D-07
+
+ Cycle  76  Pass 1  IDiag  1:
+ RMSU=  8.54D-07    CP:  1.00D+00  1.89D+00  2.57D+00  2.30D+00  3.00D+00
+                    CP:  3.00D+00  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -4.35D-01  1.14D+00  1.55D+00  1.13D+00  1.60D+00
+ E= -1781.29703088608     Delta-E=        0.000000000521 Rises=F Damp=F
+ DIIS: error= 7.63D-08 at cycle  76 NSaved=  16.
+ NSaved=16 IEnMin=10 EnMin= -1781.29703089032     IErMin=15 ErrMin= 5.64D-08
+ ErrMax= 7.63D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.11D-12 BMatP= 1.11D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.92D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.244D+01 0.390D+01-0.134D+01-0.107D+00-0.414D-01-0.174D+00
+ Coeff-Com:  0.729D+00 0.322D+00-0.706D+00-0.229D-01-0.261D+01 0.237D+01
+ Coeff-Com: -0.854D-01 0.729D+00 0.486D+00
+ Coeff:     -0.244D+01 0.390D+01-0.134D+01-0.107D+00-0.414D-01-0.174D+00
+ Coeff:      0.729D+00 0.322D+00-0.706D+00-0.229D-01-0.261D+01 0.237D+01
+ Coeff:     -0.854D-01 0.729D+00 0.486D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.33D-06 MaxDP=3.73D-04 DE= 5.21D-10 OVMax= 1.76D-07
+
+ Cycle  77  Pass 1  IDiag  1:
+ RMSU=  1.18D-06    CP:  1.00D+00  2.69D+00  3.00D+00  1.55D+00  3.00D+00
+                    CP:  3.00D+00  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -3.00D+00 -1.54D+00  1.50D+00  1.20D+00  2.02D+00
+                    CP:  1.05D+00
+ E= -1781.29703088548     Delta-E=        0.000000000606 Rises=F Damp=F
+ DIIS: error= 5.40D-08 at cycle  77 NSaved=  16.
+ NSaved=16 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 5.40D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.24D-13 BMatP= 1.11D-12
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.246D+01 0.369D+01-0.128D+01 0.564D-01-0.385D-01-0.335D-01
+ Coeff-Com:  0.532D+00 0.191D+00-0.570D+00-0.726D-01-0.298D+01 0.283D+01
+ Coeff-Com: -0.153D+00 0.490D+00 0.758D-01 0.722D+00
+ Coeff:     -0.246D+01 0.369D+01-0.128D+01 0.564D-01-0.385D-01-0.335D-01
+ Coeff:      0.532D+00 0.191D+00-0.570D+00-0.726D-01-0.298D+01 0.283D+01
+ Coeff:     -0.153D+00 0.490D+00 0.758D-01 0.722D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.26D-06 MaxDP=1.82D-04 DE= 6.06D-10 OVMax= 9.00D-08
+
+ Cycle  78  Pass 1  IDiag  1:
+ RMSU=  6.35D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.07D+00  3.00D+00
+                    CP:  3.00D+00  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -3.00D+00  8.54D-01  1.62D+00  1.46D+00  2.17D+00
+                    CP:  1.10D+00  1.25D+00
+ E= -1781.29703088530     Delta-E=        0.000000000176 Rises=F Damp=F
+ DIIS: error= 6.38D-08 at cycle  78 NSaved=  17.
+ NSaved=17 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 6.38D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.05D-13 BMatP= 7.24D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.257D+01 0.333D+01-0.948D+00 0.195D+00 0.840D-02 0.527D-01
+ Coeff-Com:  0.429D+00-0.486D-01-0.378D+00-0.725D-01-0.314D+01 0.304D+01
+ Coeff-Com:  0.238D-01 0.434D+00-0.288D+00 0.166D+00 0.769D+00
+ Coeff:     -0.257D+01 0.333D+01-0.948D+00 0.195D+00 0.840D-02 0.527D-01
+ Coeff:      0.429D+00-0.486D-01-0.378D+00-0.725D-01-0.314D+01 0.304D+01
+ Coeff:      0.238D-01 0.434D+00-0.288D+00 0.166D+00 0.769D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=9.17D-07 MaxDP=1.03D-04 DE= 1.76D-10 OVMax= 5.33D-08
+
+ Cycle  79  Pass 1  IDiag  1:
+ RMSU=  5.80D-07    CP:  1.00D+00  3.00D+00  3.00D+00  5.82D-01  3.00D+00
+                    CP:  3.00D+00  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -2.37D+00 -7.90D-01  1.64D+00  1.54D+00  2.08D+00
+                    CP:  8.45D-01  1.58D+00  1.41D+00
+ E= -1781.29703088524     Delta-E=        0.000000000065 Rises=F Damp=F
+ DIIS: error= 6.72D-08 at cycle  79 NSaved=  18.
+ NSaved=18 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 6.72D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.05D-13 BMatP= 7.05D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.269D+01 0.312D+01-0.742D+00 0.308D+00 0.392D-01 0.976D-01
+ Coeff-Com:  0.308D+00-0.159D+00-0.240D+00-0.735D-01-0.307D+01 0.300D+01
+ Coeff-Com:  0.841D-01 0.398D+00-0.329D+00-0.135D+00 0.586D+00 0.495D+00
+ Coeff:     -0.269D+01 0.312D+01-0.742D+00 0.308D+00 0.392D-01 0.976D-01
+ Coeff:      0.308D+00-0.159D+00-0.240D+00-0.735D-01-0.307D+01 0.300D+01
+ Coeff:      0.841D-01 0.398D+00-0.329D+00-0.135D+00 0.586D+00 0.495D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=5.83D-07 MaxDP=8.55D-05 DE= 6.55D-11 OVMax= 4.38D-08
+
+ Cycle  80  Pass 1  IDiag  1:
+ RMSU=  2.04D-07    CP:  1.00D+00  3.00D+00  3.00D+00  3.77D-01  3.00D+00
+                    CP:  3.00D+00  3.00D+00 -3.00D+00 -3.00D+00 -3.00D+00
+                    CP: -2.65D+00 -3.00D+00  1.68D+00  1.67D+00  2.13D+00
+                    CP:  7.73D-01  1.80D+00  1.71D+00  1.45D+00
+ E= -1781.29703088533     Delta-E=       -0.000000000095 Rises=F Damp=F
+ DIIS: error= 6.70D-08 at cycle  80 NSaved=  19.
+ NSaved=19 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 6.70D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 6.54D-13 BMatP= 6.05D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.270D+01 0.310D+01-0.725D+00 0.324D+00 0.421D-01 0.109D+00
+ Coeff-Com:  0.294D+00-0.170D+00-0.231D+00-0.740D-01-0.312D+01 0.304D+01
+ Coeff-Com:  0.775D-01 0.392D+00-0.310D+00-0.149D+00 0.603D+00 0.379D+00
+ Coeff-Com:  0.108D+00
+ Coeff:     -0.270D+01 0.310D+01-0.725D+00 0.324D+00 0.421D-01 0.109D+00
+ Coeff:      0.294D+00-0.170D+00-0.231D+00-0.740D-01-0.312D+01 0.304D+01
+ Coeff:      0.775D-01 0.392D+00-0.310D+00-0.149D+00 0.603D+00 0.379D+00
+ Coeff:      0.108D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=7.24D-08 MaxDP=8.36D-06 DE=-9.55D-11 OVMax= 4.97D-09
+
+ Cycle  81  Pass 1  IDiag  1:
+ Restarting incremental Fock formation.
+ E= -1781.29703088687     Delta-E=       -0.000000001543 Rises=F Damp=F
+ DIIS: error= 8.64D-08 at cycle  81 NSaved=  20.
+ NSaved=20 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 8.64D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.83D-12 BMatP= 6.05D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 20 BigCof=    0.00 CofMax=   10.00 Det=-8.76D-15
+ Inversion failed.  Reducing to 19 matrices.
+ Coeff-Com: -0.247D+01 0.280D+01-0.768D+00 0.431D+00 0.107D+00 0.145D+00
+ Coeff-Com:  0.187D+00-0.332D+00-0.970D-01-0.568D-01-0.242D+01 0.241D+01
+ Coeff-Com:  0.154D+00 0.377D+00-0.184D+00-0.151D+00 0.402D+00 0.276D+00
+ Coeff-Com:  0.181D+00
+ Coeff:     -0.247D+01 0.280D+01-0.768D+00 0.431D+00 0.107D+00 0.145D+00
+ Coeff:      0.187D+00-0.332D+00-0.970D-01-0.568D-01-0.242D+01 0.241D+01
+ Coeff:      0.154D+00 0.377D+00-0.184D+00-0.151D+00 0.402D+00 0.276D+00
+ Coeff:      0.181D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.55D-06 MaxDP=2.74D-04 DE=-1.54D-09 OVMax= 8.42D-08
+
+ Cycle  82  Pass 1  IDiag  1:
+ RMSU=  1.20D-06    CP:  1.00D+00
+ E= -1781.29703088727     Delta-E=       -0.000000000393 Rises=F Damp=F
+ DIIS: error= 7.63D-08 at cycle  82 NSaved=  20.
+ NSaved=20 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 7.63D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 1.28D-12 BMatP= 6.54D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 20 BigCof=    0.00 CofMax=   10.00 Det=-8.96D-15
+ Inversion failed.  Reducing to 19 matrices.
+ Coeff-Com: -0.197D+01 0.232D+01-0.787D+00 0.437D+00 0.162D+00 0.147D+00
+ Coeff-Com:  0.111D-01-0.474D+00 0.129D+00-0.688D-02-0.171D+01 0.175D+01
+ Coeff-Com:  0.152D+00 0.315D+00-0.769D-01-0.100D+00 0.280D+00-0.644D+00
+ Coeff-Com:  0.106D+01
+ Coeff:     -0.197D+01 0.232D+01-0.787D+00 0.437D+00 0.162D+00 0.147D+00
+ Coeff:      0.111D-01-0.474D+00 0.129D+00-0.688D-02-0.171D+01 0.175D+01
+ Coeff:      0.152D+00 0.315D+00-0.769D-01-0.100D+00 0.280D+00-0.644D+00
+ Coeff:      0.106D+01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.17D-06 MaxDP=3.49D-04 DE=-3.93D-10 OVMax= 1.37D-07
+
+ Cycle  83  Pass 1  IDiag  1:
+ RMSU=  7.13D-07    CP:  1.00D+00  2.18D+00
+ E= -1781.29703088742     Delta-E=       -0.000000000154 Rises=F Damp=F
+ DIIS: error= 5.77D-08 at cycle  83 NSaved=  20.
+ NSaved=20 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 5.40D-08
+ ErrMax= 5.77D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 7.74D-13 BMatP= 6.54D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 20 BigCof=    0.00 CofMax=   10.00 Det=-6.68D-15
+ Inversion failed.  Reducing to 19 matrices.
+ Large coefficients: NSaved= 19 BigCof=    0.00 CofMax=   10.00 Det=-6.73D-15
+ Inversion failed.  Reducing to 18 matrices.
+ Large coefficients: NSaved= 18 BigCof=    0.00 CofMax=   10.00 Det=-8.33D-15
+ Inversion failed.  Reducing to 17 matrices.
+ Large coefficients: NSaved= 17 BigCof=    0.00 CofMax=   10.00 Det=-8.36D-15
+ Inversion failed.  Reducing to 16 matrices.
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-8.47D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.157D+01 0.182D+01-0.600D+00 0.351D+00 0.185D+00 0.205D+00
+ Coeff-Com: -0.909D-01-0.607D+00 0.262D+00 0.519D-01-0.965D+00 0.105D+01
+ Coeff-Com:  0.270D+00-0.564D+00 0.120D+01
+ Coeff:     -0.157D+01 0.182D+01-0.600D+00 0.351D+00 0.185D+00 0.205D+00
+ Coeff:     -0.909D-01-0.607D+00 0.262D+00 0.519D-01-0.965D+00 0.105D+01
+ Coeff:      0.270D+00-0.564D+00 0.120D+01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.58D-06 MaxDP=3.90D-04 DE=-1.54D-10 OVMax= 1.69D-07
+
+ Cycle  84  Pass 1  IDiag  1:
+ RMSU=  9.12D-07    CP:  1.00D+00  3.00D+00  2.19D+00
+ E= -1781.29703088746     Delta-E=       -0.000000000035 Rises=F Damp=F
+ DIIS: error= 4.81D-08 at cycle  84 NSaved=  16.
+ NSaved=16 IEnMin= 9 EnMin= -1781.29703089032     IErMin=16 ErrMin= 4.81D-08
+ ErrMax= 4.81D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.26D-13 BMatP= 7.74D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.126D+01 0.161D+01-0.618D+00 0.261D+00 0.169D+00 0.192D+00
+ Coeff-Com: -0.968D-01-0.598D+00 0.287D+00 0.647D-01-0.113D+01 0.120D+01
+ Coeff-Com:  0.200D+00-0.455D+00 0.652D+00 0.518D+00
+ Coeff:     -0.126D+01 0.161D+01-0.618D+00 0.261D+00 0.169D+00 0.192D+00
+ Coeff:     -0.968D-01-0.598D+00 0.287D+00 0.647D-01-0.113D+01 0.120D+01
+ Coeff:      0.200D+00-0.455D+00 0.652D+00 0.518D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=9.57D-07 MaxDP=1.13D-04 DE=-3.55D-11 OVMax= 7.29D-08
+
+ Cycle  85  Pass 1  IDiag  1:
+ RMSU=  2.65D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.39D+00
+ E= -1781.29703088758     Delta-E=       -0.000000000118 Rises=F Damp=F
+ DIIS: error= 4.46D-08 at cycle  85 NSaved=  17.
+ NSaved=17 IEnMin= 9 EnMin= -1781.29703089032     IErMin=17 ErrMin= 4.46D-08
+ ErrMax= 4.46D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.60D-13 BMatP= 4.26D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com: -0.120D+01 0.152D+01-0.552D+00 0.227D+00 0.164D+00 0.191D+00
+ Coeff-Com: -0.113D+00-0.582D+00 0.289D+00 0.697D-01-0.124D+01 0.130D+01
+ Coeff-Com:  0.165D+00-0.263D+00 0.243D+00 0.291D+00 0.479D+00
+ Coeff:     -0.120D+01 0.152D+01-0.552D+00 0.227D+00 0.164D+00 0.191D+00
+ Coeff:     -0.113D+00-0.582D+00 0.289D+00 0.697D-01-0.124D+01 0.130D+01
+ Coeff:      0.165D+00-0.263D+00 0.243D+00 0.291D+00 0.479D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=5.89D-07 MaxDP=7.80D-05 DE=-1.18D-10 OVMax= 4.44D-08
+
+ Cycle  86  Pass 1  IDiag  1:
+ RMSU=  3.61D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.66D+00  1.84D+00
+ E= -1781.29703088758     Delta-E=       -0.000000000009 Rises=F Damp=F
+ DIIS: error= 4.81D-08 at cycle  86 NSaved=  18.
+ NSaved=18 IEnMin= 9 EnMin= -1781.29703089032     IErMin=17 ErrMin= 4.46D-08
+ ErrMax= 4.81D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.64D-13 BMatP= 3.60D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 18 BigCof=    0.00 CofMax=   10.00 Det=-6.70D-15
+ Inversion failed.  Reducing to 17 matrices.
+ Large coefficients: NSaved= 17 BigCof=    0.00 CofMax=   10.00 Det=-7.76D-15
+ Inversion failed.  Reducing to 16 matrices.
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-7.83D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.368D-02-0.296D+00 0.299D+00 0.197D+00 0.368D+00-0.122D+00
+ Coeff-Com: -0.810D+00 0.287D+00 0.416D-01-0.106D+01 0.118D+01 0.166D+00
+ Coeff-Com:  0.113D+00 0.218D+00 0.418D+00
+ Coeff:     -0.368D-02-0.296D+00 0.299D+00 0.197D+00 0.368D+00-0.122D+00
+ Coeff:     -0.810D+00 0.287D+00 0.416D-01-0.106D+01 0.118D+01 0.166D+00
+ Coeff:      0.113D+00 0.218D+00 0.418D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.00D-06 MaxDP=1.19D-04 DE=-9.09D-12 OVMax= 7.94D-08
+
+ Cycle  87  Pass 1  IDiag  1:
+ RMSU=  7.06D-07    CP:  1.00D+00  3.00D+00  2.62D+00  1.77D+00  1.21D+00
+                    CP: -4.99D-02
+ E= -1781.29703088741     Delta-E=        0.000000000172 Rises=F Damp=F
+ DIIS: error= 3.84D-08 at cycle  87 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=16 ErrMin= 3.84D-08
+ ErrMax= 3.84D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.16D-13 BMatP= 3.60D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.870D-01-0.419D+00 0.328D+00 0.178D+00 0.189D+00-0.121D+00
+ Coeff-Com: -0.722D+00 0.399D+00 0.661D-01-0.122D+01 0.130D+01 0.154D+00
+ Coeff-Com: -0.130D+00-0.401D+00 0.351D+00 0.954D+00
+ Coeff:      0.870D-01-0.419D+00 0.328D+00 0.178D+00 0.189D+00-0.121D+00
+ Coeff:     -0.722D+00 0.399D+00 0.661D-01-0.122D+01 0.130D+01 0.154D+00
+ Coeff:     -0.130D+00-0.401D+00 0.351D+00 0.954D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=6.06D-07 MaxDP=7.27D-05 DE= 1.72D-10 OVMax= 4.29D-08
+
+ Cycle  88  Pass 1  IDiag  1:
+ RMSU=  2.61D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.76D+00  2.30D+00
+                    CP:  1.28D-01  1.09D+00
+ E= -1781.29703088743     Delta-E=       -0.000000000018 Rises=F Damp=F
+ DIIS: error= 4.03D-08 at cycle  88 NSaved=  17.
+ NSaved=17 IEnMin= 8 EnMin= -1781.29703089032     IErMin=16 ErrMin= 3.84D-08
+ ErrMax= 4.03D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.08D-13 BMatP= 3.16D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Coeff-Com:  0.166D+00-0.479D+00 0.310D+00 0.160D+00 0.123D+00-0.118D+00
+ Coeff-Com: -0.636D+00 0.393D+00 0.652D-01-0.119D+01 0.128D+01 0.153D+00
+ Coeff-Com: -0.890D-01-0.534D+00 0.211D+00 0.645D+00 0.543D+00
+ Coeff:      0.166D+00-0.479D+00 0.310D+00 0.160D+00 0.123D+00-0.118D+00
+ Coeff:     -0.636D+00 0.393D+00 0.652D-01-0.119D+01 0.128D+01 0.153D+00
+ Coeff:     -0.890D-01-0.534D+00 0.211D+00 0.645D+00 0.543D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.11D-07 MaxDP=4.25D-05 DE=-1.82D-11 OVMax= 2.31D-08
+
+ Cycle  89  Pass 1  IDiag  1:
+ RMSU=  2.12D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.78D+00  2.85D+00
+                    CP:  3.91D-01  1.19D+00  1.28D+00
+ E= -1781.29703088742     Delta-E=        0.000000000015 Rises=F Damp=F
+ DIIS: error= 4.18D-08 at cycle  89 NSaved=  18.
+ NSaved=18 IEnMin= 8 EnMin= -1781.29703089032     IErMin=16 ErrMin= 3.84D-08
+ ErrMax= 4.18D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.17D-13 BMatP= 3.08D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 18 BigCof=    0.00 CofMax=   10.00 Det=-9.63D-15
+ Inversion failed.  Reducing to 17 matrices.
+ Large coefficients: NSaved= 17 BigCof=    0.00 CofMax=   10.00 Det=-9.83D-15
+ Inversion failed.  Reducing to 16 matrices.
+ Coeff-Com:  0.237D+00-0.727D+00 0.486D+00 0.174D+00 0.190D+00-0.114D+00
+ Coeff-Com: -0.725D+00 0.379D+00 0.273D-01 0.177D+00 0.191D+00 0.314D+00
+ Coeff-Com: -0.179D+00-0.486D+00 0.360D+00 0.695D+00
+ Coeff:      0.237D+00-0.727D+00 0.486D+00 0.174D+00 0.190D+00-0.114D+00
+ Coeff:     -0.725D+00 0.379D+00 0.273D-01 0.177D+00 0.191D+00 0.314D+00
+ Coeff:     -0.179D+00-0.486D+00 0.360D+00 0.695D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.32D-06 MaxDP=1.60D-04 DE= 1.46D-11 OVMax= 8.58D-08
+
+ Cycle  90  Pass 1  IDiag  1:
+ RMSU=  7.13D-07    CP:  1.00D+00  3.00D+00  2.31D+00  1.36D+00  1.50D+00
+                    CP: -3.70D-01  1.17D+00  1.01D+00  1.54D+00
+ E= -1781.29703088722     Delta-E=        0.000000000195 Rises=F Damp=F
+ DIIS: error= 4.38D-08 at cycle  90 NSaved=  17.
+ NSaved=17 IEnMin= 8 EnMin= -1781.29703089032     IErMin=15 ErrMin= 4.03D-08
+ ErrMax= 4.38D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.62D-13 BMatP= 3.08D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 17 BigCof=    0.00 CofMax=   10.00 Det=-6.88D-15
+ Inversion failed.  Reducing to 16 matrices.
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-9.52D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.238D+00-0.741D+00 0.502D+00 0.172D+00 0.191D+00-0.157D+00
+ Coeff-Com: -0.750D+00 0.450D+00 0.450D-01 0.163D+00 0.145D+00-0.629D+00
+ Coeff-Com:  0.375D+00 0.311D+00 0.686D+00
+ Coeff:      0.238D+00-0.741D+00 0.502D+00 0.172D+00 0.191D+00-0.157D+00
+ Coeff:     -0.750D+00 0.450D+00 0.450D-01 0.163D+00 0.145D+00-0.629D+00
+ Coeff:      0.375D+00 0.311D+00 0.686D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=8.59D-07 MaxDP=1.07D-04 DE= 1.95D-10 OVMax= 5.67D-08
+
+ Cycle  91  Pass 1  IDiag  1:
+ RMSU=  3.47D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.70D+00  2.18D+00
+                    CP: -5.11D-01  1.30D+00  1.34D+00  2.62D+00  1.27D+00
+ E= -1781.29703088789     Delta-E=       -0.000000000668 Rises=F Damp=F
+ DIIS: error= 4.17D-08 at cycle  91 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=16 ErrMin= 4.17D-08
+ ErrMax= 4.17D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.63D-13 BMatP= 2.62D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-9.66D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.262D+00-0.726D+00 0.463D+00 0.167D+00 0.196D+00-0.160D+00
+ Coeff-Com: -0.738D+00 0.449D+00 0.522D-01 0.139D+00 0.151D+00-0.692D+00
+ Coeff-Com:  0.544D+00 0.465D+00 0.429D+00
+ Coeff:      0.262D+00-0.726D+00 0.463D+00 0.167D+00 0.196D+00-0.160D+00
+ Coeff:     -0.738D+00 0.449D+00 0.522D-01 0.139D+00 0.151D+00-0.692D+00
+ Coeff:      0.544D+00 0.465D+00 0.429D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.69D-07 MaxDP=3.52D-05 DE=-6.68D-10 OVMax= 2.41D-08
+
+ Cycle  92  Pass 1  IDiag  1:
+ RMSU=  1.21D-07    CP:  1.00D+00  3.00D+00  3.00D+00  1.88D+00  2.32D+00
+                    CP: -1.29D-01  1.35D+00  1.19D+00  2.92D+00  1.53D+00
+                    CP:  1.36D+00
+ E= -1781.29703088769     Delta-E=        0.000000000199 Rises=F Damp=F
+ DIIS: error= 4.38D-08 at cycle  92 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=15 ErrMin= 4.17D-08
+ ErrMax= 4.38D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.42D-13 BMatP= 2.62D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-9.64D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.270D+00-0.680D+00 0.409D+00 0.159D+00 0.204D+00-0.158D+00
+ Coeff-Com: -0.732D+00 0.440D+00 0.668D-01 0.118D+00 0.151D+00-0.515D+00
+ Coeff-Com:  0.434D+00 0.273D+00 0.560D+00
+ Coeff:      0.270D+00-0.680D+00 0.409D+00 0.159D+00 0.204D+00-0.158D+00
+ Coeff:     -0.732D+00 0.440D+00 0.668D-01 0.118D+00 0.151D+00-0.515D+00
+ Coeff:      0.434D+00 0.273D+00 0.560D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=5.50D-07 MaxDP=5.95D-05 DE= 1.99D-10 OVMax= 3.39D-08
+
+ Cycle  93  Pass 1  IDiag  1:
+ RMSU=  2.35D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.02D+00  3.00D+00
+                    CP:  7.46D-01  1.30D+00  1.12D+00  3.00D+00  1.74D+00
+                    CP:  1.97D+00  1.84D+00
+ E= -1781.29703088763     Delta-E=        0.000000000065 Rises=F Damp=F
+ DIIS: error= 4.80D-08 at cycle  93 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=14 ErrMin= 4.17D-08
+ ErrMax= 4.80D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.51D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.20D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.276D+00-0.687D+00 0.411D+00 0.175D+00 0.299D+00-0.215D+00
+ Coeff-Com: -0.899D+00 0.555D+00 0.752D-01 0.209D+00-0.577D+00 0.519D+00
+ Coeff-Com:  0.104D+00 0.802D+00-0.462D-01
+ Coeff:      0.276D+00-0.687D+00 0.411D+00 0.175D+00 0.299D+00-0.215D+00
+ Coeff:     -0.899D+00 0.555D+00 0.752D-01 0.209D+00-0.577D+00 0.519D+00
+ Coeff:      0.104D+00 0.802D+00-0.462D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=6.14D-07 MaxDP=8.90D-05 DE= 6.55D-11 OVMax= 4.28D-08
+
+ Cycle  94  Pass 1  IDiag  1:
+ RMSU=  1.98D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.45D+00  3.00D+00
+                    CP:  1.46D+00  1.37D+00  9.97D-01  3.00D+00  1.77D+00
+                    CP:  2.13D+00  1.84D+00  9.67D-01
+ E= -1781.29703088761     Delta-E=        0.000000000018 Rises=F Damp=F
+ DIIS: error= 5.08D-08 at cycle  94 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=13 ErrMin= 4.17D-08
+ ErrMax= 5.08D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 2.60D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.27D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com:  0.491D+00-0.518D+00 0.256D-01 0.113D+00 0.166D+00-0.855D-01
+ Coeff-Com: -0.617D+00 0.431D+00 0.161D+00-0.568D+00 0.391D+00 0.180D+00
+ Coeff-Com:  0.670D+00-0.262D+00 0.423D+00
+ Coeff:      0.491D+00-0.518D+00 0.256D-01 0.113D+00 0.166D+00-0.855D-01
+ Coeff:     -0.617D+00 0.431D+00 0.161D+00-0.568D+00 0.391D+00 0.180D+00
+ Coeff:      0.670D+00-0.262D+00 0.423D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.86D-06 MaxDP=2.54D-04 DE= 1.82D-11 OVMax= 1.19D-07
+
+ Cycle  95  Pass 1  IDiag  1:
+ RMSU=  1.05D-06    CP:  1.00D+00  3.00D+00  3.00D+00  2.58D+00  3.00D+00
+                    CP:  3.00D+00  7.73D-01  1.87D+00  3.00D+00  2.25D+00
+                    CP:  3.00D+00  3.00D+00  3.00D+00  3.00D+00
+ E= -1781.29703088702     Delta-E=        0.000000000588 Rises=F Damp=F
+ DIIS: error= 4.61D-08 at cycle  95 NSaved=  16.
+ NSaved=16 IEnMin= 8 EnMin= -1781.29703089032     IErMin=12 ErrMin= 4.17D-08
+ ErrMax= 4.61D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.25D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-2.85D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.141D+00 0.139D+00 0.151D+00 0.215D+00-0.183D+00-0.697D+00
+ Coeff-Com:  0.498D+00 0.173D+00-0.414D+00 0.296D+00 0.178D+00 0.458D+00
+ Coeff-Com: -0.160D+00 0.542D+00-0.539D-01
+ Coeff:     -0.141D+00 0.139D+00 0.151D+00 0.215D+00-0.183D+00-0.697D+00
+ Coeff:      0.498D+00 0.173D+00-0.414D+00 0.296D+00 0.178D+00 0.458D+00
+ Coeff:     -0.160D+00 0.542D+00-0.539D-01
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.94D-07 MaxDP=3.10D-05 DE= 5.88D-10 OVMax= 3.10D-08
+
+ Cycle  96  Pass 1  IDiag  1:
+ RMSU=  3.20D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.46D+00  3.00D+00
+                    CP:  3.00D+00  6.43D-01  1.67D+00  3.00D+00  2.18D+00
+                    CP:  3.00D+00  2.58D+00  3.00D+00  3.00D+00  8.70D-01
+ E= -1781.29703088746     Delta-E=       -0.000000000438 Rises=F Damp=F
+ DIIS: error= 4.63D-08 at cycle  96 NSaved=  16.
+ NSaved=16 IEnMin= 7 EnMin= -1781.29703089032     IErMin=11 ErrMin= 4.17D-08
+ ErrMax= 4.63D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 4.05D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-2.80D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.965D-01 0.947D-01 0.143D+00 0.213D+00-0.166D+00-0.675D+00
+ Coeff-Com:  0.480D+00 0.172D+00-0.122D+00 0.122D+00 0.361D+00-0.524D-01
+ Coeff-Com:  0.546D+00-0.529D+00 0.509D+00
+ Coeff:     -0.965D-01 0.947D-01 0.143D+00 0.213D+00-0.166D+00-0.675D+00
+ Coeff:      0.480D+00 0.172D+00-0.122D+00 0.122D+00 0.361D+00-0.524D-01
+ Coeff:      0.546D+00-0.529D+00 0.509D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.71D-07 MaxDP=3.34D-05 DE=-4.38D-10 OVMax= 1.82D-08
+
+ Cycle  97  Pass 1  IDiag  1:
+ RMSU=  1.60D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.47D+00  3.00D+00
+                    CP:  3.00D+00  6.41D-01  1.37D+00  3.00D+00  2.17D+00
+                    CP:  3.00D+00  3.00D+00  3.00D+00  2.71D+00  7.16D-01
+                    CP:  1.21D+00
+ E= -1781.29703088755     Delta-E=       -0.000000000094 Rises=F Damp=F
+ DIIS: error= 4.58D-08 at cycle  97 NSaved=  16.
+ NSaved=16 IEnMin= 7 EnMin= -1781.29703089032     IErMin=10 ErrMin= 4.17D-08
+ ErrMax= 4.58D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.95D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.38D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.126D+00 0.124D+00 0.152D+00 0.234D+00-0.175D+00-0.716D+00
+ Coeff-Com:  0.487D+00 0.171D+00-0.410D-01 0.172D+00 0.371D+00-0.148D+00
+ Coeff-Com:  0.461D+00 0.263D+00-0.229D+00
+ Coeff:     -0.126D+00 0.124D+00 0.152D+00 0.234D+00-0.175D+00-0.716D+00
+ Coeff:      0.487D+00 0.171D+00-0.410D-01 0.172D+00 0.371D+00-0.148D+00
+ Coeff:      0.461D+00 0.263D+00-0.229D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.15D-07 MaxDP=1.82D-05 DE=-9.37D-11 OVMax= 1.30D-08
+
+ Cycle  98  Pass 1  IDiag  1:
+ RMSU=  1.34D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.49D+00  3.00D+00
+                    CP:  3.00D+00  5.19D-01  1.63D+00  3.00D+00  2.24D+00
+                    CP:  3.00D+00  2.41D+00  3.00D+00  2.82D+00  7.59D-01
+                    CP:  1.06D+00  7.17D-01
+ E= -1781.29703088714     Delta-E=        0.000000000416 Rises=F Damp=F
+ DIIS: error= 4.16D-08 at cycle  98 NSaved=  16.
+ NSaved=16 IEnMin= 7 EnMin= -1781.29703089032     IErMin=16 ErrMin= 4.16D-08
+ ErrMax= 4.16D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.88D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.37D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.123D+00 0.120D+00 0.152D+00 0.232D+00-0.168D+00-0.726D+00
+ Coeff-Com:  0.488D+00 0.173D+00-0.364D-01 0.141D+00 0.407D+00-0.195D+00
+ Coeff-Com:  0.504D+00-0.549D+00 0.580D+00
+ Coeff:     -0.123D+00 0.120D+00 0.152D+00 0.232D+00-0.168D+00-0.726D+00
+ Coeff:      0.488D+00 0.173D+00-0.364D-01 0.141D+00 0.407D+00-0.195D+00
+ Coeff:      0.504D+00-0.549D+00 0.580D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=2.88D-07 MaxDP=2.79D-05 DE= 4.16D-10 OVMax= 1.98D-08
+
+ Cycle  99  Pass 1  IDiag  1:
+ RMSU=  2.32D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.56D+00  3.00D+00
+                    CP:  3.00D+00  4.74D-01  1.82D+00  3.00D+00  2.26D+00
+                    CP:  3.00D+00  2.17D+00  3.00D+00  3.00D+00  7.18D-01
+                    CP:  8.20D-01  2.66D-01  1.22D+00
+ E= -1781.29703088734     Delta-E=       -0.000000000205 Rises=F Damp=F
+ DIIS: error= 4.31D-08 at cycle  99 NSaved=  16.
+ NSaved=16 IEnMin= 7 EnMin= -1781.29703089032     IErMin=15 ErrMin= 4.16D-08
+ ErrMax= 4.31D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.65D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.39D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.127D+00 0.125D+00 0.152D+00 0.230D+00-0.175D+00-0.703D+00
+ Coeff-Com:  0.475D+00 0.167D+00-0.530D-01 0.148D+00 0.528D+00-0.257D+00
+ Coeff-Com:  0.357D+00-0.422D+00 0.554D+00
+ Coeff:     -0.127D+00 0.125D+00 0.152D+00 0.230D+00-0.175D+00-0.703D+00
+ Coeff:      0.475D+00 0.167D+00-0.530D-01 0.148D+00 0.528D+00-0.257D+00
+ Coeff:      0.357D+00-0.422D+00 0.554D+00
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=3.02D-07 MaxDP=3.81D-05 DE=-2.05D-10 OVMax= 1.51D-08
+
+ Cycle 100  Pass 1  IDiag  1:
+ RMSU=  1.21D-07    CP:  1.00D+00  3.00D+00  3.00D+00  2.52D+00  3.00D+00
+                    CP:  3.00D+00  4.58D-01  1.52D+00  3.00D+00  2.32D+00
+                    CP:  3.00D+00  2.30D+00  3.00D+00  2.97D+00  7.06D-01
+                    CP:  1.09D+00  1.31D+00  1.64D+00  4.55D-01
+ E= -1781.29703088708     Delta-E=        0.000000000265 Rises=F Damp=F
+ DIIS: error= 3.70D-08 at cycle 100 NSaved=  16.
+ NSaved=16 IEnMin= 7 EnMin= -1781.29703089032     IErMin=16 ErrMin= 3.70D-08
+ ErrMax= 3.70D-08  0.00D+00 EMaxC= 1.00D-01 BMatC= 3.90D-13 BMatP= 2.42D-13
+ IDIUse=1 WtCom= 1.00D+00 WtEn= 0.00D+00
+ Large coefficients: NSaved= 16 BigCof=    0.00 CofMax=   10.00 Det=-3.37D-15
+ Inversion failed.  Reducing to 15 matrices.
+ Coeff-Com: -0.133D+00 0.131D+00 0.154D+00 0.236D+00-0.169D+00-0.709D+00
+ Coeff-Com:  0.470D+00 0.169D+00-0.507D-01 0.120D+00 0.617D+00-0.349D+00
+ Coeff-Com:  0.357D+00 0.156D+00-0.380D-03
+ Coeff:     -0.133D+00 0.131D+00 0.154D+00 0.236D+00-0.169D+00-0.709D+00
+ Coeff:      0.470D+00 0.169D+00-0.507D-01 0.120D+00 0.617D+00-0.349D+00
+ Coeff:      0.357D+00 0.156D+00-0.380D-03
+ Gap=     0.168 Goal=   None    Shift=    0.000
+ RMSDP=1.56D-07 MaxDP=1.81D-05 DE= 2.65D-10 OVMax= 9.50D-09
+
+ Cycle 101  Pass 1  IDiag  1:
+ Restarting incremental Fock formation.

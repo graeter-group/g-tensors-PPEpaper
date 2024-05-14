@@ -3,12 +3,14 @@ import numpy as np
 from glob import glob
 from ase.io import read
 import string
+import sys
+
 
 
 uppercase_letters = list(string.ascii_uppercase)
 
 
-def extract_values(base='./'):
+def extract_values(base='./', exclude=None):
     """This function extracts the information of the gvalues.
     
     Parameters
@@ -25,15 +27,21 @@ def extract_values(base='./'):
                                EPR II i],
                         gvalues[g-x, g-y, g-z]]
     """
+    if exclude is None:
+        exclude = []
+
     len_base = len(base)
     i = 1
     sys_counter = 0
     conf = []
     while True:
-        systems = glob(f'{base}/{i}*')
+        systems = output_terminal(f'find {base} -mindepth 1 -maxdepth 1 -name {i}* -type d', print_output=False).split('\n')
+        systems.pop(-1)
         if len(systems) == 0: break
         systems.sort()
         for system in systems:
+            if system in exclude:
+                continue
             print(f"{sys_counter} {system}")
             sys_counter += 1
 
@@ -80,7 +88,7 @@ def extract_atoms(base='./'):
         systems.sort()
         for system in systems:
             sys_counter += 1
-            atoms = read(f'{system}/opt.xyz')
+            atoms = read(f'{system}/opt_EPRII.xyz')
             conf.append(atoms)
         i += 1
 

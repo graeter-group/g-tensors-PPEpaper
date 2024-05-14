@@ -16,8 +16,6 @@ for structur in structures:
                           f'{output} | grep "g(tot)"',
                           print_output=False)
     values = np.sort(np.array(out.split()[1:4],dtype=float))[::-1]
-    print(values
-    )
     errors = experiment - values
     maxerror = np.max(errors)
     avr = np.mean(errors)
@@ -27,7 +25,7 @@ for structur in structures:
     values = np.insert(values, 0, "\\text{" + structur + "}")
     res.append(values)
 
-experiment = np.insert(experiment.astype(str), 0, "Experiment")
+experiment = np.insert(experiment.astype(str), 0, "\\text{Experiment}")
 experiment = np.append(experiment, ["", ""])
 res.append(experiment)
 #res = np.append(res, experiment, axis=1)

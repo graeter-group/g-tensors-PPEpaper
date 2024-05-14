@@ -28,9 +28,12 @@ exit 0
 directory='.'
 mult=2
 optimization='true'
-while getopts 'd:m:oh' flag;
+basis='both'
+
+while getopts 'b:d:m:oh' flag;
 do
     case "${flag}" in
+      b) basis=${OPTARG} ;;
       d) directory=${OPTARG} ;;
       m) mult=${OPTARG} ;;
       o) optimization='false' ;;
@@ -48,18 +51,27 @@ do
   sed -i "s/XYZFile 0 2/XYZFile 0 $mult/g" $inp
 done
 
-if $optimization
+if [ "$basis" == "both" ]
 then
-  $orca opt_cc-pVDZ.inp  > opt_cc-pVDZ.out
-  $orca opt_EPRII.inp  > opt_EPRII.out
+  basis=( "EPRII" "cc-pVDZ" )
 else
-  [ -f opt_cc-pVDZ.xyz ] || $orca opt_cc-pVDZ.inp  > opt_cc-pVDZ.out
-  [ -f opt_EPRII.xyz ] || $orca opt_EPRII.inp  > opt_EPRII.out
+  basis=( $basis )
 fi
 
-methods=("cc-pVDZ_i" "cc-pVDZ" "EPRII_i" "EPRII")
 
-for met in ${methods[@]}
+for base in ${basis[@]}
 do
-    sbatch -J ${SLURM_JOB_NAME}_${met} ../basic_scripts/submit.sh "$met".inp "$met".out
+  if $optimization
+  then
+    $orca opt_$base.inp  > opt_$base.out
+  else
+    [ -f opt_$base.xyz ] || $orca opt_$base.inp > opt_$base.out
+  fi
+
+  methods=( "${base}_i" "$base" )
+
+  for met in ${methods[@]}
+  do
+      sbatch -J ${SLURM_JOB_NAME}_${met} ../basic_scripts/submit.sh "$met".inp "$met".out
+  done
 done

@@ -1,7 +1,7 @@
 %chk=g09BDE
 %NProcShared=8
 #P bmk/6-31+g ! ASE formatted method and basis
-opt(modredun,calcfc) freq
+freq
 
 Gaussian input prepared by ASE
 
