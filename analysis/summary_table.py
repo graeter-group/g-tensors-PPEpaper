@@ -10,7 +10,9 @@ structures = glob('../[123456789]*/')
 structures.sort()
 output = 'EPRII_i.out'
 
+letters = 'ABCDEFGHIJKLMN'
 res = []
+i_letter = 0
 for structur in structures:
     out = output_terminal(f'grep -A 15 "ELECTRONIC G-MATRIX" {structur}' +
                           f'{output} | grep "g(tot)"',
@@ -22,7 +24,8 @@ for structur in structures:
     values = np.append(values.astype(str),
                        ["{:.7f}".format(round(maxerror, 7)),
                         "{:.7f}".format(round(avr, 7))])
-    values = np.insert(values, 0, "\\text{" + structur + "}")
+    values = np.insert(values, 0, "\\text{" + letters[i_letter] + ") " + structur + "}")
+    i_letter += 1
     res.append(values)
 
 experiment = np.insert(experiment.astype(str), 0, "\\text{Experiment}")
