@@ -10,7 +10,7 @@ structures = glob('../[123456789]*/')
 structures.sort()
 output = 'EPRII_i.out'
 
-letters = 'ABCDEFGHIJKLMN'
+letters = 'ABCDEFGHIJKLMNOPQRST'
 res = []
 i_letter = 0
 for structur in structures:
@@ -21,10 +21,11 @@ for structur in structures:
     errors = experiment - values
     maxerror = np.max(errors)
     avr = np.mean(errors)
-    values = np.append(values.astype(str),
+    values = np.append(values.astype('|S100'),
                        ["{:.7f}".format(round(maxerror, 7)),
                         "{:.7f}".format(round(avr, 7))])
-    values = np.insert(values, 0, "\\text{" + letters[i_letter] + ") " + structur + "}")
+    name = "\\text{" + letters[i_letter] + ") " + structur + "} "
+    values = np.insert(values, 0, name)
     i_letter += 1
     res.append(values)
 
@@ -35,6 +36,7 @@ res.append(experiment)
 
 header = np.array(["", "g_x", "g_y", "g_z", "\\text{max abs error}", "\\text{avrg error}"])
 table = np.insert(res, 0, header, axis=0)
+
 
 def create_table(data_rows):
     # Calculate column widths
