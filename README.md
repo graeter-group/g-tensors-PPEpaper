@@ -25,22 +25,30 @@ The system considered here are:
 
 ### Orca
 - With Phenyl group:
+
 BDE triple bond:  0.28992840000000797  Ha /  753.8138400000207  kJ/mol
+
 BDE single bond:  0.19708169999989877  Ha /  512.4124199997368  kJ/mol
 
 
 - Without Phenyl group
+
 BDE triple bond:  0.15881231000003027  Ha /  412.9120060000787  kJ/mol
+
 BDE single bond:  0.07075292000013178  Ha /  183.95759200034263  kJ/mol
 
 ### g09
 - With Phenyl group:
+
 BDE triple bond:  0.3037380000000667  Ha /  789.7188000001734  kJ/mol
+
 BDE single bond:  0.2125549999998384  Ha /  552.6429999995798  kJ/mol
 
 
 - Without Phenyl group
+
 BDE triple bond:  0.30262000000016087  Ha /  786.8120000004183  kJ/mol
+
 BDE single bond:  0.21594000000027336  Ha /  561.4440000007107  kJ/mol
 
 # G-values
