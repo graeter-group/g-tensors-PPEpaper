@@ -3,8 +3,8 @@ from ase.io import read, write
 import numpy as np
 from nglview import show_ase
 
-res1 = read('../5_0-primary_in_ring/opt.xyz')
-res2 = read('../6_0-primary_in_triple/opt.xyz')
+res1 = read('../5_0-primary_in_ring/opt_cc-pVDZ.xyz')
+res2 = read('../6_0-primary_in_triple/opt_cc-pVDZ.xyz')
 
 # RadHop
 ms1 = MoleculeSetter(res1)

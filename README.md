@@ -2,7 +2,50 @@ To check how these values were computed, just check
 [the instructions](https://github.com/Sucerquia/g-tensor/blob/master/instructions.md)
 in this repository.
 
-# Summary table
+# Distances(Å)
+
+<div style="display: flex;">
+<img src="/distances/distance1.png" alt="Image 1" width="20%">
+<img src="/distances/distance2.png" alt="Image 2" width="20%">
+</div>
+
+# BDEs
+
+The system considered here are:
+
+- left: with Phenyl group.
+- right: without Phenyl group.
+- red: tripple bond
+- blue: single bond.
+
+<div style="display: flex;">
+<img src="/0_0-BeforeRupture/BDE/opt.png" alt="Image 1" width="20%">
+<img src="/0_1-BeforeRupture_wo_extRings/BDE2/opt.png" alt="Image 2" width="20%">
+</div>
+
+### Orca
+- With Phenyl group:
+BDE triple bond:  0.28992840000000797  Ha /  753.8138400000207  kJ/mol
+BDE single bond:  0.19708169999989877  Ha /  512.4124199997368  kJ/mol
+
+
+- Without Phenyl group
+BDE triple bond:  0.15881231000003027  Ha /  412.9120060000787  kJ/mol
+BDE single bond:  0.07075292000013178  Ha /  183.95759200034263  kJ/mol
+
+### g09
+- With Phenyl group:
+BDE triple bond:  0.3037380000000667  Ha /  789.7188000001734  kJ/mol
+BDE single bond:  0.2125549999998384  Ha /  552.6429999995798  kJ/mol
+
+
+- Without Phenyl group
+BDE triple bond:  0.30262000000016087  Ha /  786.8120000004183  kJ/mol
+BDE single bond:  0.21594000000027336  Ha /  561.4440000007107  kJ/mol
+
+# G-values
+
+### Summary table
 
 ```math
 \begin{array}{|l|c|c|c|c|}
@@ -36,7 +79,7 @@ in this repository.
 - cc-pVDZ: EPR_II basis set (created to this aim), g-values with the origin in the center of the electronic distribution.
 - cc-pVDZ i: EPR_II basis set (created to this aim), g-values computed with invariant method. This is suppossed to give the most precise outcomes.
 
-# AlkylShift
+### AlkylShift
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/1_0-AlkylShift/opt.png" alt="Image 1" width="20%">
@@ -55,7 +98,7 @@ g_z                       & 2.00218            & 2.0023613      & 2.0022185     
 \end{array}
 ```
 
-# Hshift
+### Hshift
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/2_0-Hshift/opt.png" alt="Image 1" width="20%">
@@ -74,7 +117,7 @@ g_z                       & 2.00218            & 2.0022594      & 2.0021786     
 \end{array}
 ```
 
-# Rhop
+### Rhop
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/3_0-Rhop/opt.png" alt="Image 1" width="20%">
@@ -93,7 +136,7 @@ g_z                       & 2.00218            & 2.0022715      & 2.0021861     
 \end{array}
 ```
 
-# Rhop-LeftPhenyl
+### Rhop-LeftPhenyl
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/3_1-Rhop-LeftPhenyl/opt.png" alt="Image 1" width="20%">
@@ -112,7 +155,7 @@ g_z                       & 2.00218            & 2.002321       & 2.0021841     
 \end{array}
 ```
 
-# Rhop-RightPhenyl
+### Rhop-RightPhenyl
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/3_2-Rhop-RightPhenyl/opt.png" alt="Image 1" width="20%">
@@ -131,7 +174,7 @@ g_z                       & 2.00218            & 2.0022471      & 2.0021856     
 \end{array}
 ```
 
-# inchain
+### inchain
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/4_0-inchain/opt.png" alt="Image 1" width="20%">
@@ -150,7 +193,7 @@ g_z                       & 2.00218            & 2.0022731      & 2.0021842     
 \end{array}
 ```
 
-# inchainLarger
+### inchainLarger
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/4_1-inchainLarger/opt.png" alt="Image 1" width="20%">
@@ -169,7 +212,7 @@ g_z                       & 2.00218            & 2.0022746      & 2.0021626     
 \end{array}
 ```
 
-# primary_in_ring
+### primary_in_ring
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/5_0-primary_in_ring/opt.png" alt="Image 1" width="20%">
@@ -188,7 +231,7 @@ g_z                       & 2.00218            & 2.001818       & 2.0016573     
 \end{array}
 ```
 
-# primary_in_triple
+### primary_in_triple
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/6_0-primary_in_triple/opt.png" alt="Image 1" width="20%">
@@ -207,7 +250,7 @@ g_z                       & 2.00218            & 2.0023758      & 2.0022109     
 \end{array}
 ```
 
-# triple_broken
+### triple_broken
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/7_0-triple_broken/opt.png" alt="Image 1" width="20%">
@@ -226,7 +269,7 @@ g_z                       & 2.00218            & 2.0023688      & 2.0020968     
 \end{array}
 ```
 
-# Hshift_FarRad1
+### Hshift_FarRad1
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/8_0-Hshift_FarRad1/opt.png" alt="Image 1" width="20%">
@@ -245,7 +288,7 @@ g_z                       & 2.00218            & 2.0022701      & 2.0021818     
 \end{array}
 ```
 
-# Hshift_FarRad2
+### Hshift_FarRad2
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/8_1-Hshift_FarRad2/opt.png" alt="Image 1" width="20%">
@@ -264,7 +307,7 @@ g_z                       & 2.00218            & 2.0024106      & 2.0021851     
 \end{array}
 ```
 
-# Rhop_FarRad1
+### Rhop_FarRad1
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/9_0-Rhop_FarRad1/opt.png" alt="Image 1" width="20%">
@@ -277,7 +320,7 @@ The Carbon with larger radius is the one "with the radical"
 \end{array}
 ```
 
-# Rhop_FarRad2
+### Rhop_FarRad2
 The Carbon with larger radius is the one "with the radical"
 <div style="display: flex;">
 <img src="/9_1-Rhop_FarRad2/opt.png" alt="Image 1" width="20%">
