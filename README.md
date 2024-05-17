@@ -339,3 +339,9 @@ g_z                       & 2.00218            & 2.0024236      & 2.0021849     
 \end{array}
 ```
 
+
+# Plot of g-values.
+
+<div style="display: flex;">
+<img src="/analysis/g-values.png" alt="Image 1" width="50%">
+</div>
