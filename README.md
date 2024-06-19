@@ -5,7 +5,7 @@ in this repository.
 # Distances(Å)
 
 <div style="display: flex;">
-<img src="/distances/distances.png" alt="Image 1" width="20%">
+<img src="/distances/distances.png" alt="Image 1" width="50%">
 </div>
 
 # BDEs
