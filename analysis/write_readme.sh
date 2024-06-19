@@ -1,4 +1,6 @@
 cat <<EOF
+This project was created by Daniel Sucerquia for the paper: <coming soon>
+
 To check how these values were computed, just check
 [the instructions](https://github.com/Sucerquia/g-tensor/blob/master/instructions.md)
 in this repository.
@@ -6,8 +8,7 @@ in this repository.
 # Distances(Å)
 
 <div style="display: flex;">
-<img src="/distances/distance1.png" alt="Image 1" width="20%">
-<img src="/distances/distance2.png" alt="Image 2" width="20%">
+<img src="/distances/distances.png" alt="Image 1" width="20%">
 </div>
 
 # BDEs

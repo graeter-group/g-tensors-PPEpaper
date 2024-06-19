@@ -3,8 +3,6 @@ import numpy as np
 from glob import glob
 from ase.io import read
 import string
-import sys
-
 
 
 uppercase_letters = list(string.ascii_uppercase)

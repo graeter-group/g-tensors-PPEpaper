@@ -5,8 +5,7 @@ in this repository.
 # Distances(Å)
 
 <div style="display: flex;">
-<img src="/distances/distance1.png" alt="Image 1" width="20%">
-<img src="/distances/distance2.png" alt="Image 2" width="20%">
+<img src="/distances/distances.png" alt="Image 1" width="20%">
 </div>
 
 # BDEs
@@ -351,5 +350,5 @@ g_z                       & 2.00218            & 2.0024236      & 2.0021849     
 # Plot of g-values.
 
 <div style="display: flex;">
-<img src="/analysis/g-values.png" alt="Image 1" width="50%">
+<img src="/analysis/g-values.jpeg" alt="Image 1" width="50%">
 </div>

@@ -41,10 +41,6 @@ def create_table(data_rows):
     header = [f"{col:{width}}" for col, width in zip(data_rows[0], column_widths)]
     print(" & ".join(header), " \\\\ \hline")
 
-    # Print the separator line
-    # separator = "\hline"
-    #print(separator)
-
     # Print the data rows
     for row in data_rows[1:]:
         row_data = [f"{col:{width}}" for col, width in zip(row, column_widths)]
